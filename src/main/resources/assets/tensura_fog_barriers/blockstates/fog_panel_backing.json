@@ -1,0 +1,47 @@
+{
+  "multipart": [
+    {"when":{"axis":"x","style":"portal","variant":"gold"},"apply":{"model":"tensura_fog_barriers:block/golden_fog_x"}},
+    {"when":{"axis":"z","style":"portal","variant":"gold"},"apply":{"model":"tensura_fog_barriers:block/golden_fog_z"}},
+    {"when":{"axis":"x","style":"portal","variant":"teal"},"apply":{"model":"tensura_fog_barriers:block/teal_fog_x"}},
+    {"when":{"axis":"z","style":"portal","variant":"teal"},"apply":{"model":"tensura_fog_barriers:block/teal_fog_z"}},
+    {"when":{"axis":"x","style":"portal","variant":"crimson"},"apply":{"model":"tensura_fog_barriers:block/crimson_fog_x"}},
+    {"when":{"axis":"z","style":"portal","variant":"crimson"},"apply":{"model":"tensura_fog_barriers:block/crimson_fog_z"}},
+    {"when":{"axis":"x","style":"portal","variant":"violet"},"apply":{"model":"tensura_fog_barriers:block/violet_fog_x"}},
+    {"when":{"axis":"z","style":"portal","variant":"violet"},"apply":{"model":"tensura_fog_barriers:block/violet_fog_z"}},
+    {"when":{"axis":"x","style":"portal","variant":"black"},"apply":{"model":"tensura_fog_barriers:block/black_fog_x"}},
+    {"when":{"axis":"z","style":"portal","variant":"black"},"apply":{"model":"tensura_fog_barriers:block/black_fog_z"}},
+
+    {"when":{"axis":"x","style":"veil","variant":"gold"},"apply":{"model":"tensura_fog_barriers:block/golden_veil_fog_x"}},
+    {"when":{"axis":"z","style":"veil","variant":"gold"},"apply":{"model":"tensura_fog_barriers:block/golden_veil_fog_z"}},
+    {"when":{"axis":"x","style":"veil","variant":"teal"},"apply":{"model":"tensura_fog_barriers:block/teal_veil_fog_x"}},
+    {"when":{"axis":"z","style":"veil","variant":"teal"},"apply":{"model":"tensura_fog_barriers:block/teal_veil_fog_z"}},
+    {"when":{"axis":"x","style":"veil","variant":"crimson"},"apply":{"model":"tensura_fog_barriers:block/crimson_veil_fog_x"}},
+    {"when":{"axis":"z","style":"veil","variant":"crimson"},"apply":{"model":"tensura_fog_barriers:block/crimson_veil_fog_z"}},
+    {"when":{"axis":"x","style":"veil","variant":"violet"},"apply":{"model":"tensura_fog_barriers:block/violet_veil_fog_x"}},
+    {"when":{"axis":"z","style":"veil","variant":"violet"},"apply":{"model":"tensura_fog_barriers:block/violet_veil_fog_z"}},
+    {"when":{"axis":"x","style":"veil","variant":"black"},"apply":{"model":"tensura_fog_barriers:block/black_veil_fog_x"}},
+    {"when":{"axis":"z","style":"veil","variant":"black"},"apply":{"model":"tensura_fog_barriers:block/black_veil_fog_z"}},
+
+    {"when":{"axis":"x","style":"vortex","variant":"gold"},"apply":{"model":"tensura_fog_barriers:block/golden_vortex_fog_x"}},
+    {"when":{"axis":"z","style":"vortex","variant":"gold"},"apply":{"model":"tensura_fog_barriers:block/golden_vortex_fog_z"}},
+    {"when":{"axis":"x","style":"vortex","variant":"teal"},"apply":{"model":"tensura_fog_barriers:block/teal_vortex_fog_x"}},
+    {"when":{"axis":"z","style":"vortex","variant":"teal"},"apply":{"model":"tensura_fog_barriers:block/teal_vortex_fog_z"}},
+    {"when":{"axis":"x","style":"vortex","variant":"crimson"},"apply":{"model":"tensura_fog_barriers:block/crimson_vortex_fog_x"}},
+    {"when":{"axis":"z","style":"vortex","variant":"crimson"},"apply":{"model":"tensura_fog_barriers:block/crimson_vortex_fog_z"}},
+    {"when":{"axis":"x","style":"vortex","variant":"violet"},"apply":{"model":"tensura_fog_barriers:block/violet_vortex_fog_x"}},
+    {"when":{"axis":"z","style":"vortex","variant":"violet"},"apply":{"model":"tensura_fog_barriers:block/violet_vortex_fog_z"}},
+    {"when":{"axis":"x","style":"vortex","variant":"black"},"apply":{"model":"tensura_fog_barriers:block/black_vortex_fog_x"}},
+    {"when":{"axis":"z","style":"vortex","variant":"black"},"apply":{"model":"tensura_fog_barriers:block/black_vortex_fog_z"}},
+
+    {"when":{"axis":"x","style":"runes","variant":"gold"},"apply":{"model":"tensura_fog_barriers:block/golden_runes_fog_x"}},
+    {"when":{"axis":"z","style":"runes","variant":"gold"},"apply":{"model":"tensura_fog_barriers:block/golden_runes_fog_z"}},
+    {"when":{"axis":"x","style":"runes","variant":"teal"},"apply":{"model":"tensura_fog_barriers:block/teal_runes_fog_x"}},
+    {"when":{"axis":"z","style":"runes","variant":"teal"},"apply":{"model":"tensura_fog_barriers:block/teal_runes_fog_z"}},
+    {"when":{"axis":"x","style":"runes","variant":"crimson"},"apply":{"model":"tensura_fog_barriers:block/crimson_runes_fog_x"}},
+    {"when":{"axis":"z","style":"runes","variant":"crimson"},"apply":{"model":"tensura_fog_barriers:block/crimson_runes_fog_z"}},
+    {"when":{"axis":"x","style":"runes","variant":"violet"},"apply":{"model":"tensura_fog_barriers:block/violet_runes_fog_x"}},
+    {"when":{"axis":"z","style":"runes","variant":"violet"},"apply":{"model":"tensura_fog_barriers:block/violet_runes_fog_z"}},
+    {"when":{"axis":"x","style":"runes","variant":"black"},"apply":{"model":"tensura_fog_barriers:block/black_runes_fog_x"}},
+    {"when":{"axis":"z","style":"runes","variant":"black"},"apply":{"model":"tensura_fog_barriers:block/black_runes_fog_z"}}
+  ]
+}

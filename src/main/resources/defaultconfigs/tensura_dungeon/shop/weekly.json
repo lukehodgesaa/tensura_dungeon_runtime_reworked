@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "offers": [
+    {
+      "id": "tensura_dungeon:gothic_hud_theme",
+      "enabled": true,
+      "product": "HUD_THEME",
+      "cosmetic": "hud_theme:gothic",
+      "name": "Gothic HUD",
+      "grade": "Legend",
+      "display_type": "GUI Theme",
+      "icon": "THEME",
+      "accent": "38D7FF",
+      "price": {"gold": 15750},
+      "required_floor": 1,
+      "stock": {"mode": "PER_PERIOD", "minimum": 1, "maximum": 1},
+      "output_count": 1,
+      "appearance_basis_points": 500,
+      "guaranteed_by_eligible_period": 16,
+      "description": "Unlocks the Gothic combat HUD theme without changing the equipped theme.",
+      "comparison": "Combat HUD component",
+      "requirements": "Weekly cross-grade opportunity"
+    },
+    {
+      "id": "tensura_dungeon:frey_hud_theme",
+      "enabled": true,
+      "product": "HUD_THEME",
+      "cosmetic": "hud_theme:frey",
+      "name": "Frey HUD",
+      "grade": "Rare",
+      "display_type": "GUI Theme",
+      "icon": "THEME",
+      "accent": "38D7FF",
+      "price": {"gold": 4200},
+      "required_floor": 1,
+      "stock": {"mode": "PER_PERIOD", "minimum": 1, "maximum": 1},
+      "output_count": 1,
+      "appearance_basis_points": 1200,
+      "guaranteed_by_eligible_period": 8,
+      "description": "Unlocks the Frey combat HUD theme without changing the equipped theme.",
+      "comparison": "Combat HUD component",
+      "requirements": "Weekly cross-grade opportunity"
+    }
+  ]
+}

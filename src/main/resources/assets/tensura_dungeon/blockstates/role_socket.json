@@ -1,0 +1,9 @@
+{
+  "multipart": [
+    { "when": { "role": "system" }, "apply": { "model": "tensura_dungeon:block/role_socket_system" } },
+    { "when": { "role": "ground_spawn" }, "apply": { "model": "tensura_dungeon:block/role_socket_ground_spawn" } },
+    { "when": { "role": "ranged_spawn" }, "apply": { "model": "tensura_dungeon:block/role_socket_ranged_spawn" } },
+    { "when": { "role": "elite_spawn" }, "apply": { "model": "tensura_dungeon:block/role_socket_elite_spawn" } },
+    { "when": { "role": "barrier" }, "apply": { "model": "tensura_dungeon:block/role_socket_barrier" } }
+  ]
+}

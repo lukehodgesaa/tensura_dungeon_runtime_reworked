@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "visual_entity_present=false": {
+      "model": "tensura_dungeon:block/floor_exit_portal"
+    },
+    "visual_entity_present=true": {
+      "model": "tensura_dungeon:block/floor_exit_portal"
+    }
+  }
+}

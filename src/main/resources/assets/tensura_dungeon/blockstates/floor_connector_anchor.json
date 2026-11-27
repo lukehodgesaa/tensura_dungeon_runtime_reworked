@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "tensura_dungeon:block/floor_connector_anchor" }
+  }
+}

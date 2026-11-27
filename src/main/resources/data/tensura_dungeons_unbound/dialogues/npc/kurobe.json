@@ -1,0 +1,544 @@
+{
+  "format": 5,
+  "char_ticks": 1,
+  "hold_ticks": 60,
+  "npc_name": {
+    "literal": "Kurobe"
+  },
+  "markdown": false,
+  "text_effect": "none",
+  "freeze_source": false,
+  "source_invulnerable": false,
+  "cancel_if_source_missing": true,
+  "exclusive_source": false,
+  "graph_enabled": true,
+  "layout": {
+    "choice_color": "#0000AA"
+  },
+  "start_node": "slot_0",
+  "nodes": {
+    "slot_0": {
+      "type": "condition",
+      "conditions": [],
+      "next": "d100",
+      "else_node": null
+    },
+    "d100": {
+      "line": {
+        "literal": "Ah, welcome. If you've brought a weapon, set it on the rack and I'll have a look. If you'd rather understand the work first, ask. A careful owner makes for a better weapon."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[I'd like to use the forge.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon forge open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "[Explain weapon refinement.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d101"
+        },
+        {
+          "literal": "[Tell me about Monster Cores.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d110"
+        },
+        {
+          "literal": "[Nothing right now.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    "d101": {
+      "line": {
+        "literal": "Before I can work a higher Equipment Grade, you need Forge Certification for it. Certification belongs to you permanently. It only gives me permission to do that grade of work; it does not promote a weapon or improve its stats by itself."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So certification unlocks the work, not the upgrade?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d102"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d110": {
+      "line": {
+        "literal": "A Monster Core is a rechargeable battery and a conduit for one Core Technique. It doesn't replace your own skills or your magicules. A weapon has one socket, the socket holds one Core, and that Core provides one stable technique."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So one weapon, one Core, and one Core Technique?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d111"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d102": {
+      "line": {
+        "literal": "Right. The labyrinth sets the limit. Floor 1 permits Normal work, then every fifty floors opens the next grade: Special, Rare, Unique, Legend, and finally Mythic at Floor 250. Floor 300 is the endpoint; it does not add another forge grade."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So my highest cleared floor sets my grade limit?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d103"
+        },
+        {
+          "literal": "[Start that explanation again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d101"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d111": {
+      "line": {
+        "literal": "Precisely. The Core's family decides which technique it carries. Its tier decides capacity, scaling, and what grades of weapon can handle it. A stronger tier does not give you a collection of unrelated techniques; it is still one Core and one technique."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So family chooses the technique, while tier sets its capacity?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d112"
+        },
+        {
+          "literal": "[Explain what a Core is again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d110"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d103": {
+      "line": {
+        "literal": "Exactly. Once you're certified, each weapon must still be promoted separately, one grade at a time. I check the weapon's own Tensura material and equipment EP, then charge the listed gold and materials. Promoting one weapon never promotes another."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So certification is mine, but promotion belongs to each weapon?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d104"
+        },
+        {
+          "literal": "[Explain the grade limit again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d102"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d112": {
+      "line": {
+        "literal": "Right. Only the Core socketed into your main-hand weapon can supply its technique. When you use it, the technique draws from accessible Core charge first, then from your current magicules. If the two together cannot pay the cost, the technique fails without taking a partial payment."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So the Core pays first, then my magicules cover the rest?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d113"
+        },
+        {
+          "literal": "[Explain family and tier again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d111"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d104": {
+      "line": {
+        "literal": "That's it. After a weapon reaches its grade, I can refine six Conduit Ranks within that grade, from I through VI. Each rank is purchased for that weapon alone. It adds a modest amount of weapon damage and lets the weapon safely reach more of a socketed Core's capacity."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So each grade has six ranks on that weapon?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d105"
+        },
+        {
+          "literal": "[Explain promotion again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d103"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d113": {
+      "line": {
+        "literal": "Exactly. You recover Cores through completed dungeon runs; they do not fall onto the ground as items. The successful-run summary resolves what you recovered. If you abandon or fail before unresolved Cores are secured, they're lost. A disconnect alone preserves a completed pending result."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So I secure recovered Cores from the successful-run summary?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d114"
+        },
+        {
+          "literal": "[Explain charge use again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d112"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d105": {
+      "line": {
+        "literal": "Yes. Mind the distinction: a Conduit Rank opens accessible capacity; it does not create charge. It also does not improve durability or multiply the strength of every magical skill. The rank improves the weapon and how much of its one Core it can conduct."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So ranks expose more stored charge; they don't generate it?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d106"
+        },
+        {
+          "literal": "[Explain Conduit Ranks again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d104"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d114": {
+      "line": {
+        "literal": "Yes. An unsocketed Core belongs in your player-bound Core Satchel, not in ordinary inventory. The summary moves each resolved Core into an open Satchel slot. If the Satchel is full, clear a slot before you finalize that Core; the transfer must complete as one safe transaction."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So unsocketed Cores live in my Satchel, never my inventory?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d115"
+        },
+        {
+          "literal": "[Explain recovery again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d113"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d106": {
+      "line": {
+        "literal": "Correct. Your cleared floor limits certification. Certification permits the work. Promotion advances one weapon's grade. Six Conduit Ranks then refine that weapon within the grade. Bring the weapon here and the forge will show the exact requirements before you confirm anything."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Understood. Open the forge.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon forge open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "[I also want to understand Monster Cores.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d110"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d115": {
+      "line": {
+        "literal": "Correct. Bring a compatible weapon and a Satchel Core here to socket it. Removal and transfer are also forge services, with their exact costs shown before confirmation. There is no free undo, and I cannot socket, remove, transfer, or recharge a Core while you have an active dungeon run."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So all Core changes happen here, outside an active run?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d116"
+        },
+        {
+          "literal": "[Explain the Satchel again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d114"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d116": {
+      "line": {
+        "literal": "That's right. A Core has Total Charge and Natural Charge. Total Charge is what remains available for use. Natural Charge records the recovered energy that supports appraisal. Recharging restores Total Charge only; it never raises Natural Charge or the Core's appraisal premium."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So recharge restores usable charge, not appraisal value?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d117"
+        },
+        {
+          "literal": "[Explain socketing again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d115"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d117": {
+      "line": {
+        "literal": "Exactly. For a free manual transfer, you channel your current magicules into one selected socketed Core. The forge chooses the largest safe amount automatically. A completed transfer spends that full amount, while the Core receives a server-rolled sixty to one hundred percent. If the channel is interrupted, nothing is spent and nothing is added."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So manual transfer is free, but its efficiency varies?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d118"
+        },
+        {
+          "literal": "[Explain the two charge values again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d116"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d118": {
+      "line": {
+        "literal": "Yes. If you prefer certainty, rapid recharge immediately fills one selected Core to one hundred percent. Its price is ten percent fixed labor plus ninety percent scaled by how much charge is missing. Each Core has its own labor fee, even when you service several. The forge shows the exact total before you agree."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So rapid recharge always fills it and charges for what is missing?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d119"
+        },
+        {
+          "literal": "[Explain manual transfer again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d117"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    },
+    "d119": {
+      "line": {
+        "literal": "You've got it. Recover a Core after a successful run, secure it in your Satchel, socket one compatible Core into one weapon, and keep its Total Charge supplied. Family determines the technique; tier and your weapon's grade and rank determine what the conduit can safely handle."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Understood. Open the forge.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon forge open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "[Review weapon refinement.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d101"
+        },
+        {
+          "literal": "[Back to the forge topics.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d100"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tensura_dungeon:block/barrier_anchor" },
+    "facing=south": { "model": "tensura_dungeon:block/barrier_anchor", "y": 180 },
+    "facing=west": { "model": "tensura_dungeon:block/barrier_anchor", "y": 270 },
+    "facing=east": { "model": "tensura_dungeon:block/barrier_anchor", "y": 90 }
+  }
+}

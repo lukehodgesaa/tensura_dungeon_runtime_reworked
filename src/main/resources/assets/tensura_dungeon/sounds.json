@@ -1,0 +1,1515 @@
+{
+  "hub_gate_open": {
+    "subtitle": "subtitles.tensura_dungeon.hub_gate_open",
+    "sounds": [
+      "tensura_dungeon:hub/hub_gate_open",
+      "tensura_dungeon:hub/dungeon_hub_open"
+    ]
+  },
+  "hub_gate_close": {
+    "subtitle": "subtitles.tensura_dungeon.hub_gate_close",
+    "sounds": [
+      "tensura_dungeon:hub/hub_gate_close"
+    ]
+  },
+  "room_awaken": {
+    "subtitle": "subtitles.tensura_dungeon.room_awaken",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_awaken"
+    ]
+  },
+  "room_barrier_close": {
+    "subtitle": "subtitles.tensura_dungeon.room_barrier_close",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_barrierclose"
+    ]
+  },
+  "room_barrier_open": {
+    "subtitle": "subtitles.tensura_dungeon.room_barrier_open",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_barrieropen"
+    ]
+  },
+  "objective_start": {
+    "subtitle": "subtitles.tensura_dungeon.objective_start",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_objective_start",
+      "tensura_dungeon:hub/dungeon_objective_sound"
+    ]
+  },
+  "objective_progress": {
+    "subtitle": "subtitles.tensura_dungeon.objective_progress",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_progress"
+    ]
+  },
+  "objective_complete": {
+    "subtitle": "subtitles.tensura_dungeon.objective_complete",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_objective_complete"
+    ]
+  },
+  "wave_incoming": {
+    "subtitle": "subtitles.tensura_dungeon.wave_incoming",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_wave_incoming"
+    ]
+  },
+  "elite_reveal": {
+    "subtitle": "subtitles.tensura_dungeon.elite_reveal",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_elite_mob_cue"
+    ]
+  },
+  "room_complete": {
+    "subtitle": "subtitles.tensura_dungeon.room_complete",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_completion"
+    ]
+  },
+  "floor_finale": {
+    "subtitle": "subtitles.tensura_dungeon.floor_finale",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_finale"
+    ]
+  },
+  "floor_complete": {
+    "subtitle": "subtitles.tensura_dungeon.floor_complete",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_floor_complete"
+    ]
+  },
+  "safe_room": {
+    "subtitle": "subtitles.tensura_dungeon.safe_room",
+    "sounds": [
+      "tensura_dungeon:hub/safe_room_01",
+      "tensura_dungeon:hub/safe_room_02",
+      "tensura_dungeon:hub/dungeon_healingroom",
+      "tensura_dungeon:hub/magicule_regen_room"
+    ]
+  },
+  "exploration_ambience": {
+    "subtitle": "subtitles.tensura_dungeon.exploration_ambience",
+    "sounds": [
+      {
+        "name": "tensura_dungeon:hub/dark_ambience_01",
+        "stream": true
+      },
+      {
+        "name": "tensura_dungeon:hub/dark_ambience_02",
+        "stream": true
+      },
+      {
+        "name": "tensura_dungeon:hub/dungeon_outside_wind",
+        "stream": true
+      },
+      {
+        "name": "tensura_dungeon:hub/dungeon_cave_longambience",
+        "stream": true
+      }
+    ]
+  },
+  "creature_ambience": {
+    "subtitle": "subtitles.tensura_dungeon.creature_ambience",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_growl",
+      "tensura_dungeon:hub/dungeon_hiss",
+      "tensura_dungeon:hub/dungeon_howl",
+      {
+        "name": "tensura_dungeon:hub/dungeon_lurking_creature",
+        "stream": true
+      },
+      {
+        "name": "tensura_dungeon:hub/dungeon_mysterious_hiss_01",
+        "stream": true
+      }
+    ]
+  },
+  "branch_preview": {
+    "subtitle": "subtitles.tensura_dungeon.branch_preview",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_warning"
+    ]
+  },
+  "return_whistle_channel": {
+    "subtitle": "subtitles.tensura_dungeon.return_whistle_channel",
+    "sounds": [
+      "tensura_dungeon:item/dungeon_return_whistle"
+    ]
+  },
+  "rift_crack": {
+    "subtitle": "subtitles.tensura_dungeon.rift_crack",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_barrierclose"
+    ]
+  },
+  "rift_open": {
+    "subtitle": "subtitles.tensura_dungeon.rift_open",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_awaken"
+    ]
+  },
+  "rift_close": {
+    "subtitle": "subtitles.tensura_dungeon.rift_close",
+    "sounds": [
+      "tensura_dungeon:hub/hub_gate_close"
+    ]
+  },
+  "rift_pressure_whirl": {
+    "subtitle": "subtitles.tensura_dungeon.rift_pressure_whirl",
+    "sounds": [
+      "tensura_dungeon:hub/dungeon_wave_incoming"
+    ]
+  },
+  "rift_void_boom": {
+    "subtitle": "subtitles.tensura_dungeon.rift_void_boom",
+    "sounds": [
+      "tensura_dungeon:rift/magiculeboom"
+    ]
+  },
+  "rift_void_crack_1": {
+    "subtitle": "subtitles.tensura_dungeon.rift_void_crack",
+    "sounds": [
+      "tensura_dungeon:rift/void_crack_1"
+    ]
+  },
+  "rift_void_crack_2": {
+    "subtitle": "subtitles.tensura_dungeon.rift_void_crack",
+    "sounds": [
+      "tensura_dungeon:rift/void_crack_2"
+    ]
+  },
+  "rift_void_crack_3": {
+    "subtitle": "subtitles.tensura_dungeon.rift_void_crack",
+    "sounds": [
+      "tensura_dungeon:rift/void_crack_3"
+    ]
+  },
+  "rift_void_crack_4": {
+    "subtitle": "subtitles.tensura_dungeon.rift_void_crack",
+    "sounds": [
+      "tensura_dungeon:rift/void_crack_4"
+    ]
+  },
+  "rift_pull_wind": {
+    "subtitle": "subtitles.tensura_dungeon.rift_pull_wind",
+    "sounds": [
+      {
+        "name": "tensura_dungeon:rift/howling_wind",
+        "stream": true
+      }
+    ]
+  },
+  "ui_menu_hover": {
+    "sounds": [
+      "tensura_dungeon:ui/menu_hover"
+    ]
+  },
+  "ui_menu_select": {
+    "sounds": [
+      "tensura_dungeon:ui/menu_select"
+    ]
+  },
+  "ui_menu_open": {
+    "sounds": [
+      "tensura_dungeon:ui/menu_open"
+    ]
+  },
+  "ui_menu_close": {
+    "sounds": [
+      "tensura_dungeon:ui/menu_close"
+    ]
+  },
+  "shop_confirmation_open": {
+    "sounds": [
+      "tensura_dungeon:shop/confirmation_open"
+    ]
+  },
+  "shop_purchase_success": {
+    "sounds": [
+      "tensura_dungeon:shop/purchase_success"
+    ]
+  },
+  "shop_purchase_fail": {
+    "sounds": [
+      "tensura_dungeon:shop/purchase_fail"
+    ]
+  },
+  "shop_major_unlock": {
+    "sounds": [
+      "tensura_dungeon:shop/major_unlock_01"
+    ]
+  },
+  "loadout_equipped_helmet": {
+    "sounds": [
+      "tensura_dungeon:loadout/equipped_helmet"
+    ]
+  },
+  "loadout_equipped_chest": {
+    "sounds": [
+      "tensura_dungeon:loadout/equipped_chest"
+    ]
+  },
+  "loadout_equipped_legs": {
+    "sounds": [
+      "tensura_dungeon:loadout/equipped_legs"
+    ]
+  },
+  "loadout_equipped_shoes": {
+    "sounds": [
+      "tensura_dungeon:loadout/equipped_shoes"
+    ]
+  },
+  "loadout_equipped_weapon": {
+    "sounds": [
+      "tensura_dungeon:loadout/equipped_weapon"
+    ]
+  },
+  "rimuru_opening_loadout": {
+    "subtitle": "subtitles.tensura_dungeon.rimuru_opening_loadout",
+    "sounds": [
+      {
+        "name": "tensura_dungeon:dialogue/rimuru_opening_loadout",
+        "stream": true
+      }
+    ]
+  },
+  "hub_music_echoes": {
+    "sounds": [
+      {
+        "name": "tensura_dungeon:music/01_echoes_beneath_the_orrery",
+        "stream": true
+      }
+    ]
+  },
+  "hub_music_inner_hall": {
+    "sounds": [
+      {
+        "name": "tensura_dungeon:music/01b_echoes_beneath_the_orrery_inner_hall",
+        "stream": true
+      }
+    ]
+  },
+  "hub_music_labyrinth": {
+    "sounds": [
+      {
+        "name": "tensura_dungeon:music/02_labyrinth_of_returning_light",
+        "stream": true
+      }
+    ]
+  },
+  "hub_music_ascendant": {
+    "sounds": [
+      {
+        "name": "tensura_dungeon:music/02b_labyrinth_of_returning_light_ascendant",
+        "stream": true
+      }
+    ]
+  },
+  "hub_music_moment": {
+    "sounds": [
+      {
+        "name": "tensura_dungeon:music/03_a_moment_between_descents",
+        "stream": true
+      }
+    ]
+  },
+  "hub_music_sanctum": {
+    "sounds": [
+      {
+        "name": "tensura_dungeon:music/04_sanctum_of_forgotten_stars",
+        "stream": true
+      }
+    ]
+  },
+  "dialogue_voice_gobta_calm_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/018",
+      "tensura_dungeon:dialogue_voice/gobta/022",
+      "tensura_dungeon:dialogue_voice/gobta/030",
+      "tensura_dungeon:dialogue_voice/gobta/046",
+      "tensura_dungeon:dialogue_voice/gobta/053",
+      "tensura_dungeon:dialogue_voice/gobta/068"
+    ]
+  },
+  "dialogue_voice_gobta_calm_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/019",
+      "tensura_dungeon:dialogue_voice/gobta/029",
+      "tensura_dungeon:dialogue_voice/gobta/036",
+      "tensura_dungeon:dialogue_voice/gobta/047",
+      "tensura_dungeon:dialogue_voice/gobta/055",
+      "tensura_dungeon:dialogue_voice/gobta/069"
+    ]
+  },
+  "dialogue_voice_gobta_soft_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/003",
+      "tensura_dungeon:dialogue_voice/gobta/016",
+      "tensura_dungeon:dialogue_voice/gobta/024",
+      "tensura_dungeon:dialogue_voice/gobta/041",
+      "tensura_dungeon:dialogue_voice/gobta/049",
+      "tensura_dungeon:dialogue_voice/gobta/051"
+    ]
+  },
+  "dialogue_voice_gobta_soft_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/013",
+      "tensura_dungeon:dialogue_voice/gobta/021",
+      "tensura_dungeon:dialogue_voice/gobta/031",
+      "tensura_dungeon:dialogue_voice/gobta/042",
+      "tensura_dungeon:dialogue_voice/gobta/050",
+      "tensura_dungeon:dialogue_voice/gobta/060"
+    ]
+  },
+  "dialogue_voice_gobta_bright_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/010",
+      "tensura_dungeon:dialogue_voice/gobta/014",
+      "tensura_dungeon:dialogue_voice/gobta/025",
+      "tensura_dungeon:dialogue_voice/gobta/044",
+      "tensura_dungeon:dialogue_voice/gobta/059",
+      "tensura_dungeon:dialogue_voice/gobta/065"
+    ]
+  },
+  "dialogue_voice_gobta_bright_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/012",
+      "tensura_dungeon:dialogue_voice/gobta/015",
+      "tensura_dungeon:dialogue_voice/gobta/038",
+      "tensura_dungeon:dialogue_voice/gobta/048",
+      "tensura_dungeon:dialogue_voice/gobta/062",
+      "tensura_dungeon:dialogue_voice/gobta/070"
+    ]
+  },
+  "dialogue_voice_gobta_uncertain_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/002",
+      "tensura_dungeon:dialogue_voice/gobta/011",
+      "tensura_dungeon:dialogue_voice/gobta/023",
+      "tensura_dungeon:dialogue_voice/gobta/027",
+      "tensura_dungeon:dialogue_voice/gobta/057",
+      "tensura_dungeon:dialogue_voice/gobta/064"
+    ]
+  },
+  "dialogue_voice_gobta_uncertain_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/005",
+      "tensura_dungeon:dialogue_voice/gobta/020",
+      "tensura_dungeon:dialogue_voice/gobta/026",
+      "tensura_dungeon:dialogue_voice/gobta/028",
+      "tensura_dungeon:dialogue_voice/gobta/063",
+      "tensura_dungeon:dialogue_voice/gobta/066"
+    ]
+  },
+  "dialogue_voice_gobta_intense_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/004",
+      "tensura_dungeon:dialogue_voice/gobta/017",
+      "tensura_dungeon:dialogue_voice/gobta/035",
+      "tensura_dungeon:dialogue_voice/gobta/043",
+      "tensura_dungeon:dialogue_voice/gobta/058",
+      "tensura_dungeon:dialogue_voice/gobta/067"
+    ]
+  },
+  "dialogue_voice_gobta_intense_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/008",
+      "tensura_dungeon:dialogue_voice/gobta/033",
+      "tensura_dungeon:dialogue_voice/gobta/040",
+      "tensura_dungeon:dialogue_voice/gobta/045",
+      "tensura_dungeon:dialogue_voice/gobta/061"
+    ]
+  },
+  "dialogue_voice_gobta_neutral_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/001",
+      "tensura_dungeon:dialogue_voice/gobta/007",
+      "tensura_dungeon:dialogue_voice/gobta/032",
+      "tensura_dungeon:dialogue_voice/gobta/037",
+      "tensura_dungeon:dialogue_voice/gobta/052",
+      "tensura_dungeon:dialogue_voice/gobta/056"
+    ]
+  },
+  "dialogue_voice_gobta_neutral_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/006",
+      "tensura_dungeon:dialogue_voice/gobta/009",
+      "tensura_dungeon:dialogue_voice/gobta/034",
+      "tensura_dungeon:dialogue_voice/gobta/039",
+      "tensura_dungeon:dialogue_voice/gobta/054"
+    ]
+  },
+  "dialogue_voice_kaijin_calm_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/003",
+      "tensura_dungeon:dialogue_voice/kaijin/012",
+      "tensura_dungeon:dialogue_voice/kaijin/025",
+      "tensura_dungeon:dialogue_voice/kaijin/047",
+      "tensura_dungeon:dialogue_voice/kaijin/052",
+      "tensura_dungeon:dialogue_voice/kaijin/066"
+    ]
+  },
+  "dialogue_voice_kaijin_calm_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/005",
+      "tensura_dungeon:dialogue_voice/kaijin/015",
+      "tensura_dungeon:dialogue_voice/kaijin/029",
+      "tensura_dungeon:dialogue_voice/kaijin/048",
+      "tensura_dungeon:dialogue_voice/kaijin/056"
+    ]
+  },
+  "dialogue_voice_kaijin_soft_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/010",
+      "tensura_dungeon:dialogue_voice/kaijin/024",
+      "tensura_dungeon:dialogue_voice/kaijin/044",
+      "tensura_dungeon:dialogue_voice/kaijin/053",
+      "tensura_dungeon:dialogue_voice/kaijin/058",
+      "tensura_dungeon:dialogue_voice/kaijin/063"
+    ]
+  },
+  "dialogue_voice_kaijin_soft_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/018",
+      "tensura_dungeon:dialogue_voice/kaijin/032",
+      "tensura_dungeon:dialogue_voice/kaijin/049",
+      "tensura_dungeon:dialogue_voice/kaijin/057",
+      "tensura_dungeon:dialogue_voice/kaijin/059"
+    ]
+  },
+  "dialogue_voice_kaijin_bright_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/017",
+      "tensura_dungeon:dialogue_voice/kaijin/022",
+      "tensura_dungeon:dialogue_voice/kaijin/040",
+      "tensura_dungeon:dialogue_voice/kaijin/045",
+      "tensura_dungeon:dialogue_voice/kaijin/060",
+      "tensura_dungeon:dialogue_voice/kaijin/062"
+    ]
+  },
+  "dialogue_voice_kaijin_bright_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/020",
+      "tensura_dungeon:dialogue_voice/kaijin/023",
+      "tensura_dungeon:dialogue_voice/kaijin/042",
+      "tensura_dungeon:dialogue_voice/kaijin/051",
+      "tensura_dungeon:dialogue_voice/kaijin/061"
+    ]
+  },
+  "dialogue_voice_kaijin_uncertain_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/002",
+      "tensura_dungeon:dialogue_voice/kaijin/011",
+      "tensura_dungeon:dialogue_voice/kaijin/016",
+      "tensura_dungeon:dialogue_voice/kaijin/026",
+      "tensura_dungeon:dialogue_voice/kaijin/043",
+      "tensura_dungeon:dialogue_voice/kaijin/055"
+    ]
+  },
+  "dialogue_voice_kaijin_uncertain_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/007",
+      "tensura_dungeon:dialogue_voice/kaijin/014",
+      "tensura_dungeon:dialogue_voice/kaijin/019",
+      "tensura_dungeon:dialogue_voice/kaijin/027",
+      "tensura_dungeon:dialogue_voice/kaijin/054"
+    ]
+  },
+  "dialogue_voice_kaijin_intense_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/006",
+      "tensura_dungeon:dialogue_voice/kaijin/031",
+      "tensura_dungeon:dialogue_voice/kaijin/035",
+      "tensura_dungeon:dialogue_voice/kaijin/039",
+      "tensura_dungeon:dialogue_voice/kaijin/050",
+      "tensura_dungeon:dialogue_voice/kaijin/065"
+    ]
+  },
+  "dialogue_voice_kaijin_intense_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/009",
+      "tensura_dungeon:dialogue_voice/kaijin/034",
+      "tensura_dungeon:dialogue_voice/kaijin/038",
+      "tensura_dungeon:dialogue_voice/kaijin/041",
+      "tensura_dungeon:dialogue_voice/kaijin/064"
+    ]
+  },
+  "dialogue_voice_kaijin_neutral_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/001",
+      "tensura_dungeon:dialogue_voice/kaijin/008",
+      "tensura_dungeon:dialogue_voice/kaijin/021",
+      "tensura_dungeon:dialogue_voice/kaijin/030",
+      "tensura_dungeon:dialogue_voice/kaijin/036",
+      "tensura_dungeon:dialogue_voice/kaijin/046"
+    ]
+  },
+  "dialogue_voice_kaijin_neutral_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/004",
+      "tensura_dungeon:dialogue_voice/kaijin/013",
+      "tensura_dungeon:dialogue_voice/kaijin/028",
+      "tensura_dungeon:dialogue_voice/kaijin/033",
+      "tensura_dungeon:dialogue_voice/kaijin/037"
+    ]
+  },
+  "dialogue_voice_kurobe_calm_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/017",
+      "tensura_dungeon:dialogue_voice/kurobe/035",
+      "tensura_dungeon:dialogue_voice/kurobe/039",
+      "tensura_dungeon:dialogue_voice/kurobe/041",
+      "tensura_dungeon:dialogue_voice/kurobe/058",
+      "tensura_dungeon:dialogue_voice/kurobe/065"
+    ]
+  },
+  "dialogue_voice_kurobe_calm_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/034",
+      "tensura_dungeon:dialogue_voice/kurobe/036",
+      "tensura_dungeon:dialogue_voice/kurobe/040",
+      "tensura_dungeon:dialogue_voice/kurobe/056",
+      "tensura_dungeon:dialogue_voice/kurobe/064",
+      "tensura_dungeon:dialogue_voice/kurobe/067"
+    ]
+  },
+  "dialogue_voice_kurobe_soft_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/001",
+      "tensura_dungeon:dialogue_voice/kurobe/013",
+      "tensura_dungeon:dialogue_voice/kurobe/037",
+      "tensura_dungeon:dialogue_voice/kurobe/046",
+      "tensura_dungeon:dialogue_voice/kurobe/051",
+      "tensura_dungeon:dialogue_voice/kurobe/053"
+    ]
+  },
+  "dialogue_voice_kurobe_soft_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/002",
+      "tensura_dungeon:dialogue_voice/kurobe/023",
+      "tensura_dungeon:dialogue_voice/kurobe/045",
+      "tensura_dungeon:dialogue_voice/kurobe/049",
+      "tensura_dungeon:dialogue_voice/kurobe/052",
+      "tensura_dungeon:dialogue_voice/kurobe/069"
+    ]
+  },
+  "dialogue_voice_kurobe_bright_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/004",
+      "tensura_dungeon:dialogue_voice/kurobe/018",
+      "tensura_dungeon:dialogue_voice/kurobe/021",
+      "tensura_dungeon:dialogue_voice/kurobe/047",
+      "tensura_dungeon:dialogue_voice/kurobe/055",
+      "tensura_dungeon:dialogue_voice/kurobe/066"
+    ]
+  },
+  "dialogue_voice_kurobe_bright_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/016",
+      "tensura_dungeon:dialogue_voice/kurobe/020",
+      "tensura_dungeon:dialogue_voice/kurobe/025",
+      "tensura_dungeon:dialogue_voice/kurobe/054",
+      "tensura_dungeon:dialogue_voice/kurobe/063",
+      "tensura_dungeon:dialogue_voice/kurobe/070"
+    ]
+  },
+  "dialogue_voice_kurobe_uncertain_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/006",
+      "tensura_dungeon:dialogue_voice/kurobe/008",
+      "tensura_dungeon:dialogue_voice/kurobe/014",
+      "tensura_dungeon:dialogue_voice/kurobe/027",
+      "tensura_dungeon:dialogue_voice/kurobe/032",
+      "tensura_dungeon:dialogue_voice/kurobe/057"
+    ]
+  },
+  "dialogue_voice_kurobe_uncertain_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/007",
+      "tensura_dungeon:dialogue_voice/kurobe/012",
+      "tensura_dungeon:dialogue_voice/kurobe/026",
+      "tensura_dungeon:dialogue_voice/kurobe/029",
+      "tensura_dungeon:dialogue_voice/kurobe/050",
+      "tensura_dungeon:dialogue_voice/kurobe/059"
+    ]
+  },
+  "dialogue_voice_kurobe_intense_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/003",
+      "tensura_dungeon:dialogue_voice/kurobe/015",
+      "tensura_dungeon:dialogue_voice/kurobe/022",
+      "tensura_dungeon:dialogue_voice/kurobe/042",
+      "tensura_dungeon:dialogue_voice/kurobe/044",
+      "tensura_dungeon:dialogue_voice/kurobe/068"
+    ]
+  },
+  "dialogue_voice_kurobe_intense_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/009",
+      "tensura_dungeon:dialogue_voice/kurobe/019",
+      "tensura_dungeon:dialogue_voice/kurobe/038",
+      "tensura_dungeon:dialogue_voice/kurobe/043",
+      "tensura_dungeon:dialogue_voice/kurobe/062"
+    ]
+  },
+  "dialogue_voice_kurobe_neutral_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/005",
+      "tensura_dungeon:dialogue_voice/kurobe/011",
+      "tensura_dungeon:dialogue_voice/kurobe/028",
+      "tensura_dungeon:dialogue_voice/kurobe/031",
+      "tensura_dungeon:dialogue_voice/kurobe/048",
+      "tensura_dungeon:dialogue_voice/kurobe/061"
+    ]
+  },
+  "dialogue_voice_kurobe_neutral_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/010",
+      "tensura_dungeon:dialogue_voice/kurobe/024",
+      "tensura_dungeon:dialogue_voice/kurobe/030",
+      "tensura_dungeon:dialogue_voice/kurobe/033",
+      "tensura_dungeon:dialogue_voice/kurobe/060"
+    ]
+  },
+  "dialogue_voice_mjmile_calm_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/003",
+      "tensura_dungeon:dialogue_voice/mjmile/021",
+      "tensura_dungeon:dialogue_voice/mjmile/029",
+      "tensura_dungeon:dialogue_voice/mjmile/036",
+      "tensura_dungeon:dialogue_voice/mjmile/047",
+      "tensura_dungeon:dialogue_voice/mjmile/060",
+      "tensura_dungeon:dialogue_voice/mjmile/066"
+    ]
+  },
+  "dialogue_voice_mjmile_calm_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/007",
+      "tensura_dungeon:dialogue_voice/mjmile/027",
+      "tensura_dungeon:dialogue_voice/mjmile/031",
+      "tensura_dungeon:dialogue_voice/mjmile/040",
+      "tensura_dungeon:dialogue_voice/mjmile/049",
+      "tensura_dungeon:dialogue_voice/mjmile/062",
+      "tensura_dungeon:dialogue_voice/mjmile/080"
+    ]
+  },
+  "dialogue_voice_mjmile_soft_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/004",
+      "tensura_dungeon:dialogue_voice/mjmile/013",
+      "tensura_dungeon:dialogue_voice/mjmile/043",
+      "tensura_dungeon:dialogue_voice/mjmile/051",
+      "tensura_dungeon:dialogue_voice/mjmile/055",
+      "tensura_dungeon:dialogue_voice/mjmile/063",
+      "tensura_dungeon:dialogue_voice/mjmile/075"
+    ]
+  },
+  "dialogue_voice_mjmile_soft_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/010",
+      "tensura_dungeon:dialogue_voice/mjmile/032",
+      "tensura_dungeon:dialogue_voice/mjmile/044",
+      "tensura_dungeon:dialogue_voice/mjmile/054",
+      "tensura_dungeon:dialogue_voice/mjmile/057",
+      "tensura_dungeon:dialogue_voice/mjmile/072",
+      "tensura_dungeon:dialogue_voice/mjmile/077"
+    ]
+  },
+  "dialogue_voice_mjmile_bright_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/001",
+      "tensura_dungeon:dialogue_voice/mjmile/009",
+      "tensura_dungeon:dialogue_voice/mjmile/019",
+      "tensura_dungeon:dialogue_voice/mjmile/048",
+      "tensura_dungeon:dialogue_voice/mjmile/071",
+      "tensura_dungeon:dialogue_voice/mjmile/076",
+      "tensura_dungeon:dialogue_voice/mjmile/079"
+    ]
+  },
+  "dialogue_voice_mjmile_bright_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/005",
+      "tensura_dungeon:dialogue_voice/mjmile/017",
+      "tensura_dungeon:dialogue_voice/mjmile/041",
+      "tensura_dungeon:dialogue_voice/mjmile/050",
+      "tensura_dungeon:dialogue_voice/mjmile/073",
+      "tensura_dungeon:dialogue_voice/mjmile/078",
+      "tensura_dungeon:dialogue_voice/mjmile/081"
+    ]
+  },
+  "dialogue_voice_mjmile_uncertain_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/011",
+      "tensura_dungeon:dialogue_voice/mjmile/015",
+      "tensura_dungeon:dialogue_voice/mjmile/022",
+      "tensura_dungeon:dialogue_voice/mjmile/030",
+      "tensura_dungeon:dialogue_voice/mjmile/042",
+      "tensura_dungeon:dialogue_voice/mjmile/053",
+      "tensura_dungeon:dialogue_voice/mjmile/065"
+    ]
+  },
+  "dialogue_voice_mjmile_uncertain_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/012",
+      "tensura_dungeon:dialogue_voice/mjmile/018",
+      "tensura_dungeon:dialogue_voice/mjmile/028",
+      "tensura_dungeon:dialogue_voice/mjmile/033",
+      "tensura_dungeon:dialogue_voice/mjmile/046",
+      "tensura_dungeon:dialogue_voice/mjmile/058"
+    ]
+  },
+  "dialogue_voice_mjmile_intense_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/002",
+      "tensura_dungeon:dialogue_voice/mjmile/014",
+      "tensura_dungeon:dialogue_voice/mjmile/024",
+      "tensura_dungeon:dialogue_voice/mjmile/035",
+      "tensura_dungeon:dialogue_voice/mjmile/039",
+      "tensura_dungeon:dialogue_voice/mjmile/064",
+      "tensura_dungeon:dialogue_voice/mjmile/069"
+    ]
+  },
+  "dialogue_voice_mjmile_intense_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/006",
+      "tensura_dungeon:dialogue_voice/mjmile/020",
+      "tensura_dungeon:dialogue_voice/mjmile/025",
+      "tensura_dungeon:dialogue_voice/mjmile/038",
+      "tensura_dungeon:dialogue_voice/mjmile/059",
+      "tensura_dungeon:dialogue_voice/mjmile/068"
+    ]
+  },
+  "dialogue_voice_mjmile_neutral_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/008",
+      "tensura_dungeon:dialogue_voice/mjmile/023",
+      "tensura_dungeon:dialogue_voice/mjmile/034",
+      "tensura_dungeon:dialogue_voice/mjmile/045",
+      "tensura_dungeon:dialogue_voice/mjmile/056",
+      "tensura_dungeon:dialogue_voice/mjmile/067",
+      "tensura_dungeon:dialogue_voice/mjmile/074"
+    ]
+  },
+  "dialogue_voice_mjmile_neutral_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/016",
+      "tensura_dungeon:dialogue_voice/mjmile/026",
+      "tensura_dungeon:dialogue_voice/mjmile/037",
+      "tensura_dungeon:dialogue_voice/mjmile/052",
+      "tensura_dungeon:dialogue_voice/mjmile/061",
+      "tensura_dungeon:dialogue_voice/mjmile/070"
+    ]
+  },
+  "dialogue_voice_shuna_calm_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/004",
+      "tensura_dungeon:dialogue_voice/shuna/026",
+      "tensura_dungeon:dialogue_voice/shuna/037",
+      "tensura_dungeon:dialogue_voice/shuna/042",
+      "tensura_dungeon:dialogue_voice/shuna/044",
+      "tensura_dungeon:dialogue_voice/shuna/051",
+      "tensura_dungeon:dialogue_voice/shuna/075"
+    ]
+  },
+  "dialogue_voice_shuna_calm_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/025",
+      "tensura_dungeon:dialogue_voice/shuna/031",
+      "tensura_dungeon:dialogue_voice/shuna/038",
+      "tensura_dungeon:dialogue_voice/shuna/043",
+      "tensura_dungeon:dialogue_voice/shuna/049",
+      "tensura_dungeon:dialogue_voice/shuna/059"
+    ]
+  },
+  "dialogue_voice_shuna_soft_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/006",
+      "tensura_dungeon:dialogue_voice/shuna/016",
+      "tensura_dungeon:dialogue_voice/shuna/023",
+      "tensura_dungeon:dialogue_voice/shuna/047",
+      "tensura_dungeon:dialogue_voice/shuna/065",
+      "tensura_dungeon:dialogue_voice/shuna/071",
+      "tensura_dungeon:dialogue_voice/shuna/073"
+    ]
+  },
+  "dialogue_voice_shuna_soft_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/007",
+      "tensura_dungeon:dialogue_voice/shuna/022",
+      "tensura_dungeon:dialogue_voice/shuna/046",
+      "tensura_dungeon:dialogue_voice/shuna/052",
+      "tensura_dungeon:dialogue_voice/shuna/066",
+      "tensura_dungeon:dialogue_voice/shuna/072"
+    ]
+  },
+  "dialogue_voice_shuna_bright_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/005",
+      "tensura_dungeon:dialogue_voice/shuna/013",
+      "tensura_dungeon:dialogue_voice/shuna/040",
+      "tensura_dungeon:dialogue_voice/shuna/053",
+      "tensura_dungeon:dialogue_voice/shuna/058",
+      "tensura_dungeon:dialogue_voice/shuna/064",
+      "tensura_dungeon:dialogue_voice/shuna/074"
+    ]
+  },
+  "dialogue_voice_shuna_bright_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/008",
+      "tensura_dungeon:dialogue_voice/shuna/015",
+      "tensura_dungeon:dialogue_voice/shuna/050",
+      "tensura_dungeon:dialogue_voice/shuna/057",
+      "tensura_dungeon:dialogue_voice/shuna/062",
+      "tensura_dungeon:dialogue_voice/shuna/068"
+    ]
+  },
+  "dialogue_voice_shuna_uncertain_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/002",
+      "tensura_dungeon:dialogue_voice/shuna/010",
+      "tensura_dungeon:dialogue_voice/shuna/020",
+      "tensura_dungeon:dialogue_voice/shuna/024",
+      "tensura_dungeon:dialogue_voice/shuna/033",
+      "tensura_dungeon:dialogue_voice/shuna/054"
+    ]
+  },
+  "dialogue_voice_shuna_uncertain_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/009",
+      "tensura_dungeon:dialogue_voice/shuna/018",
+      "tensura_dungeon:dialogue_voice/shuna/021",
+      "tensura_dungeon:dialogue_voice/shuna/028",
+      "tensura_dungeon:dialogue_voice/shuna/035",
+      "tensura_dungeon:dialogue_voice/shuna/070"
+    ]
+  },
+  "dialogue_voice_shuna_intense_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/001",
+      "tensura_dungeon:dialogue_voice/shuna/017",
+      "tensura_dungeon:dialogue_voice/shuna/036",
+      "tensura_dungeon:dialogue_voice/shuna/041",
+      "tensura_dungeon:dialogue_voice/shuna/055",
+      "tensura_dungeon:dialogue_voice/shuna/067"
+    ]
+  },
+  "dialogue_voice_shuna_intense_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/012",
+      "tensura_dungeon:dialogue_voice/shuna/032",
+      "tensura_dungeon:dialogue_voice/shuna/039",
+      "tensura_dungeon:dialogue_voice/shuna/045",
+      "tensura_dungeon:dialogue_voice/shuna/060",
+      "tensura_dungeon:dialogue_voice/shuna/069"
+    ]
+  },
+  "dialogue_voice_shuna_neutral_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/003",
+      "tensura_dungeon:dialogue_voice/shuna/014",
+      "tensura_dungeon:dialogue_voice/shuna/027",
+      "tensura_dungeon:dialogue_voice/shuna/030",
+      "tensura_dungeon:dialogue_voice/shuna/048",
+      "tensura_dungeon:dialogue_voice/shuna/061"
+    ]
+  },
+  "dialogue_voice_shuna_neutral_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/011",
+      "tensura_dungeon:dialogue_voice/shuna/019",
+      "tensura_dungeon:dialogue_voice/shuna/029",
+      "tensura_dungeon:dialogue_voice/shuna/034",
+      "tensura_dungeon:dialogue_voice/shuna/056",
+      "tensura_dungeon:dialogue_voice/shuna/063"
+    ]
+  },
+  "dialogue_voice_treyni_calm_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/001",
+      "tensura_dungeon:dialogue_voice/treyni/004",
+      "tensura_dungeon:dialogue_voice/treyni/018",
+      "tensura_dungeon:dialogue_voice/treyni/049",
+      "tensura_dungeon:dialogue_voice/treyni/060",
+      "tensura_dungeon:dialogue_voice/treyni/064"
+    ]
+  },
+  "dialogue_voice_treyni_calm_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/003",
+      "tensura_dungeon:dialogue_voice/treyni/016",
+      "tensura_dungeon:dialogue_voice/treyni/026",
+      "tensura_dungeon:dialogue_voice/treyni/053",
+      "tensura_dungeon:dialogue_voice/treyni/063"
+    ]
+  },
+  "dialogue_voice_treyni_soft_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/005",
+      "tensura_dungeon:dialogue_voice/treyni/007",
+      "tensura_dungeon:dialogue_voice/treyni/015",
+      "tensura_dungeon:dialogue_voice/treyni/038",
+      "tensura_dungeon:dialogue_voice/treyni/045",
+      "tensura_dungeon:dialogue_voice/treyni/065"
+    ]
+  },
+  "dialogue_voice_treyni_soft_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/006",
+      "tensura_dungeon:dialogue_voice/treyni/012",
+      "tensura_dungeon:dialogue_voice/treyni/027",
+      "tensura_dungeon:dialogue_voice/treyni/043",
+      "tensura_dungeon:dialogue_voice/treyni/048"
+    ]
+  },
+  "dialogue_voice_treyni_bright_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/019",
+      "tensura_dungeon:dialogue_voice/treyni/022",
+      "tensura_dungeon:dialogue_voice/treyni/025",
+      "tensura_dungeon:dialogue_voice/treyni/029",
+      "tensura_dungeon:dialogue_voice/treyni/039",
+      "tensura_dungeon:dialogue_voice/treyni/054"
+    ]
+  },
+  "dialogue_voice_treyni_bright_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/021",
+      "tensura_dungeon:dialogue_voice/treyni/024",
+      "tensura_dungeon:dialogue_voice/treyni/028",
+      "tensura_dungeon:dialogue_voice/treyni/037",
+      "tensura_dungeon:dialogue_voice/treyni/042"
+    ]
+  },
+  "dialogue_voice_treyni_uncertain_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/013",
+      "tensura_dungeon:dialogue_voice/treyni/017",
+      "tensura_dungeon:dialogue_voice/treyni/030",
+      "tensura_dungeon:dialogue_voice/treyni/033",
+      "tensura_dungeon:dialogue_voice/treyni/044",
+      "tensura_dungeon:dialogue_voice/treyni/061"
+    ]
+  },
+  "dialogue_voice_treyni_uncertain_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/014",
+      "tensura_dungeon:dialogue_voice/treyni/023",
+      "tensura_dungeon:dialogue_voice/treyni/032",
+      "tensura_dungeon:dialogue_voice/treyni/034",
+      "tensura_dungeon:dialogue_voice/treyni/052"
+    ]
+  },
+  "dialogue_voice_treyni_intense_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/002",
+      "tensura_dungeon:dialogue_voice/treyni/031",
+      "tensura_dungeon:dialogue_voice/treyni/036",
+      "tensura_dungeon:dialogue_voice/treyni/050",
+      "tensura_dungeon:dialogue_voice/treyni/057",
+      "tensura_dungeon:dialogue_voice/treyni/062"
+    ]
+  },
+  "dialogue_voice_treyni_intense_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/020",
+      "tensura_dungeon:dialogue_voice/treyni/035",
+      "tensura_dungeon:dialogue_voice/treyni/040",
+      "tensura_dungeon:dialogue_voice/treyni/056",
+      "tensura_dungeon:dialogue_voice/treyni/058"
+    ]
+  },
+  "dialogue_voice_treyni_neutral_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/008",
+      "tensura_dungeon:dialogue_voice/treyni/010",
+      "tensura_dungeon:dialogue_voice/treyni/041",
+      "tensura_dungeon:dialogue_voice/treyni/047",
+      "tensura_dungeon:dialogue_voice/treyni/055"
+    ]
+  },
+  "dialogue_voice_treyni_neutral_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/009",
+      "tensura_dungeon:dialogue_voice/treyni/011",
+      "tensura_dungeon:dialogue_voice/treyni/046",
+      "tensura_dungeon:dialogue_voice/treyni/051",
+      "tensura_dungeon:dialogue_voice/treyni/059"
+    ]
+  },
+  "dialogue_voice_fallback_calm_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/treyni/001",
+      "tensura_dungeon:dialogue_voice/mjmile/003",
+      "tensura_dungeon:dialogue_voice/shuna/004",
+      "tensura_dungeon:dialogue_voice/kaijin/005",
+      "tensura_dungeon:dialogue_voice/kaijin/012",
+      "tensura_dungeon:dialogue_voice/treyni/016",
+      "tensura_dungeon:dialogue_voice/gobta/018",
+      "tensura_dungeon:dialogue_voice/gobta/019",
+      "tensura_dungeon:dialogue_voice/gobta/022",
+      "tensura_dungeon:dialogue_voice/shuna/025",
+      "tensura_dungeon:dialogue_voice/treyni/026",
+      "tensura_dungeon:dialogue_voice/gobta/029",
+      "tensura_dungeon:dialogue_voice/mjmile/029",
+      "tensura_dungeon:dialogue_voice/mjmile/031",
+      "tensura_dungeon:dialogue_voice/kurobe/034",
+      "tensura_dungeon:dialogue_voice/gobta/036",
+      "tensura_dungeon:dialogue_voice/mjmile/036",
+      "tensura_dungeon:dialogue_voice/shuna/038",
+      "tensura_dungeon:dialogue_voice/kurobe/040",
+      "tensura_dungeon:dialogue_voice/kurobe/041",
+      "tensura_dungeon:dialogue_voice/shuna/043",
+      "tensura_dungeon:dialogue_voice/gobta/046",
+      "tensura_dungeon:dialogue_voice/kaijin/047",
+      "tensura_dungeon:dialogue_voice/kaijin/048",
+      "tensura_dungeon:dialogue_voice/shuna/049",
+      "tensura_dungeon:dialogue_voice/shuna/051",
+      "tensura_dungeon:dialogue_voice/gobta/053",
+      "tensura_dungeon:dialogue_voice/gobta/055",
+      "tensura_dungeon:dialogue_voice/kurobe/056",
+      "tensura_dungeon:dialogue_voice/shuna/059",
+      "tensura_dungeon:dialogue_voice/treyni/060",
+      "tensura_dungeon:dialogue_voice/treyni/063",
+      "tensura_dungeon:dialogue_voice/treyni/064",
+      "tensura_dungeon:dialogue_voice/kaijin/066",
+      "tensura_dungeon:dialogue_voice/kurobe/067",
+      "tensura_dungeon:dialogue_voice/gobta/069",
+      "tensura_dungeon:dialogue_voice/mjmile/080"
+    ]
+  },
+  "dialogue_voice_fallback_calm_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/003",
+      "tensura_dungeon:dialogue_voice/treyni/003",
+      "tensura_dungeon:dialogue_voice/treyni/004",
+      "tensura_dungeon:dialogue_voice/mjmile/007",
+      "tensura_dungeon:dialogue_voice/kaijin/015",
+      "tensura_dungeon:dialogue_voice/kurobe/017",
+      "tensura_dungeon:dialogue_voice/treyni/018",
+      "tensura_dungeon:dialogue_voice/mjmile/021",
+      "tensura_dungeon:dialogue_voice/kaijin/025",
+      "tensura_dungeon:dialogue_voice/shuna/026",
+      "tensura_dungeon:dialogue_voice/mjmile/027",
+      "tensura_dungeon:dialogue_voice/kaijin/029",
+      "tensura_dungeon:dialogue_voice/gobta/030",
+      "tensura_dungeon:dialogue_voice/shuna/031",
+      "tensura_dungeon:dialogue_voice/kurobe/035",
+      "tensura_dungeon:dialogue_voice/kurobe/036",
+      "tensura_dungeon:dialogue_voice/shuna/037",
+      "tensura_dungeon:dialogue_voice/kurobe/039",
+      "tensura_dungeon:dialogue_voice/mjmile/040",
+      "tensura_dungeon:dialogue_voice/shuna/042",
+      "tensura_dungeon:dialogue_voice/shuna/044",
+      "tensura_dungeon:dialogue_voice/gobta/047",
+      "tensura_dungeon:dialogue_voice/mjmile/047",
+      "tensura_dungeon:dialogue_voice/mjmile/049",
+      "tensura_dungeon:dialogue_voice/treyni/049",
+      "tensura_dungeon:dialogue_voice/kaijin/052",
+      "tensura_dungeon:dialogue_voice/treyni/053",
+      "tensura_dungeon:dialogue_voice/kaijin/056",
+      "tensura_dungeon:dialogue_voice/kurobe/058",
+      "tensura_dungeon:dialogue_voice/mjmile/060",
+      "tensura_dungeon:dialogue_voice/mjmile/062",
+      "tensura_dungeon:dialogue_voice/kurobe/064",
+      "tensura_dungeon:dialogue_voice/kurobe/065",
+      "tensura_dungeon:dialogue_voice/mjmile/066",
+      "tensura_dungeon:dialogue_voice/gobta/068",
+      "tensura_dungeon:dialogue_voice/shuna/075"
+    ]
+  },
+  "dialogue_voice_fallback_soft_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/001",
+      "tensura_dungeon:dialogue_voice/gobta/003",
+      "tensura_dungeon:dialogue_voice/treyni/005",
+      "tensura_dungeon:dialogue_voice/treyni/006",
+      "tensura_dungeon:dialogue_voice/treyni/007",
+      "tensura_dungeon:dialogue_voice/mjmile/010",
+      "tensura_dungeon:dialogue_voice/gobta/013",
+      "tensura_dungeon:dialogue_voice/mjmile/013",
+      "tensura_dungeon:dialogue_voice/gobta/016",
+      "tensura_dungeon:dialogue_voice/kaijin/018",
+      "tensura_dungeon:dialogue_voice/shuna/022",
+      "tensura_dungeon:dialogue_voice/shuna/023",
+      "tensura_dungeon:dialogue_voice/kaijin/024",
+      "tensura_dungeon:dialogue_voice/gobta/031",
+      "tensura_dungeon:dialogue_voice/mjmile/032",
+      "tensura_dungeon:dialogue_voice/treyni/038",
+      "tensura_dungeon:dialogue_voice/gobta/042",
+      "tensura_dungeon:dialogue_voice/treyni/043",
+      "tensura_dungeon:dialogue_voice/mjmile/044",
+      "tensura_dungeon:dialogue_voice/treyni/045",
+      "tensura_dungeon:dialogue_voice/shuna/046",
+      "tensura_dungeon:dialogue_voice/treyni/048",
+      "tensura_dungeon:dialogue_voice/kaijin/049",
+      "tensura_dungeon:dialogue_voice/gobta/050",
+      "tensura_dungeon:dialogue_voice/kurobe/051",
+      "tensura_dungeon:dialogue_voice/kurobe/052",
+      "tensura_dungeon:dialogue_voice/kaijin/053",
+      "tensura_dungeon:dialogue_voice/mjmile/054",
+      "tensura_dungeon:dialogue_voice/kaijin/057",
+      "tensura_dungeon:dialogue_voice/kaijin/058",
+      "tensura_dungeon:dialogue_voice/gobta/060",
+      "tensura_dungeon:dialogue_voice/mjmile/063",
+      "tensura_dungeon:dialogue_voice/treyni/065",
+      "tensura_dungeon:dialogue_voice/kurobe/069",
+      "tensura_dungeon:dialogue_voice/mjmile/072",
+      "tensura_dungeon:dialogue_voice/shuna/073",
+      "tensura_dungeon:dialogue_voice/mjmile/077"
+    ]
+  },
+  "dialogue_voice_fallback_soft_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/002",
+      "tensura_dungeon:dialogue_voice/mjmile/004",
+      "tensura_dungeon:dialogue_voice/shuna/006",
+      "tensura_dungeon:dialogue_voice/shuna/007",
+      "tensura_dungeon:dialogue_voice/kaijin/010",
+      "tensura_dungeon:dialogue_voice/treyni/012",
+      "tensura_dungeon:dialogue_voice/kurobe/013",
+      "tensura_dungeon:dialogue_voice/treyni/015",
+      "tensura_dungeon:dialogue_voice/shuna/016",
+      "tensura_dungeon:dialogue_voice/gobta/021",
+      "tensura_dungeon:dialogue_voice/kurobe/023",
+      "tensura_dungeon:dialogue_voice/gobta/024",
+      "tensura_dungeon:dialogue_voice/treyni/027",
+      "tensura_dungeon:dialogue_voice/kaijin/032",
+      "tensura_dungeon:dialogue_voice/kurobe/037",
+      "tensura_dungeon:dialogue_voice/gobta/041",
+      "tensura_dungeon:dialogue_voice/mjmile/043",
+      "tensura_dungeon:dialogue_voice/kaijin/044",
+      "tensura_dungeon:dialogue_voice/kurobe/045",
+      "tensura_dungeon:dialogue_voice/kurobe/046",
+      "tensura_dungeon:dialogue_voice/shuna/047",
+      "tensura_dungeon:dialogue_voice/gobta/049",
+      "tensura_dungeon:dialogue_voice/kurobe/049",
+      "tensura_dungeon:dialogue_voice/gobta/051",
+      "tensura_dungeon:dialogue_voice/mjmile/051",
+      "tensura_dungeon:dialogue_voice/shuna/052",
+      "tensura_dungeon:dialogue_voice/kurobe/053",
+      "tensura_dungeon:dialogue_voice/mjmile/055",
+      "tensura_dungeon:dialogue_voice/mjmile/057",
+      "tensura_dungeon:dialogue_voice/kaijin/059",
+      "tensura_dungeon:dialogue_voice/kaijin/063",
+      "tensura_dungeon:dialogue_voice/shuna/065",
+      "tensura_dungeon:dialogue_voice/shuna/066",
+      "tensura_dungeon:dialogue_voice/shuna/071",
+      "tensura_dungeon:dialogue_voice/shuna/072",
+      "tensura_dungeon:dialogue_voice/mjmile/075"
+    ]
+  },
+  "dialogue_voice_fallback_bright_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/001",
+      "tensura_dungeon:dialogue_voice/mjmile/005",
+      "tensura_dungeon:dialogue_voice/shuna/008",
+      "tensura_dungeon:dialogue_voice/gobta/010",
+      "tensura_dungeon:dialogue_voice/shuna/013",
+      "tensura_dungeon:dialogue_voice/gobta/015",
+      "tensura_dungeon:dialogue_voice/kurobe/016",
+      "tensura_dungeon:dialogue_voice/mjmile/017",
+      "tensura_dungeon:dialogue_voice/mjmile/019",
+      "tensura_dungeon:dialogue_voice/kaijin/020",
+      "tensura_dungeon:dialogue_voice/kurobe/021",
+      "tensura_dungeon:dialogue_voice/kaijin/022",
+      "tensura_dungeon:dialogue_voice/kaijin/023",
+      "tensura_dungeon:dialogue_voice/gobta/025",
+      "tensura_dungeon:dialogue_voice/treyni/025",
+      "tensura_dungeon:dialogue_voice/treyni/029",
+      "tensura_dungeon:dialogue_voice/gobta/038",
+      "tensura_dungeon:dialogue_voice/kaijin/040",
+      "tensura_dungeon:dialogue_voice/mjmile/041",
+      "tensura_dungeon:dialogue_voice/treyni/042",
+      "tensura_dungeon:dialogue_voice/kaijin/045",
+      "tensura_dungeon:dialogue_voice/gobta/048",
+      "tensura_dungeon:dialogue_voice/mjmile/050",
+      "tensura_dungeon:dialogue_voice/kaijin/051",
+      "tensura_dungeon:dialogue_voice/kurobe/054",
+      "tensura_dungeon:dialogue_voice/kurobe/055",
+      "tensura_dungeon:dialogue_voice/shuna/058",
+      "tensura_dungeon:dialogue_voice/kaijin/060",
+      "tensura_dungeon:dialogue_voice/gobta/062",
+      "tensura_dungeon:dialogue_voice/shuna/062",
+      "tensura_dungeon:dialogue_voice/shuna/064",
+      "tensura_dungeon:dialogue_voice/kurobe/066",
+      "tensura_dungeon:dialogue_voice/gobta/070",
+      "tensura_dungeon:dialogue_voice/mjmile/071",
+      "tensura_dungeon:dialogue_voice/shuna/074",
+      "tensura_dungeon:dialogue_voice/mjmile/078",
+      "tensura_dungeon:dialogue_voice/mjmile/081"
+    ]
+  },
+  "dialogue_voice_fallback_bright_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kurobe/004",
+      "tensura_dungeon:dialogue_voice/shuna/005",
+      "tensura_dungeon:dialogue_voice/mjmile/009",
+      "tensura_dungeon:dialogue_voice/gobta/012",
+      "tensura_dungeon:dialogue_voice/gobta/014",
+      "tensura_dungeon:dialogue_voice/shuna/015",
+      "tensura_dungeon:dialogue_voice/kaijin/017",
+      "tensura_dungeon:dialogue_voice/kurobe/018",
+      "tensura_dungeon:dialogue_voice/treyni/019",
+      "tensura_dungeon:dialogue_voice/kurobe/020",
+      "tensura_dungeon:dialogue_voice/treyni/021",
+      "tensura_dungeon:dialogue_voice/treyni/022",
+      "tensura_dungeon:dialogue_voice/treyni/024",
+      "tensura_dungeon:dialogue_voice/kurobe/025",
+      "tensura_dungeon:dialogue_voice/treyni/028",
+      "tensura_dungeon:dialogue_voice/treyni/037",
+      "tensura_dungeon:dialogue_voice/treyni/039",
+      "tensura_dungeon:dialogue_voice/shuna/040",
+      "tensura_dungeon:dialogue_voice/kaijin/042",
+      "tensura_dungeon:dialogue_voice/gobta/044",
+      "tensura_dungeon:dialogue_voice/kurobe/047",
+      "tensura_dungeon:dialogue_voice/mjmile/048",
+      "tensura_dungeon:dialogue_voice/shuna/050",
+      "tensura_dungeon:dialogue_voice/shuna/053",
+      "tensura_dungeon:dialogue_voice/treyni/054",
+      "tensura_dungeon:dialogue_voice/shuna/057",
+      "tensura_dungeon:dialogue_voice/gobta/059",
+      "tensura_dungeon:dialogue_voice/kaijin/061",
+      "tensura_dungeon:dialogue_voice/kaijin/062",
+      "tensura_dungeon:dialogue_voice/kurobe/063",
+      "tensura_dungeon:dialogue_voice/gobta/065",
+      "tensura_dungeon:dialogue_voice/shuna/068",
+      "tensura_dungeon:dialogue_voice/kurobe/070",
+      "tensura_dungeon:dialogue_voice/mjmile/073",
+      "tensura_dungeon:dialogue_voice/mjmile/076",
+      "tensura_dungeon:dialogue_voice/mjmile/079"
+    ]
+  },
+  "dialogue_voice_fallback_uncertain_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/002",
+      "tensura_dungeon:dialogue_voice/shuna/002",
+      "tensura_dungeon:dialogue_voice/kurobe/006",
+      "tensura_dungeon:dialogue_voice/kurobe/007",
+      "tensura_dungeon:dialogue_voice/shuna/009",
+      "tensura_dungeon:dialogue_voice/gobta/011",
+      "tensura_dungeon:dialogue_voice/mjmile/011",
+      "tensura_dungeon:dialogue_voice/mjmile/012",
+      "tensura_dungeon:dialogue_voice/kaijin/014",
+      "tensura_dungeon:dialogue_voice/treyni/014",
+      "tensura_dungeon:dialogue_voice/kaijin/016",
+      "tensura_dungeon:dialogue_voice/mjmile/018",
+      "tensura_dungeon:dialogue_voice/kaijin/019",
+      "tensura_dungeon:dialogue_voice/shuna/020",
+      "tensura_dungeon:dialogue_voice/mjmile/022",
+      "tensura_dungeon:dialogue_voice/treyni/023",
+      "tensura_dungeon:dialogue_voice/gobta/026",
+      "tensura_dungeon:dialogue_voice/kurobe/026",
+      "tensura_dungeon:dialogue_voice/kaijin/027",
+      "tensura_dungeon:dialogue_voice/gobta/028",
+      "tensura_dungeon:dialogue_voice/shuna/028",
+      "tensura_dungeon:dialogue_voice/mjmile/030",
+      "tensura_dungeon:dialogue_voice/kurobe/032",
+      "tensura_dungeon:dialogue_voice/mjmile/033",
+      "tensura_dungeon:dialogue_voice/treyni/033",
+      "tensura_dungeon:dialogue_voice/shuna/035",
+      "tensura_dungeon:dialogue_voice/kaijin/043",
+      "tensura_dungeon:dialogue_voice/mjmile/046",
+      "tensura_dungeon:dialogue_voice/treyni/052",
+      "tensura_dungeon:dialogue_voice/kaijin/054",
+      "tensura_dungeon:dialogue_voice/kaijin/055",
+      "tensura_dungeon:dialogue_voice/kurobe/057",
+      "tensura_dungeon:dialogue_voice/kurobe/059",
+      "tensura_dungeon:dialogue_voice/gobta/063",
+      "tensura_dungeon:dialogue_voice/mjmile/065",
+      "tensura_dungeon:dialogue_voice/shuna/070"
+    ]
+  },
+  "dialogue_voice_fallback_uncertain_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/002",
+      "tensura_dungeon:dialogue_voice/gobta/005",
+      "tensura_dungeon:dialogue_voice/kaijin/007",
+      "tensura_dungeon:dialogue_voice/kurobe/008",
+      "tensura_dungeon:dialogue_voice/shuna/010",
+      "tensura_dungeon:dialogue_voice/kaijin/011",
+      "tensura_dungeon:dialogue_voice/kurobe/012",
+      "tensura_dungeon:dialogue_voice/treyni/013",
+      "tensura_dungeon:dialogue_voice/kurobe/014",
+      "tensura_dungeon:dialogue_voice/mjmile/015",
+      "tensura_dungeon:dialogue_voice/treyni/017",
+      "tensura_dungeon:dialogue_voice/shuna/018",
+      "tensura_dungeon:dialogue_voice/gobta/020",
+      "tensura_dungeon:dialogue_voice/shuna/021",
+      "tensura_dungeon:dialogue_voice/gobta/023",
+      "tensura_dungeon:dialogue_voice/shuna/024",
+      "tensura_dungeon:dialogue_voice/kaijin/026",
+      "tensura_dungeon:dialogue_voice/gobta/027",
+      "tensura_dungeon:dialogue_voice/kurobe/027",
+      "tensura_dungeon:dialogue_voice/mjmile/028",
+      "tensura_dungeon:dialogue_voice/kurobe/029",
+      "tensura_dungeon:dialogue_voice/treyni/030",
+      "tensura_dungeon:dialogue_voice/treyni/032",
+      "tensura_dungeon:dialogue_voice/shuna/033",
+      "tensura_dungeon:dialogue_voice/treyni/034",
+      "tensura_dungeon:dialogue_voice/mjmile/042",
+      "tensura_dungeon:dialogue_voice/treyni/044",
+      "tensura_dungeon:dialogue_voice/kurobe/050",
+      "tensura_dungeon:dialogue_voice/mjmile/053",
+      "tensura_dungeon:dialogue_voice/shuna/054",
+      "tensura_dungeon:dialogue_voice/gobta/057",
+      "tensura_dungeon:dialogue_voice/mjmile/058",
+      "tensura_dungeon:dialogue_voice/treyni/061",
+      "tensura_dungeon:dialogue_voice/gobta/064",
+      "tensura_dungeon:dialogue_voice/gobta/066"
+    ]
+  },
+  "dialogue_voice_fallback_intense_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/shuna/001",
+      "tensura_dungeon:dialogue_voice/treyni/002",
+      "tensura_dungeon:dialogue_voice/gobta/004",
+      "tensura_dungeon:dialogue_voice/mjmile/006",
+      "tensura_dungeon:dialogue_voice/kaijin/009",
+      "tensura_dungeon:dialogue_voice/shuna/012",
+      "tensura_dungeon:dialogue_voice/kurobe/015",
+      "tensura_dungeon:dialogue_voice/shuna/017",
+      "tensura_dungeon:dialogue_voice/mjmile/020",
+      "tensura_dungeon:dialogue_voice/kurobe/022",
+      "tensura_dungeon:dialogue_voice/mjmile/025",
+      "tensura_dungeon:dialogue_voice/treyni/031",
+      "tensura_dungeon:dialogue_voice/gobta/033",
+      "tensura_dungeon:dialogue_voice/gobta/035",
+      "tensura_dungeon:dialogue_voice/mjmile/035",
+      "tensura_dungeon:dialogue_voice/shuna/036",
+      "tensura_dungeon:dialogue_voice/kaijin/038",
+      "tensura_dungeon:dialogue_voice/mjmile/038",
+      "tensura_dungeon:dialogue_voice/mjmile/039",
+      "tensura_dungeon:dialogue_voice/gobta/040",
+      "tensura_dungeon:dialogue_voice/kaijin/041",
+      "tensura_dungeon:dialogue_voice/kurobe/042",
+      "tensura_dungeon:dialogue_voice/kurobe/043",
+      "tensura_dungeon:dialogue_voice/gobta/045",
+      "tensura_dungeon:dialogue_voice/kaijin/050",
+      "tensura_dungeon:dialogue_voice/shuna/055",
+      "tensura_dungeon:dialogue_voice/treyni/057",
+      "tensura_dungeon:dialogue_voice/treyni/058",
+      "tensura_dungeon:dialogue_voice/shuna/060",
+      "tensura_dungeon:dialogue_voice/kurobe/062",
+      "tensura_dungeon:dialogue_voice/kaijin/064",
+      "tensura_dungeon:dialogue_voice/kaijin/065",
+      "tensura_dungeon:dialogue_voice/shuna/067",
+      "tensura_dungeon:dialogue_voice/mjmile/068",
+      "tensura_dungeon:dialogue_voice/shuna/069"
+    ]
+  },
+  "dialogue_voice_fallback_intense_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/mjmile/002",
+      "tensura_dungeon:dialogue_voice/kurobe/003",
+      "tensura_dungeon:dialogue_voice/kaijin/006",
+      "tensura_dungeon:dialogue_voice/gobta/008",
+      "tensura_dungeon:dialogue_voice/kurobe/009",
+      "tensura_dungeon:dialogue_voice/mjmile/014",
+      "tensura_dungeon:dialogue_voice/gobta/017",
+      "tensura_dungeon:dialogue_voice/kurobe/019",
+      "tensura_dungeon:dialogue_voice/treyni/020",
+      "tensura_dungeon:dialogue_voice/mjmile/024",
+      "tensura_dungeon:dialogue_voice/kaijin/031",
+      "tensura_dungeon:dialogue_voice/shuna/032",
+      "tensura_dungeon:dialogue_voice/kaijin/034",
+      "tensura_dungeon:dialogue_voice/kaijin/035",
+      "tensura_dungeon:dialogue_voice/treyni/035",
+      "tensura_dungeon:dialogue_voice/treyni/036",
+      "tensura_dungeon:dialogue_voice/kurobe/038",
+      "tensura_dungeon:dialogue_voice/kaijin/039",
+      "tensura_dungeon:dialogue_voice/shuna/039",
+      "tensura_dungeon:dialogue_voice/treyni/040",
+      "tensura_dungeon:dialogue_voice/shuna/041",
+      "tensura_dungeon:dialogue_voice/gobta/043",
+      "tensura_dungeon:dialogue_voice/kurobe/044",
+      "tensura_dungeon:dialogue_voice/shuna/045",
+      "tensura_dungeon:dialogue_voice/treyni/050",
+      "tensura_dungeon:dialogue_voice/treyni/056",
+      "tensura_dungeon:dialogue_voice/gobta/058",
+      "tensura_dungeon:dialogue_voice/mjmile/059",
+      "tensura_dungeon:dialogue_voice/gobta/061",
+      "tensura_dungeon:dialogue_voice/treyni/062",
+      "tensura_dungeon:dialogue_voice/mjmile/064",
+      "tensura_dungeon:dialogue_voice/gobta/067",
+      "tensura_dungeon:dialogue_voice/kurobe/068",
+      "tensura_dungeon:dialogue_voice/mjmile/069"
+    ]
+  },
+  "dialogue_voice_fallback_neutral_a": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/gobta/001",
+      "tensura_dungeon:dialogue_voice/shuna/003",
+      "tensura_dungeon:dialogue_voice/kurobe/005",
+      "tensura_dungeon:dialogue_voice/gobta/007",
+      "tensura_dungeon:dialogue_voice/mjmile/008",
+      "tensura_dungeon:dialogue_voice/gobta/009",
+      "tensura_dungeon:dialogue_voice/kurobe/010",
+      "tensura_dungeon:dialogue_voice/kurobe/011",
+      "tensura_dungeon:dialogue_voice/treyni/011",
+      "tensura_dungeon:dialogue_voice/shuna/014",
+      "tensura_dungeon:dialogue_voice/shuna/019",
+      "tensura_dungeon:dialogue_voice/mjmile/023",
+      "tensura_dungeon:dialogue_voice/mjmile/026",
+      "tensura_dungeon:dialogue_voice/kaijin/028",
+      "tensura_dungeon:dialogue_voice/shuna/029",
+      "tensura_dungeon:dialogue_voice/kurobe/030",
+      "tensura_dungeon:dialogue_voice/kurobe/031",
+      "tensura_dungeon:dialogue_voice/kaijin/033",
+      "tensura_dungeon:dialogue_voice/gobta/034",
+      "tensura_dungeon:dialogue_voice/shuna/034",
+      "tensura_dungeon:dialogue_voice/gobta/037",
+      "tensura_dungeon:dialogue_voice/mjmile/037",
+      "tensura_dungeon:dialogue_voice/treyni/041",
+      "tensura_dungeon:dialogue_voice/kaijin/046",
+      "tensura_dungeon:dialogue_voice/treyni/047",
+      "tensura_dungeon:dialogue_voice/shuna/048",
+      "tensura_dungeon:dialogue_voice/gobta/052",
+      "tensura_dungeon:dialogue_voice/gobta/054",
+      "tensura_dungeon:dialogue_voice/gobta/056",
+      "tensura_dungeon:dialogue_voice/shuna/056",
+      "tensura_dungeon:dialogue_voice/kurobe/060",
+      "tensura_dungeon:dialogue_voice/mjmile/061",
+      "tensura_dungeon:dialogue_voice/shuna/063",
+      "tensura_dungeon:dialogue_voice/mjmile/070"
+    ]
+  },
+  "dialogue_voice_fallback_neutral_b": {
+    "sounds": [
+      "tensura_dungeon:dialogue_voice/kaijin/001",
+      "tensura_dungeon:dialogue_voice/kaijin/004",
+      "tensura_dungeon:dialogue_voice/gobta/006",
+      "tensura_dungeon:dialogue_voice/kaijin/008",
+      "tensura_dungeon:dialogue_voice/treyni/008",
+      "tensura_dungeon:dialogue_voice/treyni/009",
+      "tensura_dungeon:dialogue_voice/treyni/010",
+      "tensura_dungeon:dialogue_voice/shuna/011",
+      "tensura_dungeon:dialogue_voice/kaijin/013",
+      "tensura_dungeon:dialogue_voice/mjmile/016",
+      "tensura_dungeon:dialogue_voice/kaijin/021",
+      "tensura_dungeon:dialogue_voice/kurobe/024",
+      "tensura_dungeon:dialogue_voice/shuna/027",
+      "tensura_dungeon:dialogue_voice/kurobe/028",
+      "tensura_dungeon:dialogue_voice/kaijin/030",
+      "tensura_dungeon:dialogue_voice/shuna/030",
+      "tensura_dungeon:dialogue_voice/gobta/032",
+      "tensura_dungeon:dialogue_voice/kurobe/033",
+      "tensura_dungeon:dialogue_voice/mjmile/034",
+      "tensura_dungeon:dialogue_voice/kaijin/036",
+      "tensura_dungeon:dialogue_voice/kaijin/037",
+      "tensura_dungeon:dialogue_voice/gobta/039",
+      "tensura_dungeon:dialogue_voice/mjmile/045",
+      "tensura_dungeon:dialogue_voice/treyni/046",
+      "tensura_dungeon:dialogue_voice/kurobe/048",
+      "tensura_dungeon:dialogue_voice/treyni/051",
+      "tensura_dungeon:dialogue_voice/mjmile/052",
+      "tensura_dungeon:dialogue_voice/treyni/055",
+      "tensura_dungeon:dialogue_voice/mjmile/056",
+      "tensura_dungeon:dialogue_voice/treyni/059",
+      "tensura_dungeon:dialogue_voice/kurobe/061",
+      "tensura_dungeon:dialogue_voice/shuna/061",
+      "tensura_dungeon:dialogue_voice/mjmile/067",
+      "tensura_dungeon:dialogue_voice/mjmile/074"
+    ]
+  }
+}

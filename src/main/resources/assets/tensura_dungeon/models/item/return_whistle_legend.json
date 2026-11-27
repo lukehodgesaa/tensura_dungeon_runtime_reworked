@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "tensura_dungeon:item/return_whistle_legend_item" }
+}

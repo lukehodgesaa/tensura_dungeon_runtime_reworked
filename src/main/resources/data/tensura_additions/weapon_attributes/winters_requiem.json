@@ -1,0 +1,6 @@
+{
+  "parent": "bettercombat:scythe",
+  "attributes": {
+    "pose": "tensura_additions:pose_winters_requiem"
+  }
+}

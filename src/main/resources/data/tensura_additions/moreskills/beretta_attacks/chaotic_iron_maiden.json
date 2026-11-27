@@ -1,0 +1,53 @@
+{
+  "display_name": "Chaotic Iron Maiden",
+  "animation": "Attack - Mineral Eruption",
+  "duration_ticks": 60,
+  "cooldown_ticks": 80,
+  "impact_tick": 32,
+  "preview_pattern": "cone",
+  "targeting": "surface",
+  "overlay": false,
+  "damage": {
+    "mode": "max_health_percent",
+    "amount": 0.25,
+    "cap": 0.0,
+    "respects_resistances": true
+  },
+  "phases": [
+    {
+      "id": "rune_assembly",
+      "start_tick": 1,
+      "end_tick": 12,
+      "preview": "rune",
+      "damaging": false
+    },
+    {
+      "id": "lift_and_charge",
+      "start_tick": 12,
+      "end_tick": 20,
+      "preview": "rune",
+      "damaging": false
+    },
+    {
+      "id": "spike_warning",
+      "start_tick": 20,
+      "end_tick": 32,
+      "preview": "cone",
+      "damaging": false
+    },
+    {
+      "id": "iron_spike_impact",
+      "start_tick": 32,
+      "end_tick": 44,
+      "preview": "spike_line",
+      "damaging": true
+    },
+    {
+      "id": "recovery",
+      "start_tick": 44,
+      "end_tick": 60,
+      "preview": "none",
+      "damaging": false
+    }
+  ]
+}

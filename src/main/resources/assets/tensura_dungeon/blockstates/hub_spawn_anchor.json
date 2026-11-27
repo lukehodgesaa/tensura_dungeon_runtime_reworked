@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "tensura_dungeon:block/hub_spawn_anchor" }
+  }
+}

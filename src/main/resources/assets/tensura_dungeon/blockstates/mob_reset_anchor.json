@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "tensura_dungeon:block/mob_reset_anchor" }
+  }
+}

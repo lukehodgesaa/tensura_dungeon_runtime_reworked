@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mineclawd.tensurahealthunbound.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "LivingEntityMaxHealthMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

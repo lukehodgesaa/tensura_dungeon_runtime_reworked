@@ -1,0 +1,26 @@
+{
+  "format": 5,
+  "char_ticks": 1,
+  "hold_ticks": 60,
+  "npc_name": {
+    "literal": ""
+  },
+  "markdown": false,
+  "text_effect": "none",
+  "freeze_source": false,
+  "source_invulnerable": false,
+  "cancel_if_source_missing": true,
+  "exclusive_source": false,
+  "graph_enabled": true,
+  "start_node": "line",
+  "nodes": {
+    "line": {
+      "type": "line",
+      "line": {
+        "literal": "All clear on my end. Ready when you are."
+      },
+      "next": null,
+      "actions": []
+    }
+  }
+}

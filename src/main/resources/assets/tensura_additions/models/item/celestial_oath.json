@@ -1,0 +1,694 @@
+{
+    "format_version":  "1.9.0",
+    "credit":  "Made by Cranoh",
+    "texture_size":  [
+                         128,
+                         128
+                     ],
+    "textures":  {
+                     "particle":  "tensura_additions:item/celestial_oath",
+                     "texture":  "tensura_additions:item/celestial_oath"
+                 },
+    "elements":  [
+                     {
+                         "from":  [
+                                      7.14234,
+                                      -6.30086,
+                                      6.77478
+                                  ],
+                         "to":  [
+                                    8.85766,
+                                    2.92718,
+                                    8.32522
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                6.375,
+                                                                5.75,
+                                                                8,
+                                                                6
+                                                            ],
+                                                     "rotation":  90,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               6.625,
+                                                               4.125,
+                                                               6.375,
+                                                               5.75
+                                                           ],
+                                                    "rotation":  180,
+                                                    "texture":  "#texture"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                4.5,
+                                                                5.75,
+                                                                6.125,
+                                                                6
+                                                            ],
+                                                     "rotation":  270,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               6.375,
+                                                               5.75,
+                                                               6.125,
+                                                               4.125
+                                                           ],
+                                                    "texture":  "#texture"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             6.125,
+                                                             5.75,
+                                                             6.375,
+                                                             6
+                                                         ],
+                                                  "rotation":  180,
+                                                  "texture":  "#texture"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               8,
+                                                               5.75,
+                                                               8.25,
+                                                               6
+                                                           ],
+                                                    "texture":  "#texture"
+                                                }
+                                   }
+                     },
+                     {
+                         "from":  [
+                                      6.9708,
+                                      2.68211,
+                                      6.52971
+                                  ],
+                         "to":  [
+                                    9.0292,
+                                    4.39743,
+                                    8.57029
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                4.125,
+                                                                6.75,
+                                                                4.25,
+                                                                7
+                                                            ],
+                                                     "rotation":  90,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               4.375,
+                                                               6.625,
+                                                               4.125,
+                                                               6.75
+                                                           ],
+                                                    "rotation":  180,
+                                                    "texture":  "#texture"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                3.75,
+                                                                6.75,
+                                                                3.875,
+                                                                7
+                                                            ],
+                                                     "rotation":  270,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               4.125,
+                                                               6.75,
+                                                               3.875,
+                                                               6.625
+                                                           ],
+                                                    "texture":  "#texture"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             3.875,
+                                                             6.75,
+                                                             4.125,
+                                                             7
+                                                         ],
+                                                  "rotation":  180,
+                                                  "texture":  "#texture"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               4.25,
+                                                               6.75,
+                                                               4.5,
+                                                               7
+                                                           ],
+                                                    "texture":  "#texture"
+                                                }
+                                   }
+                     },
+                     {
+                         "from":  [
+                                      7.89116,
+                                      3.74008,
+                                      7.84451
+                                  ],
+                         "to":  [
+                                    8.10884,
+                                    4.05105,
+                                    7.84451
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                7,
+                                                                3,
+                                                                7.125,
+                                                                3.125
+                                                            ],
+                                                     "rotation":  90,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               7.125,
+                                                               2.875,
+                                                               7,
+                                                               3
+                                                           ],
+                                                    "rotation":  180,
+                                                    "texture":  "#texture"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                6.75,
+                                                                3,
+                                                                6.875,
+                                                                3.125
+                                                            ],
+                                                     "rotation":  270,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               7,
+                                                               3,
+                                                               6.875,
+                                                               2.875
+                                                           ],
+                                                    "texture":  "#texture"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             6.875,
+                                                             3,
+                                                             7,
+                                                             3.125
+                                                         ],
+                                                  "rotation":  180,
+                                                  "texture":  "#texture"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               7.125,
+                                                               3,
+                                                               7.25,
+                                                               3.125
+                                                           ],
+                                                    "texture":  "#texture"
+                                                }
+                                   }
+                     },
+                     {
+                         "from":  [
+                                      5.85585,
+                                      4.1524,
+                                      6.77478
+                                  ],
+                         "to":  [
+                                    10.14415,
+                                    6.60284,
+                                    8.32522
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                3.125,
+                                                                6.875,
+                                                                3.375,
+                                                                7.5
+                                                            ],
+                                                     "rotation":  90,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               3.375,
+                                                               6.625,
+                                                               3.125,
+                                                               6.875
+                                                           ],
+                                                    "rotation":  180,
+                                                    "texture":  "#texture"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                2.625,
+                                                                6.875,
+                                                                2.875,
+                                                                7.5
+                                                            ],
+                                                     "rotation":  270,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               3.125,
+                                                               6.875,
+                                                               2.875,
+                                                               6.625
+                                                           ],
+                                                    "texture":  "#texture"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             2.875,
+                                                             6.875,
+                                                             3.125,
+                                                             7.5
+                                                         ],
+                                                  "rotation":  180,
+                                                  "texture":  "#texture"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               3.375,
+                                                               6.875,
+                                                               3.625,
+                                                               7.5
+                                                           ],
+                                                    "texture":  "#texture"
+                                                }
+                                   }
+                     },
+                     {
+                         "from":  [
+                                      6.7135,
+                                      6.60284,
+                                      7.38737
+                                  ],
+                         "to":  [
+                                    9.2865,
+                                    27.43181,
+                                    7.71263
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                2.25,
+                                                                6.25,
+                                                                4.375,
+                                                                6.625
+                                                            ],
+                                                     "rotation":  90,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               2.375,
+                                                               4.125,
+                                                               2.25,
+                                                               6.25
+                                                           ],
+                                                    "rotation":  180,
+                                                    "texture":  "#texture"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                0,
+                                                                6.25,
+                                                                2.125,
+                                                                6.625
+                                                            ],
+                                                     "rotation":  270,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               2.25,
+                                                               6.25,
+                                                               2.125,
+                                                               4.125
+                                                           ],
+                                                    "texture":  "#texture"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             2.125,
+                                                             6.25,
+                                                             2.25,
+                                                             6.625
+                                                         ],
+                                                  "rotation":  180,
+                                                  "texture":  "#texture"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               4.375,
+                                                               6.25,
+                                                               4.5,
+                                                               6.625
+                                                           ],
+                                                    "texture":  "#texture"
+                                                }
+                                   }
+                     },
+                     {
+                         "from":  [
+                                      6.7135,
+                                      -5.35042,
+                                      6.16215
+                                  ],
+                         "to":  [
+                                    9.2865,
+                                    -3.79994,
+                                    8.93785
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                7.375,
+                                                                2.5,
+                                                                7.625,
+                                                                2.875
+                                                            ],
+                                                     "rotation":  90,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               7.75,
+                                                               2.25,
+                                                               7.375,
+                                                               2.5
+                                                           ],
+                                                    "rotation":  180,
+                                                    "texture":  "#texture"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                6.75,
+                                                                2.5,
+                                                                7,
+                                                                2.875
+                                                            ],
+                                                     "rotation":  270,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               7.375,
+                                                               2.5,
+                                                               7,
+                                                               2.25
+                                                           ],
+                                                    "texture":  "#texture"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             7,
+                                                             2.5,
+                                                             7.375,
+                                                             2.875
+                                                         ],
+                                                  "rotation":  180,
+                                                  "texture":  "#texture"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               7.625,
+                                                               2.5,
+                                                               8,
+                                                               2.875
+                                                           ],
+                                                    "texture":  "#texture"
+                                                }
+                                   }
+                     },
+                     {
+                         "from":  [
+                                      3.2657,
+                                      4.12789,
+                                      7.97549
+                                  ],
+                         "to":  [
+                                    12.7343,
+                                    31.8,
+                                    7.97549
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                0,
+                                                                9.375,
+                                                                3.5,
+                                                                10.75
+                                                            ],
+                                                     "rotation":  270,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "south":  {
+                                                     "uv":  [
+                                                                0,
+                                                                9.375,
+                                                                3.5,
+                                                                10.75
+                                                            ],
+                                                     "rotation":  270,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "up":  {
+                                                  "uv":  [
+                                                             3.5,
+                                                             9.375,
+                                                             3.5,
+                                                             10.75
+                                                         ],
+                                                  "rotation":  180,
+                                                  "texture":  "#texture"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               7,
+                                                               9.375,
+                                                               7,
+                                                               10.75
+                                                           ],
+                                                    "texture":  "#texture"
+                                                }
+                                   }
+                     },
+                     {
+                         "from":  [
+                                      7.57116,
+                                      6.60284,
+                                      6.77478
+                                  ],
+                         "to":  [
+                                    8.42884,
+                                    10.27855,
+                                    8.32522
+                                ],
+                         "faces":  {
+                                       "north":  {
+                                                     "uv":  [
+                                                                7.5,
+                                                                0.375,
+                                                                7.875,
+                                                                0.5
+                                                            ],
+                                                     "rotation":  90,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "east":  {
+                                                    "uv":  [
+                                                               7.75,
+                                                               0,
+                                                               7.5,
+                                                               0.375
+                                                           ],
+                                                    "rotation":  180,
+                                                    "texture":  "#texture"
+                                                },
+                                       "south":  {
+                                                     "uv":  [
+                                                                6.875,
+                                                                0.375,
+                                                                7.25,
+                                                                0.5
+                                                            ],
+                                                     "rotation":  270,
+                                                     "texture":  "#texture"
+                                                 },
+                                       "west":  {
+                                                    "uv":  [
+                                                               7.5,
+                                                               0.375,
+                                                               7.25,
+                                                               0
+                                                           ],
+                                                    "texture":  "#texture"
+                                                },
+                                       "up":  {
+                                                  "uv":  [
+                                                             7.25,
+                                                             0.375,
+                                                             7.5,
+                                                             0.5
+                                                         ],
+                                                  "rotation":  180,
+                                                  "texture":  "#texture"
+                                              },
+                                       "down":  {
+                                                    "uv":  [
+                                                               7.875,
+                                                               0.375,
+                                                               8.125,
+                                                               0.5
+                                                           ],
+                                                    "texture":  "#texture"
+                                                }
+                                   }
+                     }
+                 ],
+    "display":  {
+                    "thirdperson_righthand":  {
+                                                  "rotation":  [
+                                                                   6.75,
+                                                                   90,
+                                                                   0
+                                                               ],
+                                                  "translation":  [
+                                                                      1.5,
+                                                                      5.5,
+                                                                      2.5
+                                                                  ],
+                                                  "scale":  [
+                                                                0.85,
+                                                                0.85,
+                                                                0.85
+                                                            ]
+                                              },
+                    "thirdperson_lefthand":  {
+                                                 "rotation":  [
+                                                                  6.75,
+                                                                  90,
+                                                                  0
+                                                              ],
+                                                 "translation":  [
+                                                                     1.5,
+                                                                     5.5,
+                                                                     2.5
+                                                                 ],
+                                                 "scale":  [
+                                                               0.85,
+                                                               0.85,
+                                                               0.85
+                                                           ]
+                                             },
+                    "firstperson_righthand":  {
+                                                  "rotation":  [
+                                                                   0,
+                                                                   -90,
+                                                                   -25
+                                                               ],
+                                                  "translation":  [
+                                                                      3.5,
+                                                                      4.5,
+                                                                      1.13
+                                                                  ],
+                                                  "scale":  [
+                                                                0.45,
+                                                                0.45,
+                                                                0.45
+                                                            ]
+                                              },
+                    "firstperson_lefthand":  {
+                                                 "rotation":  [
+                                                                  0,
+                                                                  -90,
+                                                                  -25
+                                                              ],
+                                                 "translation":  [
+                                                                     3.5,
+                                                                     4.5,
+                                                                     1.13
+                                                                 ],
+                                                 "scale":  [
+                                                               0.45,
+                                                               0.45,
+                                                               0.45
+                                                           ]
+                                             },
+                    "ground":  {
+                                   "translation":  [
+                                                       0,
+                                                       8.75,
+                                                       0
+                                                   ],
+                                   "scale":  [
+                                                 0.41406,
+                                                 0.50586,
+                                                 0.25
+                                             ]
+                               },
+                    "gui":  {
+                                "rotation":  [
+                                                 -180,
+                                                 -180,
+                                                 136
+                                             ],
+                                "translation":  [
+                                                    -2.25,
+                                                    -2,
+                                                    0
+                                                ],
+                                "scale":  [
+                                              0.57617,
+                                              0.5,
+                                              0.49805
+                                          ]
+                            },
+                    "on_shelf":  {
+                                     "translation":  [
+                                                         0,
+                                                         -3.25,
+                                                         0
+                                                     ],
+                                     "scale":  [
+                                                   1,
+                                                   0.85156,
+                                                   1
+                                               ]
+                                 },
+                    "fixed":  {
+                                  "translation":  [
+                                                      0,
+                                                      -3.25,
+                                                      0
+                                                  ],
+                                  "scale":  [
+                                                1,
+                                                0.85156,
+                                                1
+                                            ]
+                              }
+                }
+}

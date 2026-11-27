@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "tensura:high_magisteel_sword",
+    "tensura:high_magisteel_great_sword",
+    "tensura:high_magisteel_katana",
+    "tensura:high_magisteel_kodachi",
+    "tensura:high_magisteel_long_sword",
+    "tensura:high_magisteel_odachi",
+    "tensura:high_magisteel_scythe",
+    "tensura:high_magisteel_short_sword",
+    "tensura:high_magisteel_sickle",
+    "tensura:high_magisteel_spear",
+    "tensura:high_magisteel_tachi"
+  ]
+}

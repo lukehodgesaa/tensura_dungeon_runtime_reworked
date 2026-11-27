@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "tensura:orichalcum_sword",
+    "tensura:orichalcum_great_sword",
+    "tensura:orichalcum_katana",
+    "tensura:orichalcum_kodachi",
+    "tensura:orichalcum_long_sword",
+    "tensura:orichalcum_odachi",
+    "tensura:orichalcum_scythe",
+    "tensura:orichalcum_short_sword",
+    "tensura:orichalcum_sickle",
+    "tensura:orichalcum_spear",
+    "tensura:orichalcum_tachi"
+  ]
+}

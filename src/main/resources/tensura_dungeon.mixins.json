@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mineclawd.tensuradungeon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FireBlockMixin",
+    "GravityAffectedBlockMixin",
+    "InstantRegenerationEffectMixin",
+    "ServerLifecycleHooksMixin",
+    "StructureTemplateAccessor",
+    "TensuraDamageHelperMixin"
+  ],
+  "client": [
+    "ExpeditionCameraMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

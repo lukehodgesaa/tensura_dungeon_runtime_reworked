@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "defaults": {
+    "reference_floor": 15,
+    "per_floor_growth": 0.035,
+    "ep": {
+      "min": 7500,
+      "max": 13500,
+      "first_clear_bonus": 2000
+    },
+    "max_ep_capacity": {
+      "min": 0,
+      "max": 1500,
+      "first_clear_only": true,
+      "milestone_only": false,
+      "repeat_clear_value": 0
+    },
+    "coin_value": {
+      "min_bronze": 2500,
+      "max_bronze": 6000
+    },
+    "crystals": {
+      "low": {
+        "min": 2,
+        "max": 6
+      },
+      "medium": {
+        "min": 0,
+        "max": 3
+      },
+      "high": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "guardian_coffer": {
+      "count": 1,
+      "guaranteed": true,
+      "loot_table": "guardian_coffer_standard",
+      "display_name": "Guardian Coffer",
+      "quality": "standard"
+    },
+    "recovery_supplies": {
+      "min": 1,
+      "max": 3,
+      "loot_table": "recovery_supplies_standard"
+    },
+    "equipment_cache": {
+      "count": 1,
+      "guaranteed": false,
+      "quality_profile": "uncommon",
+      "display_name": "Equipment Cache"
+    },
+    "boss_material": {
+      "guaranteed": false,
+      "chance": 0.1,
+      "loot_table": "guardian_material_standard",
+      "display_name": "Guardian Material",
+      "icon_id": "guardian-material"
+    },
+    "recording_crystal": {
+      "chance": 0.01,
+      "first_clear_bonus": 0.0
+    },
+    "masterwork_equipment": {
+      "chance": 0.0025
+    }
+  },
+  "profiles": {
+    "early_floor": {
+      "reference_floor": 1,
+      "per_floor_growth": 0.055,
+      "ep": {
+        "min": 1200,
+        "max": 2800,
+        "first_clear_bonus": 500
+      },
+      "max_ep_capacity": {
+        "min": 0,
+        "max": 400,
+        "first_clear_only": true,
+        "repeat_clear_value": 0
+      },
+      "coin_value": {
+        "min_bronze": 300,
+        "max_bronze": 1200
+      },
+      "crystals": {
+        "low": {
+          "min": 2,
+          "max": 7
+        },
+        "medium": {
+          "min": 0,
+          "max": 1
+        },
+        "high": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "guardian_coffer": {
+        "quality": "basic"
+      },
+      "recovery_supplies": {
+        "min": 2,
+        "max": 5,
+        "loot_table": "recovery_supplies_early"
+      },
+      "equipment_cache": {
+        "guaranteed": false,
+        "quality_profile": "common"
+      },
+      "boss_material": {
+        "chance": 0.04
+      },
+      "recording_crystal": {
+        "chance": 0.0025
+      },
+      "masterwork_equipment": {
+        "chance": 0.0
+      }
+    },
+    "standard_floor": {
+      "reference_floor": 11,
+      "per_floor_growth": 0.045,
+      "ep": {
+        "min": 5000,
+        "max": 9500,
+        "first_clear_bonus": 1500
+      },
+      "max_ep_capacity": {
+        "min": 0,
+        "max": 1200,
+        "first_clear_only": true,
+        "repeat_clear_value": 0
+      },
+      "coin_value": {
+        "min_bronze": 1800,
+        "max_bronze": 4500
+      },
+      "crystals": {
+        "low": {
+          "min": 3,
+          "max": 8
+        },
+        "medium": {
+          "min": 1,
+          "max": 4
+        },
+        "high": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "guardian_coffer": {
+        "quality": "standard"
+      },
+      "equipment_cache": {
+        "guaranteed": false,
+        "quality_profile": "uncommon"
+      },
+      "boss_material": {
+        "chance": 0.08
+      },
+      "recording_crystal": {
+        "chance": 0.0075
+      },
+      "masterwork_equipment": {
+        "chance": 0.001
+      }
+    },
+    "high_threat_floor": {
+      "reference_floor": 21,
+      "per_floor_growth": 0.05,
+      "ep": {
+        "min": 14000,
+        "max": 24000,
+        "first_clear_bonus": 3500
+      },
+      "max_ep_capacity": {
+        "min": 0,
+        "max": 3000,
+        "first_clear_only": true,
+        "repeat_clear_value": 0
+      },
+      "coin_value": {
+        "min_bronze": 6000,
+        "max_bronze": 12000
+      },
+      "crystals": {
+        "low": {
+          "min": 0,
+          "max": 3
+        },
+        "medium": {
+          "min": 3,
+          "max": 8
+        },
+        "high": {
+          "min": 0,
+          "max": 2
+        }
+      },
+      "guardian_coffer": {
+        "quality": "rare"
+      },
+      "equipment_cache": {
+        "guaranteed": true,
+        "quality_profile": "rare"
+      },
+      "boss_material": {
+        "chance": 0.2
+      },
+      "recording_crystal": {
+        "chance": 0.02
+      },
+      "masterwork_equipment": {
+        "chance": 0.006
+      }
+    },
+    "boss_floor": {
+      "reference_floor": 5,
+      "per_floor_growth": 0.045,
+      "ep": {
+        "min": 7000,
+        "max": 13000,
+        "first_clear_bonus": 2500
+      },
+      "max_ep_capacity": {
+        "min": 500,
+        "max": 2500,
+        "first_clear_only": true,
+        "repeat_clear_value": 0
+      },
+      "coin_value": {
+        "min_bronze": 3500,
+        "max_bronze": 9000
+      },
+      "crystals": {
+        "low": {
+          "min": 2,
+          "max": 5
+        },
+        "medium": {
+          "min": 2,
+          "max": 6
+        },
+        "high": {
+          "min": 1,
+          "max": 2
+        }
+      },
+      "guardian_coffer": {
+        "count": 1,
+        "guaranteed": true,
+        "quality": "boss",
+        "loot_table": "boss_coffer"
+      },
+      "equipment_cache": {
+        "count": 1,
+        "guaranteed": true,
+        "quality_profile": "rare"
+      },
+      "boss_material": {
+        "guaranteed": true,
+        "chance": 1.0,
+        "loot_table": "boss_material_by_floor",
+        "display_name": "Boss-Specific Material"
+      },
+      "recording_crystal": {
+        "chance": 0.035
+      },
+      "masterwork_equipment": {
+        "chance": 0.0125
+      }
+    },
+    "treasure_floor": {
+      "reference_floor": 20,
+      "per_floor_growth": 0.03,
+      "ep": {
+        "min": 9000,
+        "max": 16000,
+        "first_clear_bonus": 2000
+      },
+      "coin_value": {
+        "min_bronze": 8000,
+        "max_bronze": 18000
+      },
+      "guardian_coffer": {
+        "count": 2,
+        "guaranteed": true,
+        "quality": "treasure",
+        "loot_table": "guardian_coffer_treasure"
+      },
+      "equipment_cache": {
+        "count": 1,
+        "guaranteed": true,
+        "quality_profile": "rare"
+      },
+      "recording_crystal": {
+        "chance": 0.075
+      },
+      "masterwork_equipment": {
+        "chance": 0.025
+      }
+    },
+    "milestone_floor": {
+      "reference_floor": 10,
+      "per_floor_growth": 0.04,
+      "ep": {
+        "min": 10000,
+        "max": 18000,
+        "first_clear_bonus": 5000
+      },
+      "max_ep_capacity": {
+        "min": 1500,
+        "max": 5000,
+        "first_clear_only": true,
+        "milestone_only": true,
+        "repeat_clear_value": 0
+      },
+      "coin_value": {
+        "min_bronze": 5000,
+        "max_bronze": 12000
+      },
+      "guardian_coffer": {
+        "count": 1,
+        "guaranteed": true,
+        "quality": "milestone"
+      },
+      "equipment_cache": {
+        "count": 1,
+        "guaranteed": true,
+        "quality_profile": "rare"
+      },
+      "boss_material": {
+        "guaranteed": true,
+        "chance": 1.0,
+        "display_name": "Milestone Guardian Material"
+      },
+      "recording_crystal": {
+        "chance": 0.04,
+        "first_clear_bonus": 0.2
+      },
+      "masterwork_equipment": {
+        "chance": 0.02
+      }
+    },
+    "endurance_floor": {
+      "reference_floor": 50,
+      "per_floor_growth": 0.032,
+      "ep": {
+        "min": 42000,
+        "max": 72000,
+        "first_clear_bonus": 9000
+      },
+      "max_ep_capacity": {
+        "min": 0,
+        "max": 7500,
+        "first_clear_only": true,
+        "repeat_clear_value": 0
+      },
+      "coin_value": {
+        "min_bronze": 18000,
+        "max_bronze": 42000
+      },
+      "crystals": {
+        "low": {
+          "min": 0,
+          "max": 0
+        },
+        "medium": {
+          "min": 7,
+          "max": 14
+        },
+        "high": {
+          "min": 2,
+          "max": 5
+        }
+      },
+      "guardian_coffer": {
+        "count": 1,
+        "guaranteed": true,
+        "quality": "epic"
+      },
+      "equipment_cache": {
+        "count": 1,
+        "guaranteed": true,
+        "quality_profile": "epic"
+      },
+      "boss_material": {
+        "chance": 0.35
+      },
+      "recording_crystal": {
+        "chance": 0.05
+      },
+      "masterwork_equipment": {
+        "chance": 0.03
+      }
+    },
+    "ruins_floor": {
+      "reference_floor": 20,
+      "per_floor_growth": 0.04,
+      "boss_material": {
+        "display_name": "Dimensional Shard",
+        "loot_table": "guardian_material_ruins",
+        "icon_id": "guardian-material"
+      }
+    },
+    "volcanic_floor": {
+      "reference_floor": 20,
+      "per_floor_growth": 0.04,
+      "boss_material": {
+        "display_name": "Fire Elemental Core",
+        "loot_table": "guardian_material_volcanic",
+        "icon_id": "elemental-core"
+      }
+    },
+    "spirit_floor": {
+      "reference_floor": 20,
+      "per_floor_growth": 0.04,
+      "boss_material": {
+        "display_name": "Spirit Essence",
+        "loot_table": "guardian_material_spirit",
+        "icon_id": "guardian-material"
+      }
+    },
+    "high_threat_ruins": {
+      "reference_floor": 25,
+      "per_floor_growth": 0.0,
+      "ep": {
+        "min": 18000,
+        "max": 32000,
+        "first_clear_bonus": 5000
+      },
+      "max_ep_capacity": {
+        "min": 0,
+        "max": 5000,
+        "first_clear_only": true,
+        "milestone_only": false,
+        "repeat_clear_value": 0
+      },
+      "coin_value": {
+        "min_bronze": 8000,
+        "max_bronze": 16000
+      },
+      "crystals": {
+        "low": {
+          "min": 0,
+          "max": 0
+        },
+        "medium": {
+          "min": 4,
+          "max": 9
+        },
+        "high": {
+          "min": 0,
+          "max": 2
+        }
+      },
+      "guardian_coffer": {
+        "count": 1,
+        "guaranteed": true,
+        "loot_table": "guardian_coffer_floor_25",
+        "display_name": "Guardian Coffer",
+        "quality": "rare"
+      },
+      "recovery_supplies": {
+        "min": 2,
+        "max": 4,
+        "loot_table": "recovery_supplies_floor_25"
+      },
+      "equipment_cache": {
+        "count": 1,
+        "guaranteed": true,
+        "quality_profile": "rare",
+        "display_name": "Equipment Cache"
+      },
+      "boss_material": {
+        "guaranteed": true,
+        "chance": 1.0,
+        "loot_table": "guardian_material_floor_25",
+        "display_name": "Dimensional Shard",
+        "icon_id": "guardian-material"
+      },
+      "recording_crystal": {
+        "chance": 0.03,
+        "first_clear_bonus": 0.0
+      },
+      "masterwork_equipment": {
+        "chance": 0.01
+      }
+    }
+  },
+  "rules": [
+    {
+      "profile": "milestone_floor",
+      "min_floor": 10,
+      "max_floor": 99,
+      "divisible_by": 10
+    },
+    {
+      "profile": "boss_floor",
+      "min_floor": 5,
+      "max_floor": 99,
+      "divisible_by": 5,
+      "boss_only": true
+    },
+    {
+      "profile": "early_floor",
+      "min_floor": 1,
+      "max_floor": 10
+    },
+    {
+      "profile": "standard_floor",
+      "min_floor": 11,
+      "max_floor": 20
+    },
+    {
+      "profile": "high_threat_floor",
+      "min_floor": 21,
+      "max_floor": 49
+    },
+    {
+      "profile": "endurance_floor",
+      "min_floor": 50,
+      "max_floor": 99
+    }
+  ],
+  "floor_overrides": {
+    "25": "high_threat_ruins"
+  }
+}

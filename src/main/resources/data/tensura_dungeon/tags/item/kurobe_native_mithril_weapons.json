@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "tensura:mithril_sword",
+    "tensura:mithril_great_sword",
+    "tensura:mithril_katana",
+    "tensura:mithril_kodachi",
+    "tensura:mithril_long_sword",
+    "tensura:mithril_odachi",
+    "tensura:mithril_scythe",
+    "tensura:mithril_short_sword",
+    "tensura:mithril_sickle",
+    "tensura:mithril_spear",
+    "tensura:mithril_tachi"
+  ]
+}

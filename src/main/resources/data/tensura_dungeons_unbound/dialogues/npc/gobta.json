@@ -1,0 +1,233 @@
+{
+  "format": 5,
+  "char_ticks": 1,
+  "hold_ticks": 60,
+  "npc_name": {
+    "literal": "Gobta"
+  },
+  "markdown": false,
+  "text_effect": "none",
+  "freeze_source": false,
+  "source_invulnerable": false,
+  "cancel_if_source_missing": true,
+  "exclusive_source": false,
+  "graph_enabled": true,
+  "layout": {
+    "choice_color": "#00AA00"
+  },
+  "start_node": "slot_0",
+  "nodes": {
+    "slot_0": {
+      "type": "condition",
+      "conditions": [],
+      "next": "d400",
+      "else_node": null
+    },
+    "d400": {
+      "line": {
+        "literal": "Hey, hey! So you got caught in that rift in the sky too, huh? I was in Tempest running errands for Lord Rimuru when it tore open and yanked me straight through it. You too, huh? I figured, with gear like that, you've gotta be an adventurer, right?"
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "Yeah, caught in the rift.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d404"
+        },
+        {
+          "literal": "Not yet.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    "d404": {
+      "line": {
+        "literal": "Perfect timing! I'm one of the first faces you'll meet here, so listen up! Every adventurer gets a Core Satchel — Monster Cores are packed with magicules, and no ordinary pack can hold 'em safely. I can send yours to your Dungeon Mailbox whenever you're ready!"
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "What are Monster Cores?",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d401"
+        },
+        {
+          "literal": "What's the Core Satchel?",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d402"
+        },
+        {
+          "literal": "I understand. Send it to my mailbox.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon satchel acknowledge {player}"
+            }
+          ]
+        },
+        {
+          "literal": "Not yet.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    "d401": {
+      "line": {
+        "literal": "Monster Cores are like magicule batteries you pull off dungeon monsters — packed with stored magicules, real useful stuff! But they're way too wild for a regular backpack."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "Too wild for a backpack.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d405"
+        },
+        {
+          "literal": "What's the Core Satchel?",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d402"
+        },
+        {
+          "literal": "Send it to my mailbox.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon satchel acknowledge {player}"
+            }
+          ]
+        },
+        {
+          "literal": "Not yet.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    "d402": {
+      "line": {
+        "literal": "The Core Satchel's the best pouch a Monster Core could ask for! Keeps 'em secure, keeps 'em organized, and you can open it any time from the left side of your inventory. Easy peasy!"
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "How do I claim it?",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d403"
+        },
+        {
+          "literal": "Send it to my mailbox.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon satchel acknowledge {player}"
+            }
+          ]
+        },
+        {
+          "literal": "Maybe later.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    "d405": {
+      "line": {
+        "literal": "That's why the Dungeon Shop hands every adventurer a Core Satchel. Every core you recover goes right in there, safe and snug. I'd trust that pouch with my life! ...Well, my loot, anyway."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "Safe and snug, huh?",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d402"
+        },
+        {
+          "literal": "Send it to my mailbox.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon satchel acknowledge {player}"
+            }
+          ]
+        },
+        {
+          "literal": "Not yet.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    "d403": {
+      "line": {
+        "literal": "Simple as can be! Tell me to send it, and boom — a Dungeon Shop Welcome Package lands in your Dungeon Mailbox. Open it and the Normal Core Satchel unlocks for keeps — six whole slots! Claim it whenever you're ready, boss!"
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "Got it. Send it.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon satchel acknowledge {player}"
+            }
+          ]
+        },
+        {
+          "literal": "Back.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d402"
+        },
+        {
+          "literal": "Not yet.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    }
+  }
+}

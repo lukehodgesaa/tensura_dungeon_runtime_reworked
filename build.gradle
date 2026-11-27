@@ -1,0 +1,103 @@
+plugins {
+    id 'java-library'
+    id 'idea'
+    id 'net.neoforged.moddev' version '2.0.134'
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    mavenCentral()
+}
+
+def bundledDir = layout.buildDirectory.dir('bundled')
+
+tasks.register('unpackBundled', Sync) {
+    description = 'Unpacks the source-less bundled mod (libs/bundled) into the main output.'
+    fileTree('libs/bundled') { include '*.jar' }.files.sort { it.name }.each { File bundled ->
+        from(zipTree(bundled)) {
+            exclude 'META-INF/MANIFEST.MF', 'META-INF/neoforge.mods.toml', 'pack.mcmeta'
+        }
+    }
+    into bundledDir
+}
+
+sourceSets.main.output.dir(bundledDir, builtBy: 'unpackBundled')
+
+neoForge {
+    version = neo_version
+
+    runs {
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.INFO
+        }
+        client {
+            client()
+        }
+        server {
+            server()
+            programArgument '--nogui'
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+def nestedLibsDir = layout.buildDirectory.dir('nested-libs')
+tasks.register('extractNestedLibs', Copy) {
+    from(zipTree(file('libs/ldlib2-neoforge-1.21.1-2.2.29-all.jar'))) {
+        include 'META-INF/jarjar/taffy-*.jar', 'META-INF/jarjar/yoga-*.jar'
+        eachFile { it.path = it.name }
+        includeEmptyDirs = false
+    }
+    into nestedLibsDir
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    compileOnly files(nestedLibsDir.map { it.file('taffy-1.1.4.jar') }, nestedLibsDir.map { it.file('yoga-1.0.0.jar') }).builtBy('extractNestedLibs')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(AbstractArchiveTask).configureEach {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+
+jar {
+    zip64 = true
+    manifest {
+        attributes(
+            'Specification-Title': mod_name,
+            'Specification-Vendor': 'Mineclawd',
+            'Specification-Version': mod_version,
+            'Implementation-Title': mod_id,
+            'Implementation-Version': mod_version,
+            'Implementation-Vendor': 'Mineclawd'
+        )
+    }
+}
+
+tasks.register('stageDistribution', Sync) {
+    description = 'dist/mods: the mod jar plus every dependency jar, ready to drop into a mods folder.'
+    dependsOn tasks.jar
+    into layout.projectDirectory.dir('dist')
+    from(tasks.jar) { into 'mods' }
+    from('libs') { into 'mods'; include '*.jar' }
+    from('README.md')
+}

@@ -1,0 +1,228 @@
+{
+  "format": 5,
+  "char_ticks": 1,
+  "hold_ticks": 60,
+  "npc_name": {
+    "literal": "Treyni"
+  },
+  "markdown": false,
+  "text_effect": "none",
+  "freeze_source": false,
+  "source_invulnerable": false,
+  "cancel_if_source_missing": true,
+  "exclusive_source": false,
+  "graph_enabled": true,
+  "layout": {
+    "choice_color": "#E0E0E0"
+  },
+  "start_node": "slot_0",
+  "nodes": {
+    "slot_0": {
+      "type": "condition",
+      "conditions": [],
+      "next": "d512",
+      "else_node": "slot_1"
+    },
+    "slot_1": {
+      "type": "condition",
+      "conditions": [
+        {
+          "type": "player_tag",
+          "id": "tensura_dungeons_unbound.dialog_read.610",
+          "invert": false
+        }
+      ],
+      "next": "d600",
+      "else_node": null
+    },
+    "d512": {
+      "line": {
+        "literal": "Hi! Need anything?"
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Open Shop]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon shop open {player}"
+            }
+          ]
+        }
+      ]
+    },
+    "d600": {
+      "line": {
+        "literal": "The rift is not merely an opening between two places. Beyond it, the void has left a silence where magicules should move, and that silence is spreading through the stone. I cannot tell you what waits at its center. I can tell you that the ruins are becoming a passage, and passages must be watched."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "Open the daily provisions.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon shop open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "What can you sense beyond the rift?",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d602"
+        },
+        {
+          "literal": "How should the party prepare?",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d603"
+        },
+        {
+          "literal": "What is at stake if we fail?",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d604"
+        },
+        {
+          "literal": "I will return when prepared.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    "d602": {
+      "line": {
+        "literal": "Jahil's old seals are failing. I can feel the disturbance beneath the ruins—through stone, root, and soil—but the void itself gives no answer. It does not feel empty. It feels as though something has been removed, and the wound is searching for a way to widen."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "Open the daily provisions.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon shop open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "Return to the briefing.",
+          "when_unavailable": "hide",
+          "conditions": [
+            {
+              "type": "player_tag",
+              "id": "tensura_dungeons_unbound.dialog_read.610",
+              "invert": false
+            }
+          ],
+          "actions": [],
+          "goto_node": "d600"
+        },
+        {
+          "literal": "That is enough for now.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    "d603": {
+      "line": {
+        "literal": "Prepare for a long passage, not a single battle. Bring food, a reliable weapon, light, and room for what the dungeon yields. Mark your retreat. If the void begins to erase the path behind you, do not press farther simply because you have already come this far."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "Open the daily provisions.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon shop open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "Return to the briefing.",
+          "when_unavailable": "hide",
+          "conditions": [
+            {
+              "type": "player_tag",
+              "id": "tensura_dungeons_unbound.dialog_read.610",
+              "invert": false
+            }
+          ],
+          "actions": [],
+          "goto_node": "d600"
+        },
+        {
+          "literal": "That is enough for now.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    "d604": {
+      "line": {
+        "literal": "If the party falls, the breach will not close by itself. The void will continue to spread, and whatever Jahil left sealed may find a road into our world. I do not say this to frighten you. I say it because I have seen a small wound become a disaster when no one guarded it."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "Open the daily provisions.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon shop open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "Return to the briefing.",
+          "when_unavailable": "hide",
+          "conditions": [
+            {
+              "type": "player_tag",
+              "id": "tensura_dungeons_unbound.dialog_read.610",
+              "invert": false
+            }
+          ],
+          "actions": [],
+          "goto_node": "d600"
+        },
+        {
+          "literal": "That is enough for now.",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    }
+  }
+}

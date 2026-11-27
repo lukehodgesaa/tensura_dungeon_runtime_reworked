@@ -1,0 +1,6 @@
+{
+  "parent": "tensura_additions:item/soul_orb_common",
+  "textures": {
+    "particle": "tensura_additions:item/soul_orb_rare_particle"
+  }
+}

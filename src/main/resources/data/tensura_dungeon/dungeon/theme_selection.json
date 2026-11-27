@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "mode": "MILESTONE",
+  "themes": [
+    {"id": "original", "unlockFloor": 1},
+    {"id": "gothic", "unlockFloor": 1},
+    {"id": "dwarven", "unlockFloor": 50},
+    {"id": "sand", "unlockFloor": 100},
+    {"id": "overgrown", "unlockFloor": 150},
+    {"id": "frozen", "unlockFloor": 200},
+    {"id": "abyssal_prismarine", "unlockFloor": 250},
+    {"id": "dark_volcanic", "unlockFloor": 300}
+  ]
+}

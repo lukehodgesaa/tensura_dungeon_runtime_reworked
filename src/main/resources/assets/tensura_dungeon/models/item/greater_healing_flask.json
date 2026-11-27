@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tensura_dungeon:item/greater_healing_flask_item"
+  }
+}

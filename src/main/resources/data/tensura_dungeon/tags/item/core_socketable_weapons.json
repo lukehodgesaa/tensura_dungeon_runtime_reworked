@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:swords",
+    "#tensura:daggers",
+    "#tensura:great_swords",
+    "#tensura:katanas",
+    "#tensura:kodachis",
+    "#tensura:long_swords",
+    "#tensura:odachis",
+    "#tensura:scythes",
+    "#tensura:short_swords",
+    "#tensura:sickles",
+    "#tensura:spears",
+    "#tensura:tachis"
+  ]
+}

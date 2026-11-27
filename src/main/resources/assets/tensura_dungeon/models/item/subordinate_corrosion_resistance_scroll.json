@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "tensura_dungeon:item/subordinate_corrosion_resistance_scroll"
+  }
+}

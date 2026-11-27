@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "recipes": [
+    {
+      "id": "tensura_dungeon:barter_healing_vial",
+      "enabled": true,
+      "output_item_ids": ["tensura_additions:healing_vial", "tensura_dungeon:healing_vial"],
+      "output_count": 1,
+      "output_name": "Healing Vial",
+      "family": "Health",
+      "icon": "HEALING",
+      "accent": "FF4C62",
+      "grade": "Normal",
+      "display_type": "Potion Barter",
+      "comparison": "Grade I Health potion conversion",
+      "ingredients": [
+        {"quantity": 4, "name": "Monster Leather C", "item_ids": ["tensura:monster_leather_c"]},
+        {"quantity": 1, "name": "Dragon Peacock Feather", "item_ids": ["tensura:dragon_peacock_feather"]}
+      ]
+    },
+    {
+      "id": "tensura_dungeon:barter_magicule_vial",
+      "enabled": true,
+      "output_item_ids": ["tensura_additions:magicule_vial", "tensura_dungeon:magicule_vial"],
+      "output_count": 1,
+      "output_name": "Magicule Vial",
+      "family": "Magicule",
+      "icon": "MAGICULE",
+      "accent": "35A9FF",
+      "grade": "Normal",
+      "display_type": "Potion Barter",
+      "comparison": "Grade I Magicule potion conversion",
+      "ingredients": [
+        {"quantity": 3, "name": "Slime Chunk or Chilled Slime", "item_ids": ["tensura:slime_chunk", "tensura:chilled_slime"]},
+        {"quantity": 2, "name": "Dragon Peacock Feather", "item_ids": ["tensura:dragon_peacock_feather"]}
+      ]
+    },
+    {
+      "id": "tensura_dungeon:barter_healing_flask",
+      "enabled": true,
+      "output_item_ids": ["tensura_additions:healing_flask", "tensura_dungeon:healing_flask"],
+      "output_count": 1,
+      "output_name": "Healing Flask",
+      "family": "Health",
+      "icon": "HEALING",
+      "accent": "FF4C62",
+      "grade": "Normal",
+      "display_type": "Potion Barter",
+      "comparison": "Grade I Health potion conversion",
+      "ingredients": [
+        {"quantity": 2, "name": "Health Vial", "item_ids": ["tensura_additions:healing_vial", "tensura_dungeon:healing_vial"]},
+        {"quantity": 2, "name": "Monster Leather D", "item_ids": ["tensura:monster_leather_d"]},
+        {"quantity": 1, "name": "Beast Horn", "item_ids": ["tensura:beast_horn"]}
+      ]
+    },
+    {
+      "id": "tensura_dungeon:barter_magicule_flask",
+      "enabled": true,
+      "output_item_ids": ["tensura_additions:magicule_flask", "tensura_dungeon:magicule_flask"],
+      "output_count": 1,
+      "output_name": "Magicule Flask",
+      "family": "Magicule",
+      "icon": "MAGICULE",
+      "accent": "35A9FF",
+      "grade": "Normal",
+      "display_type": "Potion Barter",
+      "comparison": "Grade I Magicule potion conversion",
+      "ingredients": [
+        {"quantity": 2, "name": "Magicule Vial", "item_ids": ["tensura_additions:magicule_vial", "tensura_dungeon:magicule_vial"]},
+        {"quantity": 3, "name": "Royal Blood", "item_ids": ["tensura:royal_blood"]},
+        {"quantity": 1, "name": "Bone", "item_ids": ["minecraft:bone"]},
+        {"quantity": 4, "name": "Insectar Carapace", "item_ids": ["tensura:insectar_carapace"]},
+        {"quantity": 2, "name": "Centipede Stinger", "item_ids": ["tensura:centipede_stinger"]},
+        {"quantity": 8, "name": "Tier I Monster Core", "item_ids": ["tensura_dungeon:monster_crystal_tier_1"]}
+      ]
+    },
+    {
+      "id": "tensura_dungeon:barter_greater_healing_flask",
+      "enabled": true,
+      "output_item_ids": ["tensura_additions:greater_healing_flask", "tensura_dungeon:greater_healing_flask"],
+      "output_count": 1,
+      "output_name": "Greater Health Flask",
+      "family": "Health",
+      "icon": "HEALING",
+      "accent": "FF4C62",
+      "grade": "Normal",
+      "display_type": "Potion Barter",
+      "comparison": "Grade I Health potion conversion",
+      "ingredients": [
+        {"quantity": 2, "name": "Health Flask", "item_ids": ["tensura_additions:healing_flask", "tensura_dungeon:healing_flask"]},
+        {"quantity": 2, "name": "Giant Ant Carapace", "item_ids": ["tensura:giant_ant_carapace"]},
+        {"quantity": 2, "name": "Giant Ant Leg", "item_ids": ["tensura:giant_ant_leg"]},
+        {"quantity": 2, "name": "Giant Bat Wing", "item_ids": ["tensura:giant_bat_wing"]}
+      ]
+    },
+    {
+      "id": "tensura_dungeon:barter_greater_magicule_flask",
+      "enabled": true,
+      "output_item_ids": ["tensura_additions:greater_magicule_flask", "tensura_dungeon:greater_magicule_flask"],
+      "output_count": 1,
+      "output_name": "Greater Magicule Flask",
+      "family": "Magicule",
+      "icon": "MAGICULE",
+      "accent": "35A9FF",
+      "grade": "Normal",
+      "display_type": "Potion Barter",
+      "comparison": "Grade I Magicule potion conversion",
+      "ingredients": [
+        {"quantity": 2, "name": "Magicule Flask", "item_ids": ["tensura_additions:magicule_flask", "tensura_dungeon:magicule_flask"]},
+        {"quantity": 5, "name": "Royal Blood", "item_ids": ["tensura:royal_blood"]},
+        {"quantity": 2, "name": "Bone", "item_ids": ["minecraft:bone"]},
+        {"quantity": 20, "name": "Tier I Monster Core", "item_ids": ["tensura_dungeon:monster_crystal_tier_1"]},
+        {"quantity": 4, "name": "Slime Chunk or Chilled Slime", "item_ids": ["tensura:slime_chunk", "tensura:chilled_slime"]},
+        {"quantity": 4, "name": "Giant Bat Wing", "item_ids": ["tensura:giant_bat_wing"]},
+        {"quantity": 2, "name": "Dragon Peacock Feather", "item_ids": ["tensura:dragon_peacock_feather"]}
+      ]
+    }
+  ]
+}

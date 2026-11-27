@@ -1,0 +1,170 @@
+{
+  "format": 5,
+  "char_ticks": 1,
+  "hold_ticks": 60,
+  "npc_name": {
+    "literal": "Kaijin"
+  },
+  "markdown": false,
+  "text_effect": "none",
+  "freeze_source": false,
+  "source_invulnerable": false,
+  "cancel_if_source_missing": true,
+  "exclusive_source": false,
+  "graph_enabled": true,
+  "layout": {
+    "choice_color": "#B878B3"
+  },
+  "start_node": "slot_0",
+  "nodes": {
+    "slot_0": {
+      "type": "condition",
+      "conditions": [],
+      "next": "d300",
+      "else_node": "slot_1"
+    },
+    "slot_1": {
+      "type": "condition",
+      "conditions": [],
+      "next": "d301",
+      "else_node": "slot_2"
+    },
+    "slot_2": {
+      "type": "condition",
+      "conditions": [],
+      "next": "d302",
+      "else_node": "slot_3"
+    },
+    "slot_3": {
+      "type": "condition",
+      "conditions": [],
+      "next": "d303",
+      "else_node": null
+    },
+    "d300": {
+      "line": {
+        "literal": "You need something? Lord Rimuru brought us through after Jahil opened the rift. We've made camp, but don't mistake that for having these ruins under control. Some of this workmanship is older than anything I've handled, and half of it looks ready to wake if you breathe on it wrong."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[What are you examining?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d301"
+        },
+        {
+          "literal": "[Why did Rimuru bring you?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d302"
+        },
+        {
+          "literal": "[Can you make something for me?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d303"
+        },
+        {
+          "literal": "[I'll leave you to it.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        }
+      ]
+    },
+    "d301": {
+      "line": {
+        "literal": "A piece from one of the mechanisms inside. Fine work, too, though I haven't decided whether I admire the hand that made it or curse it. Until we understand what these parts were meant to do, nobody touches them without me knowing."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Have you learned anything useful?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d302"
+        },
+        {
+          "literal": "[Can you use it in my equipment?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d303"
+        },
+        {
+          "literal": "[Back.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d300"
+        }
+      ]
+    },
+    "d302": {
+      "line": {
+        "literal": "Lord Rimuru wanted someone here who could tell a tool from a trap and keep the camp standing while the others explore. That's my part in this. Once I've learned the ruins' habits, we'll know what can be repaired, what can be used, and what ought to stay buried."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Can you make something for me yet?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d303"
+        },
+        {
+          "literal": "[What are you examining?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d301"
+        },
+        {
+          "literal": "[Back.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d300"
+        }
+      ]
+    },
+    "d303": {
+      "line": {
+        "literal": "Not yet. I've got unfamiliar materials, ancient mechanisms, and a camp that was bare ground not long ago. Putting any of it into your equipment now would be guesswork. I'm a craftsman, not a gambler. Come back when I've had time to do the job properly."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Fair enough. What are you studying?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d301"
+        },
+        {
+          "literal": "[I'll return later.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "literal": "[Back.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d300"
+        }
+      ]
+    }
+  }
+}

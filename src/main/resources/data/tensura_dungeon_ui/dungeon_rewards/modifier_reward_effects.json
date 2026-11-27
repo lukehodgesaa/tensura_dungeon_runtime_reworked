@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "stacking": {
+    "mode": "additive_deltas",
+    "caps": {
+      "ep_multiplier": 2.0,
+      "coin_multiplier": 2.0,
+      "crystal_quantity_multiplier": 2.25,
+      "equipment_quality_bonus": 0.15,
+      "boss_material_bonus": 0.3,
+      "recording_crystal_bonus": 0.1,
+      "masterwork_bonus": 0.1
+    }
+  },
+  "modifiers": {
+    "swarm": {
+      "ep_multiplier": 1.0,
+      "coin_multiplier": 1.1,
+      "crystal_quantity_multiplier": 1.2,
+      "equipment_quality_bonus": 0.0,
+      "boss_material_bonus": 0.0,
+      "recording_crystal_bonus": 0.0
+    },
+    "armored": {
+      "ep_multiplier": 1.0,
+      "coin_multiplier": 1.05,
+      "crystal_quantity_multiplier": 1.0,
+      "equipment_quality_bonus": 0.005
+    },
+    "berserker": {
+      "ep_multiplier": 1.15,
+      "coin_multiplier": 1.0,
+      "crystal_quantity_multiplier": 1.0,
+      "boss_material_bonus": 0.05
+    },
+    "regenerative": {
+      "ep_multiplier": 1.0,
+      "coin_multiplier": 1.0,
+      "crystal_quantity_multiplier": 1.0,
+      "boss_material_bonus": 0.05
+    },
+    "summoner": {
+      "ep_multiplier": 1.0,
+      "coin_multiplier": 1.0,
+      "crystal_quantity_multiplier": 1.15,
+      "boss_material_bonus": 0.02
+    },
+    "molten": {
+      "ep_multiplier": 1.0,
+      "coin_multiplier": 1.0,
+      "crystal_quantity_multiplier": 1.0,
+      "boss_material_bonus": 0.03,
+      "masterwork_bonus": 0.0,
+      "material_pool": "fire_aspected_materials"
+    },
+    "resourceful": {
+      "ep_multiplier": 1.0,
+      "coin_multiplier": 1.2,
+      "crystal_quantity_multiplier": 1.12,
+      "equipment_quality_bonus": 0.005,
+      "coffer_quality_bonus": 0.1,
+      "recording_crystal_bonus": 0.01,
+      "masterwork_bonus": 0.005
+    },
+    "crystal-rich": {
+      "ep_multiplier": 1.0,
+      "coin_multiplier": 1.1,
+      "crystal_quantity_multiplier": 1.35,
+      "equipment_quality_bonus": 0.005,
+      "coffer_quality_bonus": 0.15,
+      "recording_crystal_bonus": 0.03,
+      "masterwork_bonus": 0.01
+    },
+    "elite-vanguard": {
+      "ep_multiplier": 1.12,
+      "coin_multiplier": 1.05,
+      "crystal_quantity_multiplier": 1.05,
+      "equipment_quality_bonus": 0.01,
+      "boss_material_bonus": 0.05
+    },
+    "boss-touched": {
+      "ep_multiplier": 1.18,
+      "coin_multiplier": 1.1,
+      "crystal_quantity_multiplier": 1.1,
+      "equipment_quality_bonus": 0.015,
+      "coffer_quality_bonus": 0.1,
+      "boss_material_bonus": 0.1,
+      "recording_crystal_bonus": 0.01,
+      "masterwork_bonus": 0.01
+    }
+  }
+}

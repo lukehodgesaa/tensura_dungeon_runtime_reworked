@@ -1,0 +1,738 @@
+{
+  "format": 5,
+  "char_ticks": 1,
+  "hold_ticks": 60,
+  "npc_name": {
+    "literal": "Gard Mjollmile"
+  },
+  "markdown": false,
+  "text_effect": "none",
+  "freeze_source": false,
+  "source_invulnerable": false,
+  "cancel_if_source_missing": true,
+  "exclusive_source": false,
+  "graph_enabled": true,
+  "layout": {
+    "choice_color": "#E0E0E0"
+  },
+  "start_node": "slot_0",
+  "nodes": {
+    "slot_0": {
+      "type": "condition",
+      "conditions": [],
+      "next": "d200",
+      "else_node": null
+    },
+    "d200": {
+      "line": {
+        "literal": "Welcome to the Dungeon Bank! I keep adventurers' coin secure, organized, and ready for approved dungeon services. What can I help you with?"
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Open my account.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon bank open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "[Learn about deposits.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d201"
+        },
+        {
+          "literal": "[Ask about withdrawals.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d210"
+        },
+        {
+          "literal": "[Explain Bank grades.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d220"
+        }
+      ]
+    },
+    "d201": {
+      "line": {
+        "literal": "A sound place to begin. The Bank accepts Bronze, Silver, Gold, and Stellar Gold coins from your nine hotbar slots or your offhand. Coins elsewhere in your inventory are not offered for deposit."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So only my hotbar and offhand are checked?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d202"
+        },
+        {
+          "literal": "[What if I choose a stack?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d202"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d210": {
+      "line": {
+        "literal": "Withdrawals are simpler: select one occupied virtual Bank stack. You receive exactly the amount displayed in that slot, up to sixty-four coins, and withdrawals are never taxed."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So I withdraw one displayed stack with no tax?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d211"
+        },
+        {
+          "literal": "[What if my inventory is full?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d211"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d220": {
+      "line": {
+        "literal": "Every account begins at Normal Grade with eighteen slots and a one-percent deposit tax. A higher grade adds nine slots and one percentage point of tax. Bank grade is purchased here; dungeon floors and adventurer rank do not raise it."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So bigger Banks have a higher deposit tax?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d221"
+        },
+        {
+          "literal": "[Show me every grade and price.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d222"
+        },
+        {
+          "literal": "[How do I upgrade my Bank?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d230"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d202": {
+      "line": {
+        "literal": "Correct. You select one quoted stack, and the Bank processes that exact stack as one transaction. It will not quietly gather matching coins from your other slots or take only part of the selected stack."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So the selected stack is deposited all at once?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d203"
+        },
+        {
+          "literal": "[Explain eligible slots again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d201"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d211": {
+      "line": {
+        "literal": "Correct. Your inventory must be able to receive the complete stack. If it cannot, the withdrawal is rejected and your Bank balance remains unchanged. I do not drop financial assets onto the floor."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So no room means no withdrawal and no lost balance?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d212"
+        },
+        {
+          "literal": "[Explain the selected stack again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d210"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d221": {
+      "line": {
+        "literal": "That's the arrangement. More storage lets serious adventurers keep larger reserves, while the higher deposit tax pays for managing that capacity. Withdrawals remain untaxed at every grade."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Understood. Show me the grade list.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d222"
+        },
+        {
+          "literal": "[How are upgrades purchased?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d230"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d222": {
+      "line": {
+        "literal": "Normal has 18 slots at 1%; Special 27 at 2%, costing 20 Gold; Rare 36 at 3%, costing 80 Gold; Unique 45 at 4%, costing 250 Gold; Legend 54 at 5%, costing 750 Gold."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Continue from Mythic.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d223"
+        },
+        {
+          "literal": "[Explain the grade tradeoff again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d221"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d230": {
+      "line": {
+        "literal": "Yes, Genesis IX is final. An upgrade always advances exactly one grade. The account screen shows the next grade, its added capacity, new tax rate, exact price, and whether your carried and banked funds can cover it."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Can the upgrade use money already in my Bank?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d231"
+        },
+        {
+          "literal": "[Show the grade list again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d222"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d203": {
+      "line": {
+        "literal": "Exactly. Before you confirm, I quote the deposit tax for that stack. The percentage comes from your current Bank grade, the tax is rounded upward, and any taxed deposit pays at least one coin."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So the quoted tax is rounded up, with a one-coin minimum?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d204"
+        },
+        {
+          "literal": "[What if the deposit cannot fit?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d204"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d212": {
+      "line": {
+        "literal": "Exactly. Select one occupied Bank slot, make room for its full stack, and confirm. The coins move as one untaxed transaction, or nothing changes at all."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Understood. Open my account.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon bank open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "[Tell me about Bank grades.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d220"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d223": {
+      "line": {
+        "literal": "Mythic has 63 slots at 6%, costing 2 Stellar Gold. Genesis I has 72 at 7% for 5 Stellar; II has 81 at 8% for 10; III has 90 at 9% for 20; and IV has 99 at 10% for 40."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Continue from Genesis V.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d224"
+        },
+        {
+          "literal": "[Go back to Normal through Legend.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d222"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d231": {
+      "line": {
+        "literal": "It can. Approved services spend matching coins from your eligible carried funds first, then your Bank balance. If the combined funds are insufficient, or any step cannot finish safely, no payment and no upgrade occur."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Where else can banked funds be spent?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d240"
+        },
+        {
+          "literal": "[Understood. Open my account.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon bank open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d204": {
+      "line": {
+        "literal": "Then nothing moves. The Bank verifies the selected stack, its quote, and enough free capacity before removing a single coin. If the quote became stale or the net deposit cannot fit, the entire transaction is refused."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So a failed deposit cannot eat my coins?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d205"
+        },
+        {
+          "literal": "[Explain the tax again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d203"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d224": {
+      "line": {
+        "literal": "Genesis V has 108 slots at 11%, costing 75 Stellar Gold; VI has 117 at 12% for 125; VII has 126 at 13% for 200; VIII has 135 at 14% for 300; and IX has 144 at 15% for 500. Genesis IX is the maximum."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So Genesis IX is the final grade?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d230"
+        },
+        {
+          "literal": "[Go back to Mythic through Genesis IV.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d223"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d240": {
+      "line": {
+        "literal": "Your Bank balance can pay the Dungeon Shop, Kurobe's Forge, and Bank grade upgrades. Those services use the same secure payment rules; ordinary merchants do not receive direct access to your account."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[How are different coin types compared?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d241"
+        },
+        {
+          "literal": "[Explain upgrade payment again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d231"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d205": {
+      "line": {
+        "literal": "Precisely. Stored balances are displayed as virtual stacks of up to sixty-four coins. Every displayed stack uses one Bank slot, and all four denominations share the same slot allowance."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So every virtual stack of up to 64 uses one shared slot?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d206"
+        },
+        {
+          "literal": "[Explain safe deposits again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d204"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d241": {
+      "line": {
+        "literal": "The standard rates are one hundred Bronze to one Silver, one hundred Silver to one Gold, and one thousand Gold to one Stellar Gold. Approved payments may calculate across denominations using those exact values."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[What happens when I need change?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d242"
+        },
+        {
+          "literal": "[Explain approved spending again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d240"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d206": {
+      "line": {
+        "literal": "You've got it. Choose one eligible hotbar or offhand coin stack, review the upward-rounded tax, and confirm the exact quoted transaction. The Bank stores the net coins only when the whole operation can finish safely."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Understood. Open my account.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon bank open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "[Now explain withdrawals.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d210"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d242": {
+      "line": {
+        "literal": "Change is returned to your inventory first. If it will not fit there, the service may place it in your Bank when sufficient capacity exists. If neither destination can safely accept all change, the entire purchase is rolled back."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[So failed change delivery cancels the whole purchase?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d250"
+        },
+        {
+          "literal": "[Explain exchange values again.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d241"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d250": {
+      "line": {
+        "literal": "Precisely. Deposits, withdrawals, upgrades, and approved purchases are all-or-nothing. Quotes are checked again when you confirm. If your items, balance, capacity, or price changed, the transaction is refused rather than partially completed."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Good. Who handles weapons and armor?]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d251"
+        },
+        {
+          "literal": "[Open my account.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon bank open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    },
+    "d251": {
+      "line": {
+        "literal": "For weapon promotion, Conduit Ranks, or Monster Core work, speak with Kurobe. Kaijin handles armor reinforcement and dungeon registration. I will gladly handle the accounts, prices, deposits, and withdrawals."
+      },
+      "actions": [],
+      "type": "choice",
+      "choices": [
+        {
+          "literal": "[Understood. Open my account.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [
+            {
+              "type": "run_command",
+              "target": "player",
+              "command": "tensuradungeon bank open {player}"
+            }
+          ]
+        },
+        {
+          "literal": "[Review deposits.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d201"
+        },
+        {
+          "literal": "[Review Bank grades.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d220"
+        },
+        {
+          "literal": "[Back to the Bank desk.]",
+          "when_unavailable": "hide",
+          "conditions": [],
+          "actions": [],
+          "goto_node": "d200"
+        }
+      ]
+    }
+  }
+}

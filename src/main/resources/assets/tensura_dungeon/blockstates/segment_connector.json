@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tensura_dungeon:block/segment_connector" },
+    "facing=east": { "model": "tensura_dungeon:block/segment_connector", "y": 90 },
+    "facing=south": { "model": "tensura_dungeon:block/segment_connector", "y": 180 },
+    "facing=west": { "model": "tensura_dungeon:block/segment_connector", "y": 270 }
+  }
+}

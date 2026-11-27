@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#tensura_dungeon:kurobe_native_low_magisteel_weapons",
+    "#tensura_dungeon:kurobe_native_high_magisteel_weapons",
+    "#tensura_dungeon:kurobe_native_mithril_weapons",
+    "#tensura_dungeon:kurobe_native_pure_magisteel_weapons",
+    "#tensura_dungeon:kurobe_native_orichalcum_weapons",
+    "#tensura_dungeon:kurobe_native_adamantite_weapons",
+    "#tensura_dungeon:kurobe_native_hihiirokane_weapons"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "spawn_rune_activate": {
+    "subtitle": "subtitles.tensura_additions.spawn_rune_activate",
+    "sounds": [
+      "tensura_additions:spawn_rune_activate"
+    ]
+  },
+  "spawn_rune_emerge": {
+    "subtitle": "subtitles.tensura_additions.spawn_rune_emerge",
+    "sounds": [
+      "tensura_additions:spawn_rune_emerge"
+    ]
+  },
+  "spawn_rune_finish": {
+    "subtitle": "subtitles.tensura_additions.spawn_rune_finish",
+    "sounds": [
+      "tensura_additions:spawn_rune_finish"
+    ]
+  }
+}

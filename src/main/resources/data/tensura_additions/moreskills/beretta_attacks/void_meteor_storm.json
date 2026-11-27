@@ -1,0 +1,53 @@
+{
+  "display_name": "Void Meteor Storm",
+  "animation": "Attack - Orb Cascade",
+  "duration_ticks": 600,
+  "cooldown_ticks": 100,
+  "impact_tick": 0,
+  "preview_pattern": "meteor_rain",
+  "targeting": "surface",
+  "overlay": false,
+  "damage": {
+    "mode": "max_health_percent",
+    "amount": 0.06,
+    "cap": 0.0,
+    "respects_resistances": true
+  },
+  "meteor_storm": {
+    "enabled": true,
+    "width": 91.0,
+    "length": 96.0,
+    "drop_height": 80.0,
+    "phase_count": 3,
+    "phase_duration_ticks": 200,
+    "meteor_interval_ticks": 4,
+    "meteors_per_wave": 3,
+    "fall_ticks": 24,
+    "preview_radius": 2.0,
+    "impact_radius": 2.5,
+    "phase_shift": 18.0
+  },
+  "phases": [
+    {
+      "id": "storm_field_one",
+      "start_tick": 0,
+      "end_tick": 200,
+      "preview": "meteor_rain",
+      "damaging": true
+    },
+    {
+      "id": "storm_field_two",
+      "start_tick": 200,
+      "end_tick": 400,
+      "preview": "meteor_rain",
+      "damaging": true
+    },
+    {
+      "id": "storm_field_three",
+      "start_tick": 400,
+      "end_tick": 600,
+      "preview": "meteor_rain",
+      "damaging": true
+    }
+  ]
+}

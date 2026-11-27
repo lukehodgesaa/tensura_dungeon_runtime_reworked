@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "theme": "original",
+  "checkOnly": false,
+  "entries": [
+    {
+      "source": "combat_segment_small_02.bp",
+      "output": "C:\\Users\\lukeh\\Documents\\MCXT\\tensura-dungeon-runtime\\src\\main\\resources\\data\\tensura_dungeon\\structure\\segments\\original\\combat\\combat_segment_small_02.nbt",
+      "kind": "combat",
+      "size": [
+        26,
+        15,
+        27
+      ],
+      "blocks": 4211,
+      "connectors": 2,
+      "connectorRoles": [
+        "auto",
+        "auto"
+      ],
+      "sockets": 9,
+      "barrierCandidatesByConnector": [
+        5,
+        3
+      ],
+      "sha256": "308c0d30694ddf6c707d81694a3d5fce649d341323d10dba8f23feb7ddb8e260"
+    },
+    {
+      "source": "combat_segment_small_03.bp",
+      "output": "C:\\Users\\lukeh\\Documents\\MCXT\\tensura-dungeon-runtime\\src\\main\\resources\\data\\tensura_dungeon\\structure\\segments\\original\\combat\\combat_segment_small_03.nbt",
+      "kind": "combat",
+      "size": [
+        26,
+        15,
+        27
+      ],
+      "blocks": 3955,
+      "connectors": 2,
+      "connectorRoles": [
+        "auto",
+        "auto"
+      ],
+      "sockets": 7,
+      "barrierCandidatesByConnector": [
+        3,
+        3
+      ],
+      "sha256": "a83fe9a8e99e0bdd75ead8ffc61437fc55670136c79aef42a40a370a48db07f2"
+    },
+    {
+      "source": "straight_corridor_segment01.bp",
+      "output": "C:\\Users\\lukeh\\Documents\\MCXT\\tensura-dungeon-runtime\\src\\main\\resources\\data\\tensura_dungeon\\structure\\segments\\original\\straight\\straight_corridor_segment01.nbt",
+      "kind": "straight",
+      "size": [
+        5,
+        11,
+        21
+      ],
+      "blocks": 565,
+      "connectors": 2,
+      "connectorRoles": [
+        "auto",
+        "auto"
+      ],
+      "sockets": 0,
+      "barrierCandidatesByConnector": [
+        0,
+        0
+      ],
+      "sha256": "cd3a104fd908a298d21b7eb55cb4b4d221e8ddbb24ecd270fb8028d817bffca6"
+    },
+    {
+      "source": "straight_corridor_segment02.bp",
+      "output": "C:\\Users\\lukeh\\Documents\\MCXT\\tensura-dungeon-runtime\\src\\main\\resources\\data\\tensura_dungeon\\structure\\segments\\original\\straight\\straight_corridor_segment02.nbt",
+      "kind": "straight",
+      "size": [
+        5,
+        11,
+        21
+      ],
+      "blocks": 661,
+      "connectors": 2,
+      "connectorRoles": [
+        "auto",
+        "auto"
+      ],
+      "sockets": 0,
+      "barrierCandidatesByConnector": [
+        0,
+        0
+      ],
+      "sha256": "deae441a110c764942ab1bea31550af634da39ebfaf68cf6995a9d8b607269e5"
+    },
+    {
+      "source": "straight_corridor_segment03.bp",
+      "output": "C:\\Users\\lukeh\\Documents\\MCXT\\tensura-dungeon-runtime\\src\\main\\resources\\data\\tensura_dungeon\\structure\\segments\\original\\straight\\straight_corridor_segment03.nbt",
+      "kind": "straight",
+      "size": [
+        5,
+        14,
+        21
+      ],
+      "blocks": 726,
+      "connectors": 2,
+      "connectorRoles": [
+        "auto",
+        "auto"
+      ],
+      "sockets": 0,
+      "barrierCandidatesByConnector": [
+        0,
+        0
+      ],
+      "sha256": "72735196b0ce287f8b51a300ed639827982d3d3ed418a40cf955c81d763f6e44"
+    },
+    {
+      "source": "straight_entrance_segment01.bp",
+      "output": "C:\\Users\\lukeh\\Documents\\MCXT\\tensura-dungeon-runtime\\src\\main\\resources\\data\\tensura_dungeon\\structure\\segments\\original\\entrance\\straight_entrance_segment01.nbt",
+      "kind": "entrance",
+      "size": [
+        5,
+        29,
+        31
+      ],
+      "blocks": 2134,
+      "connectors": 2,
+      "connectorRoles": [
+        "internal",
+        "external"
+      ],
+      "sockets": 2,
+      "barrierCandidatesByConnector": [
+        0,
+        2
+      ],
+      "sha256": "2c14dacd46756ec6e44202881c2aca6dda1ad7385f71511abdc4d1c8c4cc4db9"
+    },
+    {
+      "source": "angled_corridor01.bp",
+      "output": "C:\\Users\\lukeh\\Documents\\MCXT\\tensura-dungeon-runtime\\src\\main\\resources\\data\\tensura_dungeon\\structure\\segments\\original\\corner\\angled_corridor01.nbt",
+      "kind": "corner",
+      "size": [
+        19,
+        14,
+        39
+      ],
+      "blocks": 2835,
+      "connectors": 2,
+      "connectorRoles": [
+        "auto",
+        "auto"
+      ],
+      "sockets": 0,
+      "barrierCandidatesByConnector": [
+        0,
+        0
+      ],
+      "sha256": "2e2a7805886d3b3b463b70ebeb005ca86b8121317d5d69f3318dbfd12bba1e42"
+    }
+  ],
+  "quarantined": [
+    {
+      "source": "combat_segment_small_01.bp",
+      "reason": "Only one floor connector is present; the linear composite contract requires two."
+    },
+    {
+      "source": "corner_segment_01.bp",
+      "reason": "No segment connectors are present."
+    },
+    {
+      "source": "corner_segment_02.bp",
+      "reason": "No segment connectors are present."
+    }
+  ]
+}

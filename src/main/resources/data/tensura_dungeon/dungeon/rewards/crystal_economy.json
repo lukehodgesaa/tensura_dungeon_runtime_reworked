@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "encounter_rules": {
+    "ordinary": { "base_opportunities": 1, "hard_cap": 2, "session_budget_count": 3 },
+    "elite": { "base_opportunities": 2, "hard_cap": 4, "session_budget_count": 1 },
+    "miniboss": { "base_opportunities": 3, "hard_cap": 6, "session_budget_count": 1 },
+    "boss": { "base_opportunities": 4, "hard_cap": 8, "session_budget_count": 1 },
+    "charybdis": { "base_opportunities": 6, "hard_cap": 10, "session_budget_count": 1 },
+    "guardian": { "base_opportunities": 10, "hard_cap": 14, "session_budget_count": 1 }
+  },
+  "regular_bands": [
+    {
+      "id": "TIER_I",
+      "minimum_floor": 1,
+      "maximum_floor": 50,
+      "item": "tensura_dungeon:monster_crystal_tier_1",
+      "native_refining_output": "tensura:low_quality_magic_crystal",
+      "refining_batch": 20,
+      "success_basis_points": { "start": 3500, "end": 4500 },
+      "rare_same_tier_bonus_basis_points": { "start": 200, "end": 400 },
+      "unlocked_opportunities": {
+        "ordinary": 0, "elite": 0, "miniboss": 0, "boss": 0, "charybdis": 0, "guardian": 0
+      }
+    },
+    {
+      "id": "TIER_II",
+      "minimum_floor": 51,
+      "maximum_floor": 100,
+      "item": "tensura_dungeon:monster_crystal_tier_2",
+      "native_refining_output": "tensura:low_quality_magic_crystal",
+      "refining_batch": 12,
+      "success_basis_points": { "start": 3800, "end": 4800 },
+      "rare_same_tier_bonus_basis_points": { "start": 300, "end": 500 },
+      "unlocked_opportunities": {
+        "ordinary": 0, "elite": 1, "miniboss": 1, "boss": 1, "charybdis": 1, "guardian": 0
+      }
+    },
+    {
+      "id": "TIER_III",
+      "minimum_floor": 101,
+      "maximum_floor": 150,
+      "item": "tensura_dungeon:monster_crystal_tier_3",
+      "native_refining_output": "tensura:medium_quality_magic_crystal",
+      "refining_batch": 24,
+      "success_basis_points": { "start": 4100, "end": 5100 },
+      "rare_same_tier_bonus_basis_points": { "start": 400, "end": 600 },
+      "unlocked_opportunities": {
+        "ordinary": 1, "elite": 1, "miniboss": 1, "boss": 2, "charybdis": 2, "guardian": 0
+      }
+    },
+    {
+      "id": "TIER_IV",
+      "minimum_floor": 151,
+      "maximum_floor": 200,
+      "item": "tensura_dungeon:monster_crystal_tier_4",
+      "native_refining_output": "tensura:medium_quality_magic_crystal",
+      "refining_batch": 16,
+      "success_basis_points": { "start": 4400, "end": 5400 },
+      "rare_same_tier_bonus_basis_points": { "start": 500, "end": 700 },
+      "unlocked_opportunities": {
+        "ordinary": 1, "elite": 2, "miniboss": 2, "boss": 2, "charybdis": 2, "guardian": 0
+      }
+    },
+    {
+      "id": "TIER_V",
+      "minimum_floor": 201,
+      "maximum_floor": 250,
+      "item": "tensura_dungeon:monster_crystal_tier_5",
+      "native_refining_output": "tensura:high_quality_magic_crystal",
+      "refining_batch": 30,
+      "success_basis_points": { "start": 4700, "end": 5700 },
+      "rare_same_tier_bonus_basis_points": { "start": 600, "end": 800 },
+      "unlocked_opportunities": {
+        "ordinary": 1, "elite": 2, "miniboss": 2, "boss": 3, "charybdis": 3, "guardian": 0
+      }
+    },
+    {
+      "id": "TIER_VI",
+      "minimum_floor": 251,
+      "maximum_floor": 300,
+      "item": "tensura_dungeon:monster_crystal_tier_6",
+      "native_refining_output": "tensura:high_quality_magic_crystal",
+      "refining_batch": 20,
+      "success_basis_points": { "start": 5000, "end": 6000 },
+      "rare_same_tier_bonus_basis_points": { "start": 800, "end": 1200 },
+      "unlocked_opportunities": {
+        "ordinary": 1, "elite": 2, "miniboss": 3, "boss": 4, "charybdis": 4, "guardian": 4
+      }
+    }
+  ],
+  "pinnacle": {
+    "item": "tensura_dungeon:pinnacle_capsule",
+    "floor": 300,
+    "source": "GUARDIAN",
+    "refinable": false
+  }
+}
