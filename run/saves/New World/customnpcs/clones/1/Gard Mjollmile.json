@@ -1,0 +1,593 @@
+{
+    "TransformHasDisplay": 0b,
+    "TransformHasAdvanced": 0b,
+    "AttackInvisible": 0b,
+    "Weapons": [
+    ],
+    "AbsorptionAmount": 0.0f,
+    "IsStatue": 0b,
+    "SpawnCycle": 0,
+    "Accuracy": 60,
+    "MovingPatern": 0,
+    "HideBodyWhenKilled": 0b,
+    "NPCDialogOptions": [
+        {
+            "DialogSlot": 0,
+            "NPCDialog": {
+                "OptionType": 1,
+                "Title": "Gard Mjollmile - Dungeon Bank",
+                "Dialog": 200,
+                "DialogCommand": "",
+                "DialogColor": 14737632
+            }
+        }
+    ],
+    "ReturnToStart": 1b,
+    "FactionPoints": {
+        "DecreaseFaction2Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFaction1Points": 100,
+        "OptionFactions2": -1,
+        "OptionFactions1": -1,
+        "DecreaseFaction1Points": 0b
+    },
+    "Scripts": [
+        {
+            "Script": "",
+            "Console": [
+            ],
+            "ScriptList": [
+                {
+                    "Line": ""
+                }
+            ]
+        }
+    ],
+    "ActiveRange": 32,
+    "Resistances": {
+        "Knockback": 1.0f,
+        "Explosion": 1.0f,
+        "Melee": 1.0f,
+        "Arrow": 1.0f
+    },
+    "CloakTexture": "",
+    "HeadBoneName": "head",
+    "OverlayGlowing": 1b,
+    "AttackAnim": "",
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "pSize": 5,
+    "BossColor": 0,
+    "BossBar": 0b,
+    "MovingState": 0,
+    "MovingPause": 1b,
+    "FireRate": 5,
+    "OnAttack": 0,
+    "pArea": 0,
+    "GroundSound": "minecraft:block.stone.break",
+    "pRender3D": 1b,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "HurtAnim": "",
+    "ShowName": 0,
+    "LinkedNpcName": "",
+    "Armor": [
+    ],
+    "CanSprint": 0b,
+    "LootMode": 0,
+    "ReactsToFire": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "SkinUrl": "",
+    "PotionEffect": 0,
+    "IgnoreCobweb": 0b,
+    "ModRev": 18,
+    "KilledTime": 0L,
+    "TransformHasRole": 0b,
+    "MoveSpeed": 5,
+    "DropChance": [
+    ],
+    "Fire": -1s,
+    "CombatRegen": 0,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "WalkingRange": 10,
+    "pStick": 0b,
+    "DeathTime": 0s,
+    "CanDrown": 1b,
+    "pDamage": 4,
+    "PositionOffsetZ": 5.0f,
+    "Orientation": 0,
+    "StandingState": 0,
+    "HitSound": "minecraft:entity.arrow.hit",
+    "pEffect": 0,
+    "AggroRange": 16,
+    "OnGround": 1b,
+    "MaxFiringRange": 15,
+    "pPhysics": 1b,
+    "CanLeap": 0b,
+    "TransformHasJob": 0b,
+    "FactionID": 0,
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "Name": "Gard Mjollmile",
+    "NpcAngrySound": "",
+    "VisibleAvailability": {
+        "AvailabilityScoreboardObjective": "",
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialog4": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest": 0,
+        "AvailabilityMinPlayerLevel": 0,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog3": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityScoreboard2Type": 1,
+        "AvailabilityScoreboard2Objective": "",
+        "AvailabilityDialog": 0,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityQuestId": -1,
+        "AvailabilityDialogId": -1,
+        "AvailabilityScoreboardType": 1,
+        "AvailabilityDialog2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityQuest4": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityFaction2": 0,
+        "AvailabilityScoreboardValue": 1,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityScoreboard2Value": 1,
+        "ModRev": 18
+    },
+    "npcInteracting": 1b,
+    "Width": 0.7f,
+    "FindShelter": 2,
+    "HurtByTimestamp": 0,
+    "AttackStrenght": 5,
+    "ScriptEnabled": 0b,
+    "HealthRegen": 1,
+    "pXlr8": 0b,
+    "NpcStepSound": "",
+    "MovementType": 0,
+    "FireIndirect": 0,
+    "Size": 5,
+    "Role": 0,
+    "DoorInteract": 2,
+    "DirectLOS": 1b,
+    "TransformIsActive": 0b,
+    "SkinColor": 16777215,
+    "PositionOffsetX": 5.0f,
+    "NoFallDamage": 0b,
+    "BurstCount": 1,
+    "TransformHasAI": 0b,
+    "AttackRange": 2,
+    "pSpeed": 10,
+    "pTrail": 0,
+    "id": "customnpcs:customnpc",
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "Title": "Dungeon Banker",
+    "pGlows": 0b,
+    "HurtTime": 0s,
+    "AttackSpeed": 20,
+    "FallFlying": 0b,
+    "GlowTexture": "",
+    "ManasCoreStorage": {
+        "manascore_registry_storage": [
+            {
+                "onBlackFlame": 0b,
+                "severance": 0.0f,
+                "manascore_registry_storage_id": "tensura:effect_storage",
+                "cameraShakeLevel": 0.0f,
+                "lockedXRot": 0.0f,
+                "severanceRemove": 0,
+                "meatShield": 0b,
+                "ignorePainNull": 0b,
+                "lockedYRot": 0.0f,
+                "cameraShakeDuration": 0
+            },
+            {
+                "normalMaxMagicule": 0.0d,
+                "color": -1,
+                "manascore_registry_storage_id": "trorigins:angel_color_storage"
+            },
+            {
+                "manascore_registry_storage_id": "trnightmare:ego_storage",
+                "egos": [
+                ]
+            },
+            {
+                "Marks": {
+                },
+                "manascore_registry_storage_id": "mysticism:mysticism_player_storage",
+                "PositionX": 0.0d,
+                "PositionZ": 0.0d,
+                "PositionY": 0.0d
+            },
+            {
+                "normalMaxMagicule": 0.0d,
+                "color": -1,
+                "manascore_registry_storage_id": "trorigins:demon_color_storage"
+            },
+            {
+                "skills": [
+                ],
+                "manascore_registry_storage_id": "manascore_skill:skill_storage"
+            },
+            {
+                "element": -1,
+                "manascore_registry_storage_id": "trorigins:dragon_element_storage"
+            },
+            {
+                "spawnType": "NATURAL",
+                "summonedSecond": 0,
+                "heroEgg": 0b,
+                "magicule": 1000.0d,
+                "nameable": 0b,
+                "originalAlignment": "DEFAULT",
+                "harvestTick": 0,
+                "demonLordSeed": 0b,
+                "soulPoint": 0,
+                "skipEPDrop": 0b,
+                "humanKill": 0,
+                "manascore_registry_storage_id": "tensura:existence_storage",
+                "trueHero": 0b,
+                "alignment": "DEFAULT",
+                "trueDemonLord": 0b,
+                "hasHarvestGift": 0b,
+                "gainedEP": 0.0d,
+                "blessed": 0b,
+                "spiritualHealth": 40.0d,
+                "aura": 1000.0d,
+                "neutralList": [
+                ],
+                "spiritualForm": 0b,
+                "sleepMode": -1
+            },
+            {
+                "butcher_marks": 0,
+                "manascore_registry_storage_id": "mysticism:mysticism_entity_storage"
+            },
+            {
+                "spiritList": [
+                    {
+                        "spirit0": 0
+                    },
+                    {
+                        "spirit1": 0
+                    },
+                    {
+                        "spirit2": 0
+                    },
+                    {
+                        "spirit3": 0
+                    },
+                    {
+                        "spirit4": 0
+                    },
+                    {
+                        "spirit5": 0
+                    },
+                    {
+                        "spirit6": 0
+                    },
+                    {
+                        "spirit7": 0
+                    },
+                    {
+                        "spirit8": 0
+                    }
+                ],
+                "manascore_registry_storage_id": "tensura:spirit_storage",
+                "cooldown": 0,
+                "colossusWon": 0b,
+                "colossusStarted": 0b,
+                "colossusPassed": 0b
+            },
+            {
+                "element": -1,
+                "manascore_registry_storage_id": "mysticism:element_storage"
+            },
+            {
+                "onBrimstoneFlames": 0b,
+                "manascore_registry_storage_id": "mysticism:effect_storage"
+            },
+            {
+                "namingBoost": 0b,
+                "manascore_registry_storage_id": "mysticism:soul_energy_storage",
+                "soulEnergy": 50.0d
+            },
+            {
+                "manascore_registry_storage_id": "tensura:ability_storage",
+                "active": 0,
+                "waterPoint": 0.0d,
+                "lavaPoint": 0.0d
+            },
+            {
+                "blessing": -1,
+                "manascore_registry_storage_id": "trorigins:blessing_storage"
+            },
+            {
+                "manascore_registry_storage_id": "manascore_race:race_storage"
+            }
+        ]
+    },
+    "MountControl": 0b,
+    "MaxExp": 0,
+    "AimWhileShooting": 0b,
+    "pImpact": 0,
+    "DisablePitch": 0b,
+    "ImmuneToFire": 0b,
+    "ShowLayers": 1b,
+    "LeftHanded": 0b,
+    "minDelay": 20,
+    "MoveState": 0,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Song": "",
+                "Slot": 0,
+                "Line": "Hello @p"
+            }
+        ]
+    },
+    "DefendFaction": 0b,
+    "Invulnerable": 0b,
+    "NpcJob": 0,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "TransformEditingModus": 0b,
+    "NpcIdleSound": "",
+    "attributes": [
+        {
+            "base": 1.0d,
+            "id": "manascore_attribute:swim_speed_multiplier"
+        },
+        {
+            "base": 5.0d,
+            "id": "minecraft:generic.attack_damage"
+        },
+        {
+            "base": 1000.0d,
+            "id": "tensura:max_magicule"
+        },
+        {
+            "base": 0.0d,
+            "id": "minecraft:generic.oxygen_bonus"
+        },
+        {
+            "base": 0.25d,
+            "id": "minecraft:generic.movement_speed"
+        },
+        {
+            "base": 32.0d,
+            "id": "minecraft:generic.follow_range"
+        },
+        {
+            "base": 40.0d,
+            "id": "tensura:max_spiritual_health"
+        },
+        {
+            "base": 0.0d,
+            "id": "tensura:melee_dodge_chance"
+        },
+        {
+            "base": 0.41999998688697815d,
+            "id": "minecraft:generic.jump_strength"
+        },
+        {
+            "base": 0.5d,
+            "id": "minecraft:generic.step_height"
+        },
+        {
+            "base": 0.0d,
+            "id": "tensura:projectile_dodge_chance"
+        },
+        {
+            "base": 1000.0d,
+            "id": "tensura:max_aura"
+        },
+        {
+            "base": 1.0d,
+            "id": "manascore_attribute:lava_speed_multiplier"
+        },
+        {
+            "base": 20.0d,
+            "id": "minecraft:generic.max_health"
+        },
+        {
+            "base": 0.5d,
+            "id": "minecraft:generic.flying_speed"
+        }
+    ],
+    "NpcInv": [
+    ],
+    "AttackOtherFactions": 0b,
+    "pSpin": 0b,
+    "OrderedLines": 0b,
+    "pDur": 5,
+    "NpcVisible": 0,
+    "NpcsTimers": [
+    ],
+    "stopAndInteract": 1b,
+    "MovingPos": 0,
+    "KnockBack": 0,
+    "RespawnTime": 20,
+    "Model": "cnpcgeckoaddon:geo/geo_npc.geo.json",
+    "ShotCount": 1,
+    "PotionAmp": 0,
+    "maxDelay": 40,
+    "ScriptLanguage": "ECMAScript",
+    "MarkovGeneratorId": 7,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CanPickUpLoot": 0b,
+    "PotionImmune": 0b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "PersistenceRequired": 0b,
+    "NpcModelData": {
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "LastEdited": 1781696724532L,
+        "Legs2Config": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "ArmsConfig": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "MoveAnimation": 16,
+        "ModelType": 0,
+        "BodyConfig": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "NewParts": [
+        ],
+        "EntityName": "cnpcgeckoaddon:custommodelentity",
+        "Animation": 0,
+        "WingMode": 0,
+        "LegsConfig": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        },
+        "SimpleRender": 0b,
+        "Parts": [
+        ],
+        "DisplayName": "",
+        "CustomSkinUrl": "",
+        "Arms2Config": {
+            "TransY": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleZ": 1.0f,
+            "TransX": 0.0f,
+            "ScaleX": 1.0f,
+            "NotShared": 0b,
+            "TransZ": 0.0f
+        }
+    },
+    "NoLivingAnimation": 0b,
+    "BurnInSun": 0b,
+    "TransformHasStats": 0b,
+    "HurtTintEnabled": 0b,
+    "CreatureType": 0,
+    "PotionDuration": 5,
+    "pEffAmp": 0,
+    "TotalTicksAlive": 826997L,
+    "WalkAnim": "walk",
+    "AnimFile": "cnpcgeckoaddon:animations/geo_npc.animation.json",
+    "Brain": {
+        "memories": {
+        }
+    },
+    "TransformHasInv": 0b,
+    "MinExp": 0,
+    "Rotation": [
+        -147.0f,
+        0.0f
+    ],
+    "Texture": "tensura_additions:textures/entity/gard_mjollmile.png",
+    "IdleAnim": "idle",
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "NeoForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        }
+    },
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "DistanceToMelee": 0,
+    "PositionOffsetY": 5.0f,
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "Air": 300s,
+    "AvoidsSun": 0b,
+    "AvoidsWater": 0b,
+    "MarkovGender": 0,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "FallDistance": 0.0f,
+    "CanSwim": 1b,
+    "Height": 2.0f,
+    "MaxHealth": 20,
+    "neoforge:attachments": {
+        "armourers_workshop:entity-skin-provider": {
+            "DataVersion": 1b
+        }
+    },
+    "Health": 20.0f,
+    "UsingSkinUrl": 0b,
+    "TransitionLengthTicks": 10,
+    "PortalCooldown": 0
+}

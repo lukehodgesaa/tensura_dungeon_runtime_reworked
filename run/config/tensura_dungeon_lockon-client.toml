@@ -1,0 +1,57 @@
+#Third-person lock-on camera position and tracking.
+[camera]
+	#Apply the raised lock-on camera position.
+	enabled = true
+	#Fixed camera lift in blocks. Start here when tuning POV height.
+	# Default: 0.9
+	# Range: -2.0 ~ 8.0
+	baseHeight = 0.9
+	#Extra blocks of lift per block of target distance.
+	# Default: 0.012
+	# Range: 0.0 ~ 0.25
+	distanceHeightScale = 0.012
+	#Maximum lift contributed by target distance.
+	# Default: 0.55
+	# Range: 0.0 ~ 8.0
+	maxDistanceHeightBonus = 0.55
+	#Extra lift per block that the target is above the player.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	elevationHeightScale = 0.1
+	#Maximum lift contributed by an elevated target.
+	# Default: 1.25
+	# Range: 0.0 ~ 12.0
+	maxElevationHeightBonus = 1.25
+	#Horizontal camera offset in blocks. Use 0 for centered.
+	# Default: 0.18
+	# Range: -3.0 ~ 3.0
+	shoulderOffset = 0.18
+	#Camera aiming response. Higher is faster; lower is softer.
+	# Default: 13.0
+	# Range: 1.0 ~ 40.0
+	trackingResponse = 13.0
+
+#FOV expansion relative to Minecraft's current effective FOV.
+[fov]
+	#Expand FOV while locked on.
+	enabled = true
+	#Base proportional expansion. 0.025 means 2.5 percent.
+	# Default: 0.025
+	# Range: 0.0 ~ 0.5
+	baseExpansion = 0.025
+	#Additional proportional expansion per block of distance.
+	# Default: 0.0012
+	# Range: 0.0 ~ 0.03
+	distanceScale = 0.0012
+	#Additional expansion per degree of target elevation.
+	# Default: 8.0E-4
+	# Range: 0.0 ~ 0.02
+	elevationAngleScale = 8.0E-4
+	#Additional expansion per block above the player.
+	# Default: 0.002
+	# Range: 0.0 ~ 0.05
+	elevationBlockScale = 0.002
+	#Maximum total proportional FOV expansion.
+	# Default: 0.12
+	# Range: 0.0 ~ 1.0
+	maxExpansion = 0.12

@@ -1,0 +1,18 @@
+#Play the Dungeon Hub music rotation while inside the hub.
+enabled = true
+#Master volume for hub music. 0.0 silences it; 1.0 is full volume.
+# Default: 1.0
+# Range: 0.0 ~ 2.0
+volume = 1.0
+#Crossfade length in seconds when entering/leaving the hub or switching tracks.
+#The bundled tracks loop internally without a fade; this only applies between different songs.
+# Default: 3.0
+# Range: 0.0 ~ 15.0
+fade_seconds = 3.0
+#Sound category for hub music: records (Jukebox/Note Blocks slider), music (Music slider), or ambient.
+#Default records keeps hub music independent of the Minecraft Music slider.
+sound_source = "records"
+#Hub rotation as 'key:weight' entries. Higher weight = more frequent.
+#Valid keys: echoes, inner_hall, labyrinth, ascendant, moment, sanctum.
+#Default: echoes:3, labyrinth:3, sanctum:3, moment:1, inner_hall:1, ascendant:1.
+rotation = ["echoes:3", "inner_hall:1", "labyrinth:3", "ascendant:1", "moment:1", "sanctum:3"]

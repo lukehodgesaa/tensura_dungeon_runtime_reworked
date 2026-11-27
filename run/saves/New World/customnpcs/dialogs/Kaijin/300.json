@@ -1,0 +1,90 @@
+{
+    "AvailabilityScoreboardObjective": "",
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityFaction2Stance": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityFaction": 0,
+    "DecreaseFaction2Points": 0b,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityQuest": 0,
+    "OptionFaction2Points": 100,
+    "AvailabilityMinPlayerLevel": 0,
+    "OptionFaction1Points": 100,
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "DialogDisableEsc": 0b,
+    "AvailabilityDialog3": 0,
+    "DialogMail": {"Subject": "", "MailQuest": -1, "BeenRead": 0b, "MailItems": [], "Sender": "", "Message": {}, "Time": 0L, "TimePast": 0L},
+    "DialogTitle": "Kaijin - Expedition Camp",
+    "DialogCommand": "",
+    "AvailabilityDayTime": 0,
+    "AvailabilityScoreboard2Type": 1,
+    "AvailabilityScoreboard2Objective": "",
+    "AvailabilityDialog": 0,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityQuestId": -1,
+    "OptionFactions2": -1,
+    "AvailabilityScoreboardType": 1,
+    "AvailabilityDialogId": -1,
+    "AvailabilityFactionId": -1,
+    "Options": [
+        {
+            "Option": {
+                "OptionType": 1,
+                "Title": "[What are you examining?]",
+                "Dialog": 301,
+                "DialogCommand": "",
+                "DialogColor": 12089523
+            },
+            "OptionSlot": 0
+        },
+        {
+            "Option": {
+                "OptionType": 1,
+                "Title": "[Why did Rimuru bring you?]",
+                "Dialog": 302,
+                "DialogCommand": "",
+                "DialogColor": 12089523
+            },
+            "OptionSlot": 1
+        },
+        {
+            "Option": {
+                "OptionType": 1,
+                "Title": "[Can you make something for me?]",
+                "Dialog": 303,
+                "DialogCommand": "",
+                "DialogColor": 12089523
+            },
+            "OptionSlot": 2
+        },
+        {
+            "Option": {
+                "OptionType": 0,
+                "Title": "[I'll leave you to it.]",
+                "Dialog": -1,
+                "DialogCommand": "",
+                "DialogColor": 12089523
+            },
+            "OptionSlot": 3
+        }
+    ],
+    "DialogText": "You need something? Lord Rimuru brought us through after Jahil opened the rift. We've made camp, but don't mistake that for having these ruins under control. Some of this workmanship is older than anything I've handled, and half of it looks ready to wake if you breathe on it wrong.",
+    "AvailabilityDialog2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "DialogShowWheel": 0b,
+    "AvailabilityFactionStance": 0,
+    "DialogHideNPC": 1b,
+    "AvailabilityFaction2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityScoreboardValue": 1,
+    "AvailabilityFaction2Id": -1,
+    "DialogId": 300,
+    "AvailabilityScoreboard2Value": 1,
+    "ModRev": 18
+}

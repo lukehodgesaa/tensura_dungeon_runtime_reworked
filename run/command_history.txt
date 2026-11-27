@@ -1,0 +1,25 @@
+/dungeonsunbound hub status
+/tensuradungeon run portal continue
+/tensurahud theme vanilla
+/tensurahud theme benimaru
+/tensurahud theme vanilla
+/tensuradungeon hub open
+/tensuradungeon dungeon enter
+/tensura edit ability grant Dev all
+/tensura edit ability revoke Dev tensuramoreskills:phainon
+/tensura edit ability revoke Dev tensuramoreskills:nirvana
+/tensura edit stat Dev ep max set 10000000
+/tensura edit race Dev set tensuramoreskills:blood_monarch
+/tensuradungeon floor start 1
+/tensura edit race Dev set tensuramoreskills:blood_monarch
+/kill Dev
+/dungeonsunbound hub rebuild
+/tensurahud theme benimaru
+/tensurahud theme vanilla
+/tensuradungeon rift open
+/tensura edit race Dev set tensuramoreskills:blood_monarch
+/tensuradungeon rift open
+/tensuradungeon rift status
+/tensuradungeon hub open
+/tensuradungeon rift open
+/weather clear

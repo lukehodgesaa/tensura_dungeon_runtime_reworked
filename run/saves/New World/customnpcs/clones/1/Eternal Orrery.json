@@ -1,0 +1,627 @@
+{
+    TransformHasDisplay: 0b,
+    TransformHasAdvanced: 0b,
+    Weapons: [],
+    AttackInvisible: 0b,
+    RoleOptions: [
+        {
+            Value: "[Register This Floor]",
+            Slot: 1
+        },
+        {
+            Value: "[Explain the Checkpoint]",
+            Slot: 2
+        },
+        {
+            Value: "[Leave]",
+            Slot: 3
+        }
+    ],
+    AbsorptionAmount: 0f,
+    IsStatue: 0b,
+    SpawnCycle: 0,
+    Accuracy: 60,
+    MovingPatern: 0,
+    HideBodyWhenKilled: 0b,
+    NPCDialogOptions: [
+        {
+            DialogSlot: 0,
+            NPCDialog: {
+                OptionType: 1,
+                Title: "Orrery - Floor Checkpoint",
+                Dialog: 8,
+                DialogCommand: "",
+                DialogColor: 14737632
+            }
+        }
+    ],
+    ReturnToStart: 1b,
+    FactionPoints: {
+        DecreaseFaction2Points: 0b,
+        OptionFaction2Points: 100,
+        OptionFaction1Points: 100,
+        OptionFactions2: -1,
+        OptionFactions1: -1,
+        DecreaseFaction1Points: 0b
+    },
+    Scripts: [
+        {
+            Script: "",
+            Console: [],
+            ScriptList: [
+                {
+                    Line: "orrery_npc.js"
+                }
+            ]
+        }
+    ],
+    ActiveRange: 32,
+    Resistances: {
+        Knockback: 1f,
+        Explosion: 1f,
+        Melee: 1f,
+        Arrow: 1f
+    },
+    CloakTexture: "",
+    HeadBoneName: "head",
+    OverlayGlowing: 1b,
+    AttackAnim: "",
+    HandDropChances: [
+        0.08500000089406967f,
+        0.08500000089406967f
+    ],
+    pSize: 5,
+    BossColor: 0,
+    BossBar: 0b,
+    MovingState: 0,
+    MovingPause: 1b,
+    FireRate: 5,
+    OnAttack: 3,
+    pArea: 0,
+    GroundSound: "minecraft:block.stone.break",
+    pRender3D: 1b,
+    ArmorItems: [
+        {},
+        {},
+        {},
+        {}
+    ],
+    FiringSound: "minecraft:entity.arrow.shoot",
+    HurtAnim: "",
+    ShowName: 0,
+    LinkedNpcName: "",
+    Armor: [],
+    CanSprint: 0b,
+    LootMode: 0,
+    ReactsToFire: 0b,
+    NpcInteractNPCLines: {
+        Lines: []
+    },
+    SkinUrl: "",
+    PotionEffect: 0,
+    RoleDialog: "[The Eternal Orrery turns toward the checkpoint.]\n\nThis floor has not yet been registered.",
+    IgnoreCobweb: 0b,
+    ModRev: 18,
+    KilledTime: 0L,
+    TransformHasRole: 0b,
+    MoveSpeed: 0,
+    DropChance: [
+        {
+            Integer: 100f,
+            Slot: 0
+        },
+        {
+            Integer: 100f,
+            Slot: 1
+        },
+        {
+            Integer: 100f,
+            Slot: 2
+        },
+        {
+            Integer: 100f,
+            Slot: 3
+        },
+        {
+            Integer: 100f,
+            Slot: 4
+        },
+        {
+            Integer: 100f,
+            Slot: 5
+        },
+        {
+            Integer: 100f,
+            Slot: 6
+        },
+        {
+            Integer: 100f,
+            Slot: 7
+        },
+        {
+            Integer: 100f,
+            Slot: 8
+        }
+    ],
+    Fire: -1s,
+    CombatRegen: 0,
+    NpcAttackLines: {
+        Lines: []
+    },
+    WalkingRange: 10,
+    pStick: 0b,
+    DeathTime: 0s,
+    CanDrown: 1b,
+    pDamage: 4,
+    PositionOffsetZ: 5f,
+    Orientation: 0,
+    StandingState: 1,
+    HitSound: "minecraft:entity.arrow.hit",
+    pEffect: 0,
+    AggroRange: 1,
+    OnGround: 1b,
+    MaxFiringRange: 15,
+    pPhysics: 1b,
+    CanLeap: 0b,
+    TransformHasJob: 0b,
+    FactionID: 0,
+    NpcScenes: {
+        Scenes: []
+    },
+    Name: "The Eternal Orrery",
+    NpcAngrySound: "",
+    VisibleAvailability: {
+        AvailabilityScoreboardObjective: "",
+        AvailabilityDialog3Id: -1,
+        AvailabilityFaction2Stance: 0,
+        AvailabilityDialog4: 0,
+        AvailabilityQuest2: 0,
+        AvailabilityFaction: 0,
+        AvailabilityDialog2Id: -1,
+        AvailabilityQuest3Id: -1,
+        AvailabilityQuest: 0,
+        AvailabilityMinPlayerLevel: 0,
+        AvailabilityQuest4Id: -1,
+        AvailabilityQuest2Id: -1,
+        AvailabilityDialog3: 0,
+        AvailabilityDayTime: 0,
+        AvailabilityScoreboard2Type: 1,
+        AvailabilityScoreboard2Objective: "",
+        AvailabilityDialog: 0,
+        AvailabilityDialog4Id: -1,
+        AvailabilityQuestId: -1,
+        AvailabilityDialogId: -1,
+        AvailabilityScoreboardType: 1,
+        AvailabilityDialog2: 0,
+        AvailabilityQuest3: 0,
+        AvailabilityQuest4: 0,
+        AvailabilityFactionId: -1,
+        AvailabilityFactionStance: 0,
+        AvailabilityFaction2: 0,
+        AvailabilityScoreboardValue: 1,
+        AvailabilityFaction2Id: -1,
+        AvailabilityScoreboard2Value: 1,
+        ModRev: 18
+    },
+    npcInteracting: 1b,
+    Width: 0.699999988079071f,
+    FindShelter: 2,
+    RoleQuestId: -1,
+    HurtByTimestamp: 6460,
+    AttackStrenght: 5,
+    ScriptEnabled: 1b,
+    HealthRegen: 9999,
+    pXlr8: 0b,
+    NpcStepSound: "",
+    MovementType: 0,
+    FireIndirect: 0,
+    Size: 15,
+    Role: 7,
+    DoorInteract: 2,
+    DirectLOS: 1b,
+    TransformIsActive: 0b,
+    SkinColor: 16777215,
+    PositionOffsetX: 5f,
+    NoFallDamage: 0b,
+    BurstCount: 1,
+    TransformHasAI: 0b,
+    AttackRange: 2,
+    pSpeed: 10,
+    pTrail: 0,
+    id: "customnpcs:customnpc",
+    NpcLines: {
+        Lines: []
+    },
+    Title: "???",
+    pGlows: 0b,
+    HurtTime: 0s,
+    AttackSpeed: 20,
+    FallFlying: 0b,
+    GlowTexture: "",
+    ManasCoreStorage: {
+        manascore_registry_storage: [
+            {
+                onBlackFlame: 0b,
+                severance: 0f,
+                manascore_registry_storage_id: "tensura:effect_storage",
+                cameraShakeLevel: 0f,
+                lockedXRot: 0f,
+                severanceRemove: 0,
+                meatShield: 0b,
+                ignorePainNull: 0b,
+                lockedYRot: 0f,
+                cameraShakeDuration: 0
+            },
+            {
+                normalMaxMagicule: 0d,
+                color: -1,
+                manascore_registry_storage_id: "trorigins:angel_color_storage"
+            },
+            {
+                manascore_registry_storage_id: "trnightmare:ego_storage",
+                egos: []
+            },
+            {
+                Marks: {},
+                manascore_registry_storage_id: "mysticism:mysticism_player_storage",
+                PositionX: 0d,
+                PositionZ: 0d,
+                PositionY: 0d
+            },
+            {
+                normalMaxMagicule: 0d,
+                color: -1,
+                manascore_registry_storage_id: "trorigins:demon_color_storage"
+            },
+            {
+                skills: [],
+                manascore_registry_storage_id: "manascore_skill:skill_storage"
+            },
+            {
+                element: -1,
+                manascore_registry_storage_id: "trorigins:dragon_element_storage"
+            },
+            {
+                spawnType: "NATURAL",
+                summonedSecond: 0,
+                heroEgg: 0b,
+                magicule: 1000d,
+                nameable: 0b,
+                originalAlignment: "DEFAULT",
+                harvestTick: 0,
+                demonLordSeed: 0b,
+                soulPoint: 0,
+                skipEPDrop: 0b,
+                humanKill: 0,
+                manascore_registry_storage_id: "tensura:existence_storage",
+                trueHero: 0b,
+                alignment: "DEFAULT",
+                trueDemonLord: 0b,
+                hasHarvestGift: 0b,
+                gainedEP: 0d,
+                blessed: 0b,
+                spiritualHealth: 40d,
+                aura: 1000d,
+                neutralList: [],
+                spiritualForm: 0b,
+                sleepMode: -1
+            },
+            {
+                butcher_marks: 0,
+                manascore_registry_storage_id: "mysticism:mysticism_entity_storage"
+            },
+            {
+                spiritList: [
+                    {
+                        spirit0: 0
+                    },
+                    {
+                        spirit1: 0
+                    },
+                    {
+                        spirit2: 0
+                    },
+                    {
+                        spirit3: 0
+                    },
+                    {
+                        spirit4: 0
+                    },
+                    {
+                        spirit5: 0
+                    },
+                    {
+                        spirit6: 0
+                    },
+                    {
+                        spirit7: 0
+                    },
+                    {
+                        spirit8: 0
+                    }
+                ],
+                manascore_registry_storage_id: "tensura:spirit_storage",
+                cooldown: 0,
+                colossusWon: 0b,
+                colossusStarted: 0b,
+                colossusPassed: 0b
+            },
+            {
+                element: -1,
+                manascore_registry_storage_id: "mysticism:element_storage"
+            },
+            {
+                onBrimstoneFlames: 0b,
+                manascore_registry_storage_id: "mysticism:effect_storage"
+            },
+            {
+                namingBoost: 0b,
+                manascore_registry_storage_id: "mysticism:soul_energy_storage",
+                soulEnergy: 50d
+            },
+            {
+                manascore_registry_storage_id: "tensura:ability_storage",
+                active: 0,
+                waterPoint: 0d,
+                lavaPoint: 0d
+            },
+            {
+                blessing: -1,
+                manascore_registry_storage_id: "trorigins:blessing_storage"
+            },
+            {
+                manascore_registry_storage_id: "manascore_race:race_storage"
+            }
+        ]
+    },
+    MountControl: 0b,
+    MaxExp: 0,
+    MovingPathNew: [],
+    AimWhileShooting: 0b,
+    pImpact: 0,
+    DisablePitch: 0b,
+    ImmuneToFire: 0b,
+    ShowLayers: 1b,
+    LeftHanded: 0b,
+    minDelay: 20,
+    MoveState: 0,
+    NpcInteractLines: {
+        Lines: [
+            {
+                Song: "",
+                Slot: 0,
+                Line: "Hello @p"
+            }
+        ]
+    },
+    DefendFaction: 0b,
+    Invulnerable: 0b,
+    NpcJob: 0,
+    ArmorDropChances: [
+        0.08500000089406967f,
+        0.08500000089406967f,
+        0.08500000089406967f,
+        0.08500000089406967f
+    ],
+    TransformEditingModus: 0b,
+    NpcIdleSound: "tensura:entity.spirit_space.ambient",
+    attributes: [
+        {
+            base: 5d,
+            id: "minecraft:generic.attack_damage"
+        },
+        {
+            base: 0d,
+            id: "tensura:projectile_dodge_chance"
+        },
+        {
+            base: 0.41999998688697815d,
+            id: "minecraft:generic.jump_strength"
+        },
+        {
+            base: 0d,
+            id: "minecraft:generic.flying_speed"
+        },
+        {
+            base: 20d,
+            id: "minecraft:generic.max_health"
+        },
+        {
+            base: 1d,
+            id: "manascore_attribute:lava_speed_multiplier"
+        },
+        {
+            base: 1d,
+            id: "manascore_attribute:swim_speed_multiplier"
+        },
+        {
+            base: 1000d,
+            id: "tensura:max_magicule"
+        },
+        {
+            base: 32d,
+            id: "minecraft:generic.follow_range"
+        },
+        {
+            base: 0.5d,
+            id: "minecraft:generic.step_height"
+        },
+        {
+            base: 1000d,
+            id: "tensura:max_aura"
+        },
+        {
+            base: 0d,
+            id: "tensura:melee_dodge_chance"
+        },
+        {
+            base: 40d,
+            id: "tensura:max_spiritual_health"
+        },
+        {
+            base: 0d,
+            id: "minecraft:generic.oxygen_bonus"
+        },
+        {
+            base: 0d,
+            id: "minecraft:generic.movement_speed"
+        }
+    ],
+    NpcInv: [],
+    AttackOtherFactions: 0b,
+    pSpin: 0b,
+    OrderedLines: 0b,
+    pDur: 5,
+    NpcVisible: 0,
+    NpcsTimers: [],
+    stopAndInteract: 1b,
+    MovingPos: 0,
+    KnockBack: 0,
+    RespawnTime: 20,
+    Model: "gacha:geo/orrerymod.geo.json",
+    ShotCount: 1,
+    PotionAmp: 0,
+    maxDelay: 40,
+    ScriptLanguage: "ECMAScript",
+    Tags: [
+        "orrery_npc"
+    ],
+    MarkovGeneratorId: 5,
+    Motion: [
+        0d,
+        -0.0784000015258789d,
+        0d
+    ],
+    CanPickUpLoot: 0b,
+    PotionImmune: 0b,
+    NpcDeathSound: "minecraft:entity.player.hurt",
+    PersistenceRequired: 0b,
+    NpcModelData: {
+        ExtraData: {},
+        HeadConfig: {
+            TransY: 0f,
+            ScaleY: 1f,
+            ScaleZ: 1f,
+            TransX: 0f,
+            ScaleX: 1f,
+            NotShared: 0b,
+            TransZ: 0f
+        },
+        LastEdited: 1781183539645L,
+        Legs2Config: {
+            TransY: 0f,
+            ScaleY: 1f,
+            ScaleZ: 1f,
+            TransX: 0f,
+            ScaleX: 1f,
+            NotShared: 0b,
+            TransZ: 0f
+        },
+        ArmsConfig: {
+            TransY: 0f,
+            ScaleY: 1f,
+            ScaleZ: 1f,
+            TransX: 0f,
+            ScaleX: 1f,
+            NotShared: 0b,
+            TransZ: 0f
+        },
+        MoveAnimation: 16,
+        ModelType: 0,
+        BodyConfig: {
+            TransY: 0f,
+            ScaleY: 1f,
+            ScaleZ: 1f,
+            TransX: 0f,
+            ScaleX: 1f,
+            NotShared: 0b,
+            TransZ: 0f
+        },
+        NewParts: [],
+        EntityName: "cnpcgeckoaddon:custommodelentity",
+        Animation: 0,
+        WingMode: 0,
+        LegsConfig: {
+            TransY: 0f,
+            ScaleY: 1f,
+            ScaleZ: 1f,
+            TransX: 0f,
+            ScaleX: 1f,
+            NotShared: 0b,
+            TransZ: 0f
+        },
+        SimpleRender: 1b,
+        Parts: [],
+        DisplayName: "",
+        CustomSkinUrl: "",
+        Arms2Config: {
+            TransY: 0f,
+            ScaleY: 1f,
+            ScaleZ: 1f,
+            TransX: 0f,
+            ScaleX: 1f,
+            NotShared: 0b,
+            TransZ: 0f
+        }
+    },
+    NoLivingAnimation: 0b,
+    BurnInSun: 0b,
+    TransformHasStats: 0b,
+    HurtTintEnabled: 0b,
+    CreatureType: 0,
+    PotionDuration: 5,
+    StartPosNew: [I;20,-11,-9],
+    pEffAmp: 0,
+    TotalTicksAlive: 290827L,
+    WalkAnim: "walk",
+    AnimFile: "gacha:animations/orreryani.animation.json",
+    Brain: {
+        memories: {}
+    },
+    TransformHasInv: 0b,
+    MinExp: 0,
+    Rotation: [
+        0f,
+        0f
+    ],
+    Texture: "gacha:textures/entity/orrery_default.png",
+    IdleAnim: "Idle2",
+    NpcKilledLines: {
+        Lines: []
+    },
+    RoleOptionTexts: [],
+    NeoForgeData: {
+        cnpcmarkdata: {
+            marks: []
+        }
+    },
+    NpcKillLines: {
+        Lines: []
+    },
+    DistanceToMelee: 0,
+    PositionOffsetY: 5f,
+    HandItems: [
+        {},
+        {}
+    ],
+    Air: 300s,
+    AvoidsSun: 0b,
+    AvoidsWater: 0b,
+    MarkovGender: 0,
+    NpcHurtSound: "minecraft:entity.player.hurt",
+    FallDistance: 0f,
+    CanSwim: 1b,
+    Height: 2f,
+    MaxHealth: 20,
+    "neoforge:attachments": {
+        "armourers_workshop:entity-skin-provider": {
+            DataVersion: 1b
+        }
+    },
+    Health: 20f,
+    UsingSkinUrl: 0b,
+    TransitionLengthTicks: 10,
+    PortalCooldown: 0
+}
+
+

@@ -1,0 +1,80 @@
+{
+    "AvailabilityScoreboardObjective": "",
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityFaction2Stance": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityFaction": 0,
+    "DecreaseFaction2Points": 0b,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityQuest": 0,
+    "OptionFaction2Points": 100,
+    "AvailabilityMinPlayerLevel": 0,
+    "OptionFaction1Points": 100,
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "DialogDisableEsc": 0b,
+    "AvailabilityDialog3": 0,
+    "DialogMail": {"Subject": "", "MailQuest": -1, "BeenRead": 0b, "MailItems": [], "Sender": "", "Message": {}, "Time": 0L, "TimePast": 0L},
+    "DialogTitle": "Kurobe - Socketing and Removal",
+    "DialogCommand": "",
+    "AvailabilityDayTime": 0,
+    "AvailabilityScoreboard2Type": 1,
+    "AvailabilityScoreboard2Objective": "",
+    "AvailabilityDialog": 0,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityQuestId": -1,
+    "OptionFactions2": -1,
+    "AvailabilityScoreboardType": 1,
+    "AvailabilityDialogId": -1,
+    "AvailabilityFactionId": -1,
+    "Options": [
+        {
+            "Option": {
+                "OptionType": 1,
+                "Title": "[So all Core changes happen here, outside an active run?]",
+                "Dialog": 116,
+                "DialogCommand": "",
+                "DialogColor": 170
+            },
+            "OptionSlot": 0
+        },
+        {
+            "Option": {
+                "OptionType": 1,
+                "Title": "[Explain the Satchel again.]",
+                "Dialog": 114,
+                "DialogCommand": "",
+                "DialogColor": 170
+            },
+            "OptionSlot": 1
+        },
+        {
+            "Option": {
+                "OptionType": 1,
+                "Title": "[Back to the forge topics.]",
+                "Dialog": 100,
+                "DialogCommand": "",
+                "DialogColor": 170
+            },
+            "OptionSlot": 2
+        }
+    ],
+    "DialogText": "Correct. Bring a compatible weapon and a Satchel Core here to socket it. Removal and transfer are also forge services, with their exact costs shown before confirmation. There is no free undo, and I cannot socket, remove, transfer, or recharge a Core while you have an active dungeon run.",
+    "AvailabilityDialog2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "DialogShowWheel": 0b,
+    "AvailabilityFactionStance": 0,
+    "DialogHideNPC": 1b,
+    "AvailabilityFaction2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityScoreboardValue": 1,
+    "AvailabilityFaction2Id": -1,
+    "DialogId": 115,
+    "AvailabilityScoreboard2Value": 1,
+    "ModRev": 18
+}

@@ -1,0 +1,80 @@
+{
+    "AvailabilityScoreboardObjective": "",
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityFaction2Stance": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityFaction": 0,
+    "DecreaseFaction2Points": 0b,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityQuest": 0,
+    "OptionFaction2Points": 100,
+    "AvailabilityMinPlayerLevel": 0,
+    "OptionFaction1Points": 100,
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "DialogDisableEsc": 0b,
+    "AvailabilityDialog3": 0,
+    "DialogMail": {"Subject": "", "MailQuest": -1, "BeenRead": 0b, "MailItems": [], "Sender": "", "Message": {}, "Time": 0L, "TimePast": 0L},
+    "DialogTitle": "Treyni - Preparation",
+    "DialogCommand": "",
+    "AvailabilityDayTime": 0,
+    "AvailabilityScoreboard2Type": 1,
+    "AvailabilityScoreboard2Objective": "",
+    "AvailabilityDialog": 0
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityQuestId": -1,
+    "OptionFactions2": -1,
+    "AvailabilityScoreboardType": 1,
+    "AvailabilityDialogId": -1
+    "AvailabilityFactionId": -1,
+    "Options": [
+        {
+            "Option": {
+                "OptionType": 4,
+                "Title": "Open the daily provisions.",
+                "Dialog": -1,
+                "DialogCommand": "/tensuradungeon shop open @dp",
+                "DialogColor": 170
+            },
+            "OptionSlot": 0
+        },
+        {
+            "Option": {
+                "OptionType": 1,
+                "Title": "Return to the briefing.",
+                "Dialog": 600,
+                "DialogCommand": "",
+                "DialogColor": 170
+            },
+            "OptionSlot": 1
+        },
+        {
+            "Option": {
+                "OptionType": 0,
+                "Title": "That is enough for now.",
+                "Dialog": -1,
+                "DialogCommand": "",
+                "DialogColor": 170
+            },
+            "OptionSlot": 2
+        }
+    ],
+    "DialogText": "Prepare for a long passage, not a single battle. Bring food, a reliable weapon, light, and room for what the dungeon yields. Mark your retreat. If the void begins to erase the path behind you, do not press farther simply because you have already come this far.",
+    "AvailabilityDialog2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "DialogShowWheel": 0b,
+    "AvailabilityFactionStance": 0,
+    "DialogHideNPC": 1b,
+    "AvailabilityFaction2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityScoreboardValue": 1,
+    "AvailabilityFaction2Id": -1,
+    "DialogId": 603
+    "AvailabilityScoreboard2Value": 1,
+    "ModRev": 18
+}

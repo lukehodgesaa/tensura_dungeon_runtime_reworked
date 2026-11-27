@@ -1,0 +1,70 @@
+{
+    "AvailabilityScoreboardObjective": "",
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityFaction2Stance": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityFaction": 0,
+    "DecreaseFaction2Points": 0b,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityQuest": 0,
+    "OptionFaction2Points": 100,
+    "AvailabilityMinPlayerLevel": 0,
+    "OptionFaction1Points": 100,
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "DialogDisableEsc": 0b,
+    "AvailabilityDialog3": 0,
+    "DialogMail": {"Subject": "", "MailQuest": -1, "BeenRead": 0b, "MailItems": [], "Sender": "", "Message": {}, "Time": 0L, "TimePast": 0L},
+    "DialogTitle": "Gobta - First Meeting",
+    "DialogCommand": "",
+    "AvailabilityDayTime": 0,
+    "AvailabilityScoreboard2Type": 1,
+    "AvailabilityScoreboard2Objective": "",
+    "AvailabilityDialog": 0,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityQuestId": -1,
+    "OptionFactions2": -1,
+    "AvailabilityScoreboardType": 1,
+    "AvailabilityDialogId": -1,
+    "AvailabilityFactionId": -1,
+    "Options": [
+        {
+            "Option": {
+                "OptionType": 1,
+                "Title": "Yeah, caught in the rift.",
+                "Dialog": 404,
+                "DialogCommand": "",
+                "DialogColor": 43520
+            },
+            "OptionSlot": 0
+        },
+        {
+            "Option": {
+                "OptionType": 0,
+                "Title": "Not yet.",
+                "Dialog": -1,
+                "DialogCommand": "",
+                "DialogColor": 43520
+            },
+            "OptionSlot": 1
+        }
+    ],
+    "DialogText": "Hey, hey! So you got caught in that rift in the sky too, huh? I was in Tempest running errands for Lord Rimuru when it tore open and yanked me straight through it. You too, huh? I figured, with gear like that, you've gotta be an adventurer, right?",
+    "AvailabilityDialog2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "DialogShowWheel": 0b,
+    "AvailabilityFactionStance": 0,
+    "DialogHideNPC": 0b,
+    "AvailabilityFaction2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityScoreboardValue": 0,
+    "AvailabilityFaction2Id": -1,
+    "DialogId": 400,
+    "AvailabilityScoreboard2Value": 1,
+    "ModRev": 18
+}
